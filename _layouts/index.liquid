@@ -1,0 +1,182 @@
+---
+layout: default
+---
+
+<header class="header-index" style="background-image:url('{{ page.header_image }}');">
+  <div class="row">
+    <div class="header-index__content">
+      <div class="col-xs-24 col-sm-12 col-md-10">
+        <h1>{{ page.header_title }}</h1>
+        <p>{{ page.header_subtitle }}</p>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-24 col-sm-12 col-md-10 text-center">
+      <form action="//actvcontent.us8.list-manage.com/subscribe/post?u=6b3be4baa666ccfa0f36e0977&amp;id=ef196e9438" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <label class="header-index-label">
+          <span class="header-index-icon">
+            <img src="/uploads/icon-name.svg">
+          </span>
+          <input type="text" value="" name="NAME" class="header-index-input" id="mce-NAME" placeholder="Full Name">
+        </label>
+        <label class="header-index-label">
+          <span class="header-index-icon">
+            <img src="/uploads/icon-email.svg">
+          </span>
+          <input type="email" value="" name="EMAIL" class="header-index-input" id="mce-EMAIL" placeholder="Email">
+        </label>
+        <label class="header-index-label">
+          <span class="header-index-icon">
+            <img src="/uploads/icon-company.svg">
+          </span>
+          <input type="text" value="" name="COMPANY" class="header-index-input" id="mce-COMPANY" placeholder="Company">
+        </label>
+        <label class="header-index-label">
+          <span class="header-index-icon">
+            <img class="icon-phone" src="/uploads/icon-phone.svg">
+          </span>
+          <input type="text" value="" name="PHONE" class="header-index-input" id="mce-PHONE" placeholder="Phone Number">
+        </label>
+
+
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>
+        <div class="modal-email__response-error" id="mce-error-response" style="display:none">
+        </div>
+
+        <div class="modal-email__response-success" style="display:none">
+          <p class="modal-email__response-success-text" id="mce-success-response">Almost finished...please confirm your email address</p>
+        </div>
+
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="b_6b3be4baa666ccfa0f36e0977_ef196e9438" tabindex="-1" value="">
+        </div>
+        <div class="clear">
+          <input type="submit" value="Watch the Video" name="subscribe" id="mc-embedded-subscribe" class="header-index-submit">
+        </div>
+      </form>
+    </div>
+  </div>
+</header>
+
+<main>
+
+
+<section class="index-product" id="product">
+  <div class="row">
+    <div class="col-xs-24 col-md-offset-6 col-md-12 text-center">
+      <h5>{{ page.products.subtitle }}</h5>
+
+      <ul>
+      {% for product in page.products.sections %}
+        {% if forloop.first == true %}
+          <li><a class="is-active js-product-link" href="#">{{ product.title }}</a></li>
+        {% else %}
+          <li><a class="js-product-link" href="#">{{ product.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="products">
+
+  {% for product in page.products.sections %}
+    {% if forloop.first == true %}
+      <div class="product js-product-block is-active">
+    {% else %}
+      <div class="product js-product-block">
+    {% endif %}
+
+      <div class="row">
+        <div class="col-xs-24 col-md-offset-6 col-md-12 text-center">
+          <h2>{{ product.title }}</h2>
+          <p>{{ product.description }}</p>
+        </div>
+      </div>
+      <br>
+      <div class="text-center product-buttons">
+        {% for subsection in product.subsections %}
+          {% if forloop.first == true %}
+            <button class="js-product-button is-active" data-prod="{{ product.title }}">{{ subsection.title }}</button>
+          {% else %}
+            <button class="js-product-button" data-prod="{{ product.title }}">{{ subsection.title }}</button>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="index-product__images text-center">
+        {% for subsection in product.subsections %}
+          {% if forloop.first == true %}
+            <div class="product-image is-active js-product-image">
+          {% else %}
+            <div class="product-image js-product-image">
+          {% endif %}
+              <img src="{{ subsection.image }}">
+              <div class="product-image__content content-{{ forloop.index }}">
+                <h4>0{{ forloop.index }} {{ subsection.title }}</h4>
+                <p>{{ subsection.description }}</p>
+              </div>
+            </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    {% endfor %}
+  </div>
+</section>
+
+<section class="index-action" id="action">
+  <div class="index-action__content">
+    <div class="action-content__text">
+      <h5>{{ page.action.subtitle }}</h5>
+      <h2>{{ page.action.title }}</h2>
+      <p>{{ page.action.description }}</p>
+    </div>
+  </div>
+  
+  <div class="index-action__video">
+    <video class="is-active js-action-video" autoplay="true" loop="true" muted="true" src="{{ page.action.video }}"></video>
+  </div>
+
+</section>
+
+
+<section class="index-customers" id="testimonials">
+  <div class="row">
+    <div class="col-xs-24 col-md-offset-7 col-md-10 text-center">
+      <h5>{{ page.customers.subtitle }}</h5>
+      <h2>{{ page.customers.title }}</h2>
+      <p>{{ page.customers.description }}</p>
+    </div>
+  </div>
+
+  <div class="index-customers__content">
+    <div class="" data-flickity='{ "groupCells": true }'>
+    
+      {% for testimonial in page.customers.testimonials %}
+
+        <div class="carousel-cell">
+          <div class="customer">
+            <div class="customer__avatar"></div>
+            <h4>{{ testimonial.person }}</h4>
+            <p>{{ testimonial.quote }}</p>
+            <h3>{{ testimonial.company }}</h3>
+          </div>
+        </div>
+
+      {% endfor %}
+    
+    </div>
+  </div>
+</section>
+
+</main>
+
+<script src="/js/index.js" type="text/javascript"></script>
+
+

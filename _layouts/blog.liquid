@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<header class="layout-header">
+  <div class="row">
+    <div class="col-xs-24">
+      <h1>{{ page.header_title }}</h1>
+      <h5>{{ page.header_subtitle }}</h5>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="blog-index">
+
+  <div class="row">
+    <div class="col-xs-24 col-sm-20 col-md-16">
+      <h2>Publications</h2>
+      {% for post in site.posts %}
+        {% if forloop.first == true %}
+          <h5 class="post-index__subtitle">Featured Publication</h5>
+          <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+
+          {% assign truncatedContent = '' %}
+          {% assign paragraphs = post.content | split:'</p>' %}
+          {% for paragraph in paragraphs limit:2 %}
+              {{ truncatedContent | append: paragraph }}
+              {{ truncatedContent | append: '</p>' }}
+          {% endfor %}
+
+          <div class="post-block">
+            <a href="{{ post.url }}">Read More</a>
+          </div>
+
+          <div class="blog-separator"></div>
+
+        {% else %}
+          <div class="blog-index__post">
+            <a href="{{ post.url }}"><h3 class="blog-secondary__title">{{ post.title }}</h3></a>
+            {% assign truncatedContent = '' %}
+            {% assign paragraphs = post.content | split:'</p>' %}
+            {% for paragraph in paragraphs limit:1 %}
+                {{ truncatedContent | append: paragraph }}
+                {{ truncatedContent | append: '</p>' }}
+            {% endfor %}
+
+            <div class="post-block post-block--small">
+              <a href="{{ post.url }}">Read More</a>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="col-xs-24 col-sm-4 col-md-8">
+      <h3>In the News</h3>
+    </div>
+  </div>
+</section>
+
+
+
+
+</main>
