@@ -1,0 +1,335 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// Grid (float)
+// stylesheets/utilities/_grid.scss
+//
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+.row {
+  width: 100%;
+  max-width: $grid-width;
+  margin: 0 auto;
+  &:before, &:after {
+    content: " ";
+    display: table; 
+  }
+  &:after {
+    clear: both; 
+  }
+  .row {
+    width: auto;
+    margin: 0 -$grid-gutter;
+    max-width: none;
+    &:before, &:after {
+      content: " ";
+      display: table; 
+    }
+    &:after {
+      clear: both; 
+    }
+  }
+}
+
+@media only screen {
+
+  @for $i from 0 through $grid-columns {
+
+    $p: percentage($i / $grid-columns);
+    .col-xs-#{$i} {
+      position: relative;
+      padding-right: $grid-gutter;
+      padding-left: $grid-gutter;
+      float: left;
+      width: $p;
+    }
+    @if $i < $grid-columns {
+      .col-xs-offset-#{$i} {
+        position: relative;
+        padding-right: $grid-gutter;
+        padding-left: $grid-gutter;
+        float: left;
+        margin-left: $p !important;
+      }
+      .col-xs-push-#{$i} {
+        left: $p;
+      }
+      .col-xs-pull-#{$i} {
+        right: $p;
+      }
+    }
+  }
+
+  .col-xs-special {
+    position: relative;
+    padding-right: $grid-gutter;
+    padding-left: $grid-gutter;
+    float: left;
+    width: 20%;
+  }
+
+  .col-xs-center {
+    margin-left: auto;
+    margin-right: auto;
+    float: none; 
+  }
+
+  .col-xs-center:last-child {
+    float: none; 
+  }
+
+  .col-xs-uncenter {
+    margin-left: 0;
+    margin-right: 0;
+    float: left; 
+  }
+
+  .col-xs-uncenter:last-child {
+    float: left;
+  }
+}
+
+@media only screen and (min-width: $screen-sm-min) {
+
+  @for $i from 0 through $grid-columns {
+
+    $p: percentage($i / $grid-columns);
+    .col-sm-#{$i} {
+      position: relative;
+      padding-right: $grid-gutter;
+      padding-left: $grid-gutter;
+      float: left;
+      width: $p;
+    }
+    @if $i < $grid-columns {
+      .col-sm-offset-#{$i} {
+        position: relative;
+        padding-right: $grid-gutter;
+        padding-left: $grid-gutter;
+        float: left;
+        margin-left: $p !important;
+      }
+      .col-sm-push-#{$i} {
+        left: $p;
+      }
+      .col-sm-pull-#{$i} {
+        right: $p;
+      }
+    }
+  }
+
+  .col-sm-special {
+    position: relative;
+    padding-right: $grid-gutter;
+    padding-left: $grid-gutter;
+    float: left;
+    width: 20%;
+  }
+
+  .col-sm-center {
+    margin-left: auto;
+    margin-right: auto;
+    float: none; 
+  }
+
+  .col-sm-center:last-child {
+    float: none; 
+  }
+
+  .col-sm-uncenter {
+    margin-left: 0;
+    margin-right: 0;
+    float: left; 
+  }
+
+  .col-sm-uncenter:last-child {
+    float: left;
+  }
+}
+
+@media only screen and (min-width: $screen-md-min) {
+
+  @for $i from 0 through $grid-columns {
+
+    $p: percentage($i / $grid-columns);
+    .col-md-#{$i} {
+      position: relative;
+      padding-right: $grid-gutter;
+      padding-left: $grid-gutter;
+      float: left;
+      width: $p;
+    }
+    @if $i < $grid-columns {
+      .col-md-offset-#{$i} {
+        position: relative;
+        padding-right: $grid-gutter;
+        padding-left: $grid-gutter;
+        float: left;
+        margin-left: $p !important;
+      }
+      .col-md-push-#{$i} {
+        left: $p;
+      }
+      .col-md-pull-#{$i} {
+        right: $p;
+      }
+    }
+  }
+
+  .col-md-special {
+    position: relative;
+    padding-right: $grid-gutter;
+    padding-left: $grid-gutter;
+    float: left;
+    width: 20%;
+  }
+
+  .col-md-center {
+    margin-left: auto;
+    margin-right: auto;
+    float: none; 
+  }
+
+  .col-md-center:last-child {
+    float: none; 
+  }
+
+  .col-md-uncenter {
+    margin-left: 0;
+    margin-right: 0;
+    float: left; 
+  }
+
+  .col-md-uncenter:last-child {
+    float: left;
+  }
+}
+
+@media only screen and (min-width: $screen-lg-min) {
+
+  @for $i from 0 through $grid-columns {
+  
+    $p: percentage($i / $grid-columns);
+    .col-lg-#{$i} {
+      position: relative;
+      padding-right: $grid-gutter;
+      padding-left: $grid-gutter;
+      float: left;
+      width: $p;
+    }
+    @if $i < $grid-columns {
+      .col-lg-offset-#{$i} {
+        position: relative;
+        padding-right: $grid-gutter;
+        padding-left: $grid-gutter;
+        float: left;
+        margin-left: $p !important;
+      }
+      .col-lg-push-#{$i} {
+        left: $p;
+      }
+      .col-lg-pull-#{$i} {
+        right: $p;
+      }
+    }
+  }
+
+  .col-lg-special {
+    position: relative;
+    padding-right: $grid-gutter;
+    padding-left: $grid-gutter;
+    float: left;
+    width: 20%;
+  }
+
+  .col-lg-center {
+    margin-left: auto;
+    margin-right: auto;
+    float: none; 
+  }
+
+  .col-lg-center:last-child {
+    float: none; 
+  }
+
+  .col-lg-uncenter {
+    margin-left: 0;
+    margin-right: 0;
+    float: left; 
+  }
+
+  .col-lg-uncenter:last-child {
+    float: left;
+  }
+}
+
+@media only screen and (min-width: $screen-xl-min) {
+
+  @for $i from 0 through $grid-columns {
+  
+    $p: percentage($i / $grid-columns);
+    .col-xl-#{$i} {
+      position: relative;
+      padding-right: $grid-gutter;
+      padding-left: $grid-gutter;
+      float: left;
+      width: $p;
+    }
+    @if $i < $grid-columns {
+      .col-xl-offset-#{$i} {
+        position: relative;
+        padding-right: $grid-gutter;
+        padding-left: $grid-gutter;
+        float: left;
+        margin-left: $p !important;
+      }
+      .col-xl-push-#{$i} {
+        left: $p;
+      }
+      .col-xl-pull-#{$i} {
+        right: $p;
+      }
+    }
+  }
+
+  .col-xl-special {
+    position: relative;
+    padding-right: $grid-gutter;
+    padding-left: $grid-gutter;
+    float: left;
+    width: 20%;
+  }
+
+  .col-xl-center {
+    margin-left: auto;
+    margin-right: auto;
+    float: none; 
+  }
+
+  .col-xl-center:last-child {
+    float: none; 
+  }
+
+  .col-xl-uncenter {
+    margin-left: 0;
+    margin-right: 0;
+    float: left; 
+  }
+
+  .col-xl-uncenter:last-child {
+    float: left;
+  }
+}
+
+
+.col-xs-hidden {
+  @media only screen and (max-width: 640px) {
+    display: none;
+  }
+}
