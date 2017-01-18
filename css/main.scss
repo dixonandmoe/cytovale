@@ -14,12 +14,17 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
+
+// 
 $text-color:    #3a3a3a;
 $bg-color:      #fdfdfd;
 $green:         #3ECDC3;
-$blue:          #4089B0;
 $dark:          #201743;
 $purple:        #8290D6;
+
+// used on actvcontent
+$blue:          #4089B0;
+
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -58,8 +63,10 @@ $screen-xl-min: 90.063em; // min breakpoint for desktop+ (1441px)
   "grid",
   "layout",
   "flickity",
-  "modal",
   "index",
-  "blog",
-  "video"
+  "blog"
 ;
+
+
+
+

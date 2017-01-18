@@ -18,10 +18,10 @@ layout: default
   <div class="row">
     <div class="col-xs-24 col-sm-20 col-md-16">
       <h2>Publications</h2>
-      {% for post in site.posts %}
+      {% for post in site.publications %}
         {% if forloop.first == true %}
           <h5 class="post-index__subtitle">Featured Publication</h5>
-          <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+          <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 
           {% assign truncatedContent = '' %}
           {% assign paragraphs = post.content | split:'</p>' %}
@@ -53,8 +53,14 @@ layout: default
         {% endif %}
       {% endfor %}
     </div>
+
+
+
     <div class="col-xs-24 col-sm-4 col-md-8">
       <h3>In the News</h3>
+      {% for post in page.news.posts %}
+        {{post.title}}<br>
+      {% endfor %}
     </div>
   </div>
 </section>
