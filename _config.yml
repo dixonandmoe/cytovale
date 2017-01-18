@@ -2,9 +2,6 @@
 title: Cytovale
 timezone: UTC
 collections:
-  news:
-    title: News
-    output: true
   posts:
     title: Posts
     output: true
