@@ -9,12 +9,10 @@ news:
   - title: Hydrogen
     quote: Shorter lead times are important in picking a provider. Actvcontent's platform
       decreases provider lead time by shortening assembly times and streamlining QA.
-    image: "/uploads/home__intro--raccoon.svg"
   - title: Oxygen
     company: Central Hudson Gas & Electric
     quote: Shorter lead times are important in picking a provider. Actvcontent's platform
       decreases provider lead time by shortening assembly times and streamlining QA.
-    image: "/uploads/home__intro--raccoon.svg"
 layout: publications
 ---
 
