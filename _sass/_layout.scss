@@ -75,13 +75,12 @@ body {
 
 
 .nav-button {
-  background: $green;
+  // background: $green;
   color: #fff;
   font-size: 12px;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  padding: 12px 28px;
-  border-radius: 4px;
+  letter-spacing: 0.2em;
+  padding: 8px 32px;
+  border: 1px solid #28336A;
   text-transform: uppercase;
   transition: all 350ms ease-out;
   @media only screen and (min-width: 1025px) {
@@ -137,7 +136,6 @@ body {
     line-height: 52px;
     background: $green;
     border: none;
-    border-radius: 4px;
     color: #fff;
     font-size: 14px;
     font-weight: bold;
