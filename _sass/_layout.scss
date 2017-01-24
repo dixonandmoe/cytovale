@@ -35,7 +35,7 @@ body {
   height: 84px;
   line-height: 84px;
   background: $dark;
-
+  padding: 0 24px;
   .menu-icon {
     display: none;
   }
@@ -55,6 +55,7 @@ body {
     font-size: 12px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+    animation: nav-fade 2s;
     &:not(:last-child) {
       margin-right: 36px;
     }
@@ -83,6 +84,7 @@ body {
   border: 1px solid #28336A;
   text-transform: uppercase;
   transition: all 350ms ease-out;
+  animation: nav-fade 2s;
   @media only screen and (min-width: 1025px) {
     &:hover {
       background: darken($green, 5%);
@@ -214,3 +216,16 @@ body {
 }
 
 
+@keyframes nav-fade {
+  0% {
+    opacity: 0;
+    // transform: translateY(-100%);
+  }
+  40% {
+    opacity: 0;
+    // transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
