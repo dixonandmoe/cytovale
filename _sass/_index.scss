@@ -14,15 +14,17 @@ h2 {
 
 h5 {
   margin: 0 0 2px;
-  color: $blue;
+  color: $green;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
 }
 
 p {
   color: $dark;
+  font-size: 20px;
+  line-height: 31px;
 }
 
 .header-index {
@@ -32,6 +34,8 @@ p {
   background-size: cover;
   background-position: center;
   color: #fff;
+  z-index: 2;
+  
   // animation: header-slide 1s ease-out;
   .home-h1 {
     color: $green;
@@ -56,7 +60,7 @@ p {
     content: ' ';
     position: absolute;
     top: 100%;
-    background-image: url('/img/home-header-svg.svg');
+    background-image: url('/img/index-header.svg');
     background-size: 100% 100%;
     background-position: 0 -1px;
     background-repeat: no-repeat;
@@ -88,7 +92,6 @@ p {
   width: 100%;
   height: 100%;
   background: rgba(255,255,255,0.01);
-  // opacity: 0;
 }
 
 
@@ -158,7 +161,90 @@ p {
 
 .index-about {
   padding: 16em 0 10em;
+  background: #fff;
+  h2, p {
+    position: relative;
+    z-index: 3;
+  }
 }
+
+.index-sepsis__block {
+  position: relative;
+  background: #fff;
+  box-shadow: 0 2px 30px rgba(0,0,0,0.05);
+  padding: 110px 0;
+  z-index: 2;
+  h2 {
+    color: $text-color;
+    font-size: 56px;
+    margin-top: -10px;
+    letter-spacing: 0.02em;
+  }
+  p {
+
+  }
+}
+.index-sepsis__subtitle {
+  text-align: right;
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  color: $purple;
+  letter-spacing: 0.2em;
+}
+
+.index-technology {
+  position: relative;
+  background: $dark;
+  margin-top: 10em;
+  padding: 3em 0 10em;
+  &:after {
+    content: ' ';
+    position: absolute;
+    bottom: 100%;
+    background-image: url('/img/index-technology.svg');
+    width: 100%;
+    height: 0;
+    padding-top: 16%;
+  }
+  h2 {
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    color: #fff;
+  }
+  h5 {
+    margin-bottom: 1em;
+  }
+  p {
+    color: #fff;
+  }
+  a {
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: $light-purple;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    margin-top: 2em;
+    padding: 0 60px;
+    background: #fff;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @keyframes fade-in-left {
