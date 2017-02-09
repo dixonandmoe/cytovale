@@ -124,19 +124,19 @@ body {
   padding: 72px 0;
   border-bottom: 1px solid #434F60;
   h2 {
-    color: #fff;
+    color: $dark;
     margin: 0;
-    font-size: 28px;
-    line-height: 1.4;
+    font-size: 36px;
+    line-height: 1.2;
     &.blue {
-      color: #A9CFFF;
+      color: $light-purple;
     }
   }
   .cta-link {
     display: inline-block;
     height: 52px;
     line-height: 52px;
-    background: $green;
+    background: $dark;
     border: none;
     color: #fff;
     font-size: 14px;
@@ -167,24 +167,30 @@ body {
 }
 
 
-
 .footer-content {
-  padding: 52px 0 72px;
+  padding: 100px 0 40px;
+  background-image: url('/img/footer-lines.svg');
+  background-position: center 40%;
+  background-repeat: no-repeat;
   svg {
     width: 148px;
   }
-  small {
-    color: rgba(255,255,255,0.5);
+  .footer-article__subtitle {
+    color: $green;
   }
   h5 {
-    color: rgba(255,255,255,0.5); 
-    margin: 8px 0 16px;
+    color: rgba(255,255,255,1); 
+    margin: 2px 0 12px;
   }
   .footer-link {
     display: block;
     color: #fff;
-    font-size: 14px;
-    margin-bottom: 1em;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.07em;
+  }
+  .footer-info {
+    color: rgba(255,255,255,0.4);
   }
   h3 {
     font-size: 16px;
@@ -193,20 +199,23 @@ body {
   }
   p {
     font-size: 14px;
+    line-height: 21px;
     color: rgba(255,255,255,0.5); 
   }
   .footer-blog-title-link {
     color: #fff;
   }
   .footer-blog-link {
-    background: $blue;
-    padding: 8px 16px;
-    border-radius: 4px;
+    background: $green;
+    padding: 6px 22px;
     color: #fff;
     font-size: 10px;
     font-weight: bold;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+  }
+  .footer-logo {
+    margin-top: 80px
   }
   @media only screen and (max-width: 640px) {
     h5 {
@@ -214,6 +223,7 @@ body {
     }
   }
 }
+
 
 
 @keyframes nav-fade {

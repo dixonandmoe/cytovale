@@ -202,6 +202,9 @@ p {
     position: absolute;
     bottom: 100%;
     background-image: url('/img/index-technology.svg');
+    background-size: 100% 100%;
+    background-position: 0 1px;
+    background-repeat: no-repeat;
     width: 100%;
     height: 0;
     padding-top: 16%;
@@ -233,7 +236,8 @@ p {
 }
 
 .index-team {
-  padding: 6em 0 12em; 
+  padding: 6em 0 12em;
+  background: #F3F2FA; 
   h2 {
     font-size: 48px;
   }
