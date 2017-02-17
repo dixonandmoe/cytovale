@@ -2,27 +2,96 @@
 layout: default
 ---
 
-<header class="layout-header">
+<header id="technology-header" class="layout-header">
+
   <div class="row">
-    <div class="col-xs-24">
+    <div class="technology-header__bars">
+      <svg xmlns="http://www.w3.org/2000/svg" width="222" height="652" viewBox="235 0 222 652">
+      <style>.a{fill:#FFF;}</style>
+        <g style="fill-opacity:0.01;fill:none"><rect x="235" width="71" height="652" class="a"/><rect x="386" width="71" height="605" class="a"/></g>
+      </svg>
+    </div>
+    <div class="col-md-1" style="padding-top:1em;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="141 285 16 17">
+      <style>.b{stroke-width:2;stroke:#FFF;}</style>
+      <g fill="none"><path d="M147 288L155 288" class="b"/>
+        <path d="M142 300L155 300" class="b"/><path d="M151.5 294L155.1 294" class="b"/></g></svg>
+</div>
+    <div class="header-technology col-xs-12 col-md-offset-0 col-md-10">
       <h1>{{ page.header_title }}</h1>
-      <h5>{{ page.header_subtitle }}</h5>
+      <p>{{ page.header_subtitle }}</p>
+    </div>
+    <div class="header-technology--office col-xs-12 col-md-offset-2 col-md-10">
+      <img src="../img/technology--image.png"/>
     </div>
   </div>
+
 </header>
-
+<div class="technology-separator">
+</div>
 <main>
-
-<section class="blog-index">
-
+  <div id="technology-main">
+<section class="technology-main__title">
   <div class="row">
     <div class="col-xs-24">
-      <h2>Technology</h2>
-      
+      <h2>Biomechanical properties of single cells</h2>
+      <sub>(e.g., cellular deformability, or cellular viscosity)</sub>
+      <p>Indicate changes in the global state of cells, including phenomena such as:</p>
     </div>
 </section>
 
+<section class="technology-states">
+  <div class="row">
+    <div class="col-md-12">
+    <div class="technology-state__blocks">
 
+      <h1>Proliferation</h1>
+      <p>Cancer cells are more deformable than their non-cancerous counterparts [Examples: http://www.ncbi.nlm.nih.gov/pubmed/20887019; http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3999871]
+</p>
+  </div>
+  </div>
+<div class="col-md-12">
+    <div class="technology-state__blocks">
 
+      <h1>Activation</h1>
+      <p>Host immune response deformability signatures differ depending on whether inflammation is acute or chronic inflammation [Tse et al] Differentiation: Stem cells become less deformable as they differentiate [Dino paper]</p>
+  </div>
+  </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+    <div class="technology-state__blocks">
 
+      <h1>Differentiation</h1>
+      <p>Stem cells become less deformable as they differentiate [Dino paper]
+<br>
+<br>
+<br>
+      </p>
+  </div>
+  </div>
+<div class="col-md-12">
+    <div class="technology-state__blocks">
+
+      <h1>Migration</h1>
+      <p> Metastatic cancer cells are more deformable than are those with less metastatic potential [http://www.ncbi.nlm.nih.gov/pubmed/21642375] To learn more, <a href="#">see this review</a>.</p>
+  </div>
+  </div>
+</div>
+</section>
+</div>
+</div>
+<section class="technology-comparison">
+<div class="row">
+  <div class="col-md-24"><h2>Cell Measurement Comparison</h2></div>
+</div>
+<div class="row">
+  <div class="col-md-8"><h1>The main issue to date has been <i>throughput</i></h1></div>
+  <div class="col-md-16"><p>Until deformability cytometry, most techniques could only measure tens of cells per hour, limiting throughput and rendering the technique too cumbersome for clinical diagnostic applications or high throughput research applications. An overview of these techniques has been modified from this review:</p></div>
+</div>
+</section>
 </main>
+
+<script>
+document.body.style.background = "#191234";
+</script>

@@ -1,7 +1,6 @@
 (function(){
 
 
-  // var zooms = document.querySelectorAll('.header-index__zoom-style, .header-index__zoom-mask' )
   var zooms = document.querySelectorAll('.header-index__zoom-mask' );
 
 
@@ -17,7 +16,7 @@
     duration: 600,
     delay: 1600,
     easing: 'easeOutQuad'
-  })
+  });
 
   animate({
     el: zooms,
@@ -25,7 +24,7 @@
     duration: 600,
     delay: 2000,
     easing: 'easeOutQuad'
-  })
+  });
 
   animate({
     el: lines,
@@ -35,7 +34,7 @@
     duration: 1000,
     delay: 2400,
     easing: 'easeOutQuad'
-  })
+  });
 
 
   // -----------------------------------
