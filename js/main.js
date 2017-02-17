@@ -2,8 +2,6 @@
 
 
   var zooms = document.querySelectorAll('.header-index__zoom-mask' );
-
-
   var updown = document.querySelectorAll('.header-index__zoom-line.top, .header-index__zoom-line.bottom');
   var lines = document.querySelectorAll('.header-index__zoom-line .box');
 
@@ -35,6 +33,18 @@
     delay: 2400,
     easing: 'easeOutQuad'
   });
+
+
+  var Cell = function() {
+    var div = document.createElement('div');
+    div.classList.add('header-index__cell');
+
+    var img = document.createElement('img');
+    img.src = '/img/cell.svg';
+
+    
+  }
+
 
 
   // -----------------------------------
