@@ -13,6 +13,9 @@
   var angle = document.querySelector('.header-index__zoom-angle');
   var measure = document.querySelector('.header-index__zoom-measure');
 
+  var morph = document.querySelector('.js-morph');
+  var molecule = document.querySelector('.js-molecule');
+  var captions = document.querySelectorAll('.js-caption');
 
   var removeCell = function(obj) {
     setTimeout(function(){
@@ -133,7 +136,11 @@
       setInterval(function(){
         var zoom = new Zoom();    
       }, 3800);
-    }, 1300);
+    }, 1300);  
+
+
+    captions[0].classList.add('active');
+    setTimeout(function(){captions[1].classList.add('active')}, 300);
   };
 
 
