@@ -172,11 +172,29 @@ p {
 }
 .header-index__zoom-curves {
   position: absolute;
-  top: -244px;
-  right: 155px;
   opacity: 0;
   img {
     max-width: initial;
+  }
+  .top-left {
+    position: absolute;
+    top: -244px;
+    left: -855px;
+  }
+  .top-right {
+    position: absolute;
+    top: -119px;
+    left: 153px;
+  }
+  .bottom-left {
+    position: absolute;
+    top: 156px;
+    right: -145px;
+  }
+  .bottom-right {
+    position: absolute;
+    top: 155px;
+    left: 155px;
   }
 }
 
