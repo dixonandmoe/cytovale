@@ -3,6 +3,7 @@ layout: default
 ---
 
 <header class="header-index">
+  
   <div class="row">
     <div class="header-index__content">
       <h1 class="home-h1">{{ page.header_title }}</h1>
@@ -10,16 +11,47 @@ layout: default
     </div>
   </div>
   <div class="header-index__diagram">
-    <div class="header-index__diagram-style"></div> 
+    <div class="header-index__diagram-style">
+      <div class="header-index__diagram-background"></div>
+    </div> 
+
+    <div class="header-index__diagram-caption">
+      <div class="row">
+        <div class="col-md-offset-3 col-md-3">
+          <div class="header-index__caption">
+            <div class="header-index__caption-line"></div>
+            <h6 class="js-caption">Morphological<br>Markers</h6>
+          </div>
+        </div>
+        <div class="col-md-offset-4 col-md-3">
+          <div class="header-index__caption">
+            <div class="header-index__caption-line"></div>
+            <h6 class="js-caption">Molecular<br>Markers</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-index__cells">
+      <!-- Dynamically add cells here -->
+    </div>
+
     <div class="row" style="position: relative;">
-      <div class="header-index__zoom">
+      <div class="header-index__zoom header-index__zoom-position">
         <div class="header-index__zoom-line top"><div class="box"></div></div>
         <div class="header-index__zoom-line bottom"><div class="box"></div></div>
         <div class="header-index__zoom-line left"><div class="box"></div></div>
         <div class="header-index__zoom-line right"><div class="box"></div></div>
       
+        <div class="header-index__zoom-curves top-left">
+          <img src="img/top-left.svg">
+        </div>
+
         <div class="header-index__zoom-style"></div>
         <div class="header-index__zoom-mask"></div>
+        <div class="header-index__zoom-flow">{% include flow.html %}</div>
+        <div class="header-index__zoom-angle">{% include angle.html %}</div>
+        <div class="header-index__zoom-measure">{% include measure.html %}</div>
 
       </div>
     </div>
