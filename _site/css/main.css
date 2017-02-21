@@ -3481,7 +3481,7 @@ p {
           .technology-system .technology-system__diagrams .right-diagram figure figcaption p {
             color: rgba(255, 255, 255, 0.7); }
 
-.technology-cta {
+.layout-cta {
   background: white; }
 
 body,
@@ -3562,21 +3562,30 @@ html {
     background: url("../img/sepsis-cells.svg") no-repeat center;
     height: 462px;
     width: 100%;
-    position: absolute; }
+    position: absolute;
+    z-index: 2; }
   .sepsis-disease .sepsis-disease__body {
     background: url("../img/sepsis-body.png") no-repeat;
     background-size: contain;
     width: 562px;
     height: 562px;
-    left: 10%;
+    left: 15%;
+    bottom: 0;
     position: absolute; }
+    @media only screen and (max-width: 1500px) {
+      .sepsis-disease .sepsis-disease__body {
+        left: 2.5%; } }
   .sepsis-disease .sepsis-disease__body-blue {
     background: url("../img/sepsis-body--blue.png") no-repeat;
     background-size: contain;
     width: 562px;
     height: 562px;
-    right: 10%;
+    right: 15%;
+    bottom: 0;
     position: absolute; }
+    @media only screen and (max-width: 1500px) {
+      .sepsis-disease .sepsis-disease__body-blue {
+        right: 2.5%; } }
   .sepsis-disease h2 {
     font-size: 250%;
     letter-spacing: 2px; }

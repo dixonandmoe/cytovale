@@ -100,14 +100,19 @@ html {
     background: url('../img/sepsis-cells.svg') no-repeat center;
     height: 462px;
     width: 100%;
-    position: absolute;;
+    position: absolute;
+    z-index: 2;
   }
   .sepsis-disease__body{
     background: url('../img/sepsis-body.png') no-repeat;
     background-size: contain;
     width: 562px;
     height: 562px;
-    left: 10%;
+    left: 15%;
+    @media only screen and (max-width: 1500px) {
+      left: 2.5%;
+    }
+    bottom: 0;
     position: absolute;
   }
   .sepsis-disease__body-blue{
@@ -115,7 +120,11 @@ html {
     background-size: contain;
     width: 562px;
     height: 562px;
-    right: 10%;
+    right: 15%;
+    @media only screen and (max-width: 1500px) {
+      right: 2.5%;
+    }
+    bottom: 0;
     position: absolute;
   }
 
