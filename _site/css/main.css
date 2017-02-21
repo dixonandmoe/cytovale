@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Reset some basic elements
  */
@@ -3371,17 +3372,228 @@ p {
         color: #403E50;
         font-size: 100%; }
 
-.technology-comparison {
-  padding: 4em 0;
+.technology-comp {
+  padding: 6em 0;
   color: white; }
-  .technology-comparison h2 {
+  .technology-comp h2 {
     width: 100%;
     text-align: center;
     margin-bottom: 2em; }
-  .technology-comparison p {
+  .technology-comp p {
+    color: white;
+    font-size: 100%; }
+  .technology-comp .technology-comp__table {
+    margin-top: 0.25em;
+    color: #424242;
+    background: rgba(255, 255, 255, 0.9); }
+    .technology-comp .technology-comp__table h1 {
+      font-size: 150%;
+      margin-bottom: 0.25em; }
+    .technology-comp .technology-comp__table sub {
+      font-size: 120%;
+      color: #8290D6; }
+    .technology-comp .technology-comp__table div {
+      margin-top: 0.7em;
+      padding: 1.5em; }
+    .technology-comp .technology-comp__table div.image {
+      margin-top: 0;
+      background: white; }
+      .technology-comp .technology-comp__table div.image img {
+        max-width: 150px; }
+  .technology-comp .technology-comp__techs {
+    padding-top: 4em; }
+  .technology-comp .technology-comp__titles {
+    padding-bottom: 1em; }
+    .technology-comp .technology-comp__titles b {
+      color: #3ECDC3;
+      text-transform: uppercase;
+      font-size: 70%;
+      letter-spacing: 3px; }
+  .technology-comp .technology-comp__results {
+    font-size: 125%;
+    margin-top: 4em;
+    text-align: center; }
+    .technology-comp .technology-comp__results h1 {
+      color: #3ECDC3; }
+
+.technology-system {
+  background: #201743;
+  padding: 8em 0; }
+  .technology-system .technology-system__title {
+    margin-bottom: 4em;
+    text-align: center;
+    color: white; }
+    .technology-system .technology-system__title h1 {
+      font-size: 150%; }
+    .technology-system .technology-system__title svg {
+      margin-bottom: 1em; }
+  .technology-system .technology-system__diagrams {
+    margin-top: 5%;
+    margin-bottom: 15%; }
+    .technology-system .technology-system__diagrams .technology-system__div {
+      position: relative; }
+      .technology-system .technology-system__diagrams .technology-system__div:after {
+        content: ' ';
+        height: 115%;
+        width: 2px;
+        background: #8290D6;
+        position: absolute;
+        top: 0;
+        right: 50%; }
+    .technology-system .technology-system__diagrams .left-diagram {
+      margin-bottom: -20%; }
+      .technology-system .technology-system__diagrams .left-diagram figure figcaption {
+        padding-top: 3em; }
+        .technology-system .technology-system__diagrams .left-diagram figure figcaption h3 {
+          color: #8290D6;
+          font-size: 150%; }
+        .technology-system .technology-system__diagrams .left-diagram figure figcaption p {
+          color: rgba(255, 255, 255, 0.7); }
+        .technology-system .technology-system__diagrams .left-diagram figure figcaption:after {
+          content: ' ';
+          height: 2px;
+          width: 60%;
+          background: #3ECDC3;
+          position: absolute;
+          top: 196px;
+          right: 0; }
+    .technology-system .technology-system__diagrams .right-diagram {
+      margin-top: 15%;
+      margin-bottom: -15%;
+      padding-left: 8em; }
+      .technology-system .technology-system__diagrams .right-diagram figure {
+        min-height: 500px;
+        max-height: 500px; }
+        .technology-system .technology-system__diagrams .right-diagram figure:after {
+          content: '•';
+          color: #3ECDC3;
+          height: 2px;
+          width: 18%;
+          background: #3ECDC3;
+          position: absolute;
+          top: 192px;
+          left: 0; }
+        .technology-system .technology-system__diagrams .right-diagram figure figcaption {
+          padding-top: 3em; }
+          .technology-system .technology-system__diagrams .right-diagram figure figcaption h3 {
+            color: #8290D6;
+            font-size: 150%; }
+          .technology-system .technology-system__diagrams .right-diagram figure figcaption p {
+            color: rgba(255, 255, 255, 0.7); }
+
+.technology-cta {
+  background: white; }
+
+body,
+html {
+  background-color: #F4F3FA; }
+
+#sepsis-header:after {
+  content: ' ';
+  position: absolute;
+  top: 600px;
+  background-image: url("/img/layout-header.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 10%;
+  z-index: 0; }
+
+.sepsis-header__bars {
+  position: absolute;
+  top: -4em;
+  margin-left: 4em; }
+
+.header-sepsis p {
+  color: white;
+  font-size: 150%;
+  line-height: 150%; }
+
+.header-sepsis__subtitle p {
+  color: white;
+  padding-top: 20%; }
+
+.sepsis-main {
+  margin: 15em 0 0; }
+
+.sepsis-facts {
+  margin-top: 4em; }
+  .sepsis-facts .sepsis-facts__chart img {
+    background: #201743;
+    width: 100%;
+    max-height: 225px;
+    padding: 3em; }
+  .sepsis-facts .sepsis-facts__chart figcaption {
+    min-height: 250px;
+    background: white;
+    padding: 3em; }
+    .sepsis-facts .sepsis-facts__chart figcaption h3 {
+      font-size: 200%; }
+    .sepsis-facts .sepsis-facts__chart figcaption p {
+      color: #403E50;
+      font-size: 120%; }
+
+.sepsis-separator {
+  border-top: 1px #8290D6 solid;
+  border-bottom: 1px #8290D6 solid;
+  height: 20px;
+  width: 5%;
+  margin: 4em auto; }
+
+.sepsis-quote {
+  margin: 4em 0; }
+  .sepsis-quote h2 {
+    line-height: 150%;
+    letter-spacing: 3px;
+    margin-bottom: 1em;
+    font-style: oblique; }
+  .sepsis-quote p {
+    color: #828282;
+    font-size: 100%;
+    max-width: 60%;
+    margin: 0 auto; }
+
+.sepsis-disease {
+  position: relative;
+  padding: 8em 0;
+  background: #201743;
+  color: white; }
+  .sepsis-disease .sepsis-disease__cells {
+    background: url("../img/sepsis-cells.svg") no-repeat center;
+    height: 462px;
+    width: 100%;
+    position: absolute; }
+  .sepsis-disease .sepsis-disease__body {
+    background: url("../img/sepsis-body.png") no-repeat;
+    background-size: contain;
+    width: 562px;
+    height: 562px;
+    left: 10%;
+    position: absolute; }
+  .sepsis-disease .sepsis-disease__body-blue {
+    background: url("../img/sepsis-body--blue.png") no-repeat;
+    background-size: contain;
+    width: 562px;
+    height: 562px;
+    right: 10%;
+    position: absolute; }
+  .sepsis-disease h2 {
+    font-size: 250%;
+    letter-spacing: 2px; }
+  .sepsis-disease p {
     color: white;
     opacity: .7;
-    font-size: 100%; }
+    padding-top: 1em; }
+  .sepsis-disease .sepsis-disease__charts {
+    padding-top: 4em; }
+    .sepsis-disease .sepsis-disease__charts figure strong {
+      font-size: 150%; }
+    .sepsis-disease .sepsis-disease__charts figure p {
+      font-size: 125%; }
+    .sepsis-disease .sepsis-disease__charts figure img {
+      padding-top: 1em;
+      width: 100%;
+      height: 100%; }
 
 body,
 html {

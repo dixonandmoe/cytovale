@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/technology/">
   <link rel="alternate" type="application/rss+xml" title="Cytovale" href="http://localhost:4000/feed.xml">
-</head>
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
 
 
   <body>
@@ -30,9 +30,6 @@
         <a class="nav-link" href="/">
 
  <svg width="33px" height="27px" viewBox="42 26 33 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-     <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
-     <desc>Created with Sketch.</desc>
-     <defs></defs>
      <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(42.000000, 26.000000)">
          <path d="M0.997198679,0 C0.446461056,0 0.175771449,0.420573139 0.385723284,0.922930622 L3.96078127,9.47706938 C4.17381036,9.98678989 4.52227601,9.97942686 4.73222784,9.47706938 L8.30728583,0.922930622 C8.52031492,0.413210114 8.24997033,0 7.69581044,0 L0.997198679,0 Z" id="Path-2-Copy-2" fill="#6677CC"></path>
          <path d="M0.997198679,16.1433964 C0.446461056,16.1433964 0.175771449,16.5639695 0.385723284,17.066327 L3.96078127,25.6204657 C4.17381036,26.1301862 4.52227601,26.1228232 4.73222784,25.6204657 L8.30728583,17.066327 C8.52031492,16.5566065 8.24997033,16.1433964 7.69581044,16.1433964 L0.997198679,16.1433964 Z" id="Path-2-Copy-6" fill="#6677CC" transform="translate(4.347344, 21.071698) scale(1, -1) translate(-4.347344, -21.071698) "></path>
@@ -140,15 +137,208 @@
 </section>
 </div>
 </div>
-<section class="technology-comparison">
+
+<section class="technology-comp">
+
 <div class="row">
-  <div class="col-md-24"><h2>Cell Measurement Comparison</h2></div>
+  <div class="col-md-24 technology-comp__title"><h2>Cell Measurement Comparison</h2></div>
 </div>
 <div class="row">
-  <div class="col-md-8"><h1>The main issue to date has been <i>throughput</i></h1></div>
-  <div class="col-md-16"><p>Until deformability cytometry, most techniques could only measure tens of cells per hour, limiting throughput and rendering the technique too cumbersome for clinical diagnostic applications or high throughput research applications. An overview of these techniques has been modified from this review:</p></div>
+  <div class="col-md-8 technology-comp__subtitle"><h1>The main issue to date has been <i>throughput</i></h1></div>
+  <div class="col-md-16 technology-comp__paragraph"><p>Until deformability cytometry, most techniques could only measure tens of cells per hour, limiting throughput and rendering the technique too cumbersome for clinical diagnostic applications or high throughput research applications. An overview of these techniques has been modified from this review:</p></div>
+</div>
+
+<section class="technology-comp__techs">
+<div class="row technology-comp__titles">
+<div class="col-md-4">&emsp;</div>
+<div class="col-md-8"><b>Technique</b></div>
+<div class="col-md-4"><b>Cost</b></div>
+<div class="col-md-8"><b>Throughput</b></div>
+</div>
+
+<div class="row technology-comp__table">
+  <div class="col-md-4 image">
+    <img src="../img/tech-comparison-1.png">
+  </div>
+  <div class="col-md-8"><h1>Magnetic Twisting Cytometry</h1><sub>Adherent Cells</sub></div>
+  <div class="col-md-4"><h1>$</h1></div>
+  <div class="col-md-8"><h1>1 cell / 15 min</h1></div>
+</div>
+
+<div class="row technology-comp__table">
+  <div class="col-md-4 image">
+    <img src="../img/tech-comparison-2.png">
+  </div>
+  <div class="col-md-8"><h1>Atomic Force Microscopy</h1><sub>Adherent Cells</sub></div>
+  <div class="col-md-4"><h1>$$$</h1></div>
+  <div class="col-md-8"><h1>1 cell / 5 min</h1></div>
+</div>
+
+<div class="row technology-comp__table">
+  <div class="col-md-4 image">
+    <img src="../img/tech-comparison-3.png">
+  </div>
+  <div class="col-md-8"><h1>Cell Transit Analyzers</h1><sub>Adherent Cells</sub></div>
+  <div class="col-md-4"><h1>$$</h1></div>
+  <div class="col-md-8"><h1>1 cell / 15 min</h1></div>
+</div>
+
+<div class="row technology-comp__table">
+  <div class="col-md-4 image">
+    <img src="../img/tech-comparison-4.png">
+  </div>
+  <div class="col-md-8"><h1>Optical Stretching</h1><sub>Adherent Cells</sub></div>
+  <div class="col-md-4"><h1>$$</h1></div>
+  <div class="col-md-8"><h1>1 cell / 1 min</h1></div>
+</div>
+
+
+<div class="row technology-comp__table">
+  <div class="col-md-4 image">
+    <img src="../img/tech-comparison-5.png">
+  </div>
+  <div class="col-md-8"><h1 itemprop="name">Mechanomics Platform</h1><sub>Adherent Cells</sub></div>
+  <div class="col-md-4"><h1>¢</h1></div>
+  <div class="col-md-8"><h1>2000 cells / 1 sec</h1></div>
+</div>
+
+</section>
+
+<div class="row technology-comp__results">
+<div class="col-md-12 col-md-push-6">
+  <h1>Comparison Results</h1>
+  <p>CytoVale can measure <strong>2,000 cells per second</strong>, unlocking the potential to utilize biomechanical markers as a relevant clinical diagnostic technique across broad diagnostic indications</p>
+</div>
+</div>
+
+</section>
+
+<section class="technology-system">
+
+<section class="technology-system__title">
+<div class="row">
+<div class="col-md-24">
+  <svg width="33px" height="27px" viewBox="42 26 33 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(42.000000, 26.000000)">
+          <path d="M0.997198679,0 C0.446461056,0 0.175771449,0.420573139 0.385723284,0.922930622 L3.96078127,9.47706938 C4.17381036,9.98678989 4.52227601,9.97942686 4.73222784,9.47706938 L8.30728583,0.922930622 C8.52031492,0.413210114 8.24997033,0 7.69581044,0 L0.997198679,0 Z" id="Path-2-Copy-2" fill="#6677CC"></path>
+          <path d="M0.997198679,16.1433964 C0.446461056,16.1433964 0.175771449,16.5639695 0.385723284,17.066327 L3.96078127,25.6204657 C4.17381036,26.1301862 4.52227601,26.1228232 4.73222784,25.6204657 L8.30728583,17.066327 C8.52031492,16.5566065 8.24997033,16.1433964 7.69581044,16.1433964 L0.997198679,16.1433964 Z" id="Path-2-Copy-6" fill="#6677CC" transform="translate(4.347344, 21.071698) scale(1, -1) translate(-4.347344, -21.071698) "></path>
+          <path d="M24.4683233,0 C23.9175857,0 23.6468961,0.420573139 23.8568479,0.922930622 L27.4319059,9.47706938 C27.644935,9.98678989 27.9934006,9.97942686 28.2033525,9.47706938 L31.7784105,0.922930622 C31.9914395,0.413210114 31.721095,0 31.1669351,0 L24.4683233,0 Z" id="Path-2-Copy-4" fill="#6677CC"></path>
+          <path d="M24.4683233,16.1433964 C23.9175857,16.1433964 23.6468961,16.5639695 23.8568479,17.066327 L27.4319059,25.6204657 C27.644935,26.1301862 27.9934006,26.1228232 28.2033525,25.6204657 L31.7784105,17.066327 C31.9914395,16.5566065 31.721095,16.1433964 31.1669351,16.1433964 L24.4683233,16.1433964 Z" id="Path-2-Copy-7" fill="#6677CC" transform="translate(27.818469, 21.071698) scale(1, -1) translate(-27.818469, -21.071698) "></path>
+          <path d="M12.732761,0.543396354 C12.1820234,0.543396354 11.9113338,0.963969493 12.1212856,1.46632698 L15.6963436,10.0204657 C15.9093727,10.5301862 16.2578383,10.5228232 16.4677902,10.0204657 L20.0428481,1.46632698 C20.2558772,0.956606468 19.9855326,0.543396354 19.4313727,0.543396354 L12.732761,0.543396354 Z" id="Path-2-Copy-3" fill="#6677CC" transform="translate(16.082906, 5.471698) scale(1, -1) translate(-16.082906, -5.471698) "></path>
+          <path d="M12.732761,15.6 C12.1820234,15.6 11.9113338,16.0205731 12.1212856,16.5229306 L15.6963436,25.0770694 C15.9093727,25.5867899 16.2578383,25.5794269 16.4677902,25.0770694 L20.0428481,16.5229306 C20.2558772,16.0132101 19.9855326,15.6 19.4313727,15.6 L12.732761,15.6 Z" id="Path-2-Copy-8" fill="#6677CC"></path>
+      </g>
+  </svg>
+    <h1>Cytovale System</h1>
+</div>
 </div>
 </section>
+
+<section class="technology-system__diagrams">
+<div class="technology-system__div">
+
+  <div class="row">
+  <div class="col-md-12 left-diagram">
+    <figure>
+    <img src='../img/diagram-1.svg' alt='Fluid Sample' />
+    <figcaption>
+      <h3>Fluid Sample</h3>
+      <p>￼A fluid sample containing the diagnostic cells of interest is collected from patients where diagnostic uncertainty exists.</p>
+    </figcaption>
+</figure>
+  </div>
+  </div>
+
+  <div class="row">
+  <div class="col-md-12 col-md-push-12 right-diagram">
+    <figure>
+    <img src='../img/diagram-1.svg' alt='Fluid Sample' />
+    <figcaption>
+      <h3>Cartridge Prepartion</h3>
+      <p>￼The fluid sample is processed and loaded on a single use, disposable plastic cartridge with specific microfluidic paths responsible for assessing the biomechanical properties of single cells.</p>
+    </figcaption>
+</figure>
+  </div>
+  </div>
+
+  <div class="row">
+  <div class="col-md-12 left-diagram">
+    <figure>
+    <img src='../img/diagram-1.svg' alt='Fluid Sample' />
+    <figcaption>
+      <h3>Processsing</h3>
+      <p>￼The loaded cartridge is inserted in a benchtop instrument containing a “deconstructed microscope” and high speed￼￼videography capable of capturing over 500,000 frames per second of images. The instrument actuates pressure driven flow within the cartridge and captures information.</p>
+    </figcaption>
+</figure>
+  </div>
+  </div>
+
+  <div class="row">
+  <div class="col-md-12 col-md-push-12 right-diagram">
+    <figure>
+    <img src='../img/diagram-1.svg' alt='Fluid Sample' />
+    <figcaption>
+      <h3>Cellular Squeeze</h3>
+      <p>Within the microfluidic channels of the cartridge under pressure driven flow, cells are lined up into the center streamline in one branch of an intersection.  A wall of opposing fluid is pushed from the opposite side (think of two fire hydrants pointed at each other), which squeeze the cell within the intersection.  The resulting images are captured with high speed videography  .</p>
+    </figcaption>
+</figure>
+  </div>
+  </div>
+
+  <div class="row">
+  <div class="col-md-12 left-diagram">
+    <figure>
+    <img src='../img/diagram-1.svg' alt='Fluid Sample' />
+    <figcaption>
+      <h3>Metrics and Analytics</h3>
+      <p>￼Image analysis captures dozens of metrics for each cell, including morphology metrics prior to squeezing (e.g., cell diameter or surface roughness), molecular metrics from fluorescent cell surface label probes (e.g., CD45+), and structural metrics (e.g., maximum cellular deformability) during the squeezing event.</p>
+    </figcaption>
+</figure>
+  </div>
+  </div>
+
+  <div class="row">
+  <div class="col-md-12 col-md-push-12 right-diagram">
+    <figure>
+    <img src='../img/diagram-1.svg' alt='Fluid Sample' />
+    <figcaption>
+      <h3>Disease Signature Graphs</h3>
+      <p>Disease signatures are constructed either in 2 dimensions (e.g., plot of initial cell diameter vs. deformability) or multiple dimensions that have been reduced by machine learning techniques, such as Principle Component Analysis</p>
+    </figcaption>
+</figure>
+  </div>
+  </div>
+
+
+    <div class="row">
+    <div class="col-md-12 left-diagram">
+      <figure>
+      <img src='../img/diagram-1.svg' alt='Fluid Sample' />
+      <figcaption>
+        <h3>Diagnostic</h3>
+        <p>The diagnostic disease signature enables a better lens into the disease state of patients, enabling appropriate and timely care and reducing morbidity, mortality, and cost.</p>
+      </figcaption>
+  </figure>
+    </div>
+    </div>
+
+</div>
+</section>
+
+</section>
+
+
+<section class="technology-cta cta">
+  <div class="row">
+    <div class="col-xs-24 col-sm-11 col-md-offset-1 col-md-12">
+      <h2 class="blue">Want to Learn More<span class="qmark">?</span></h2>
+      <h2>Read How We Use the Technology</h2>
+    </div>
+    <div class="col-xs-24 col-sm-10 col-md-10 text-right">
+      <a class="cta-link" href="/technology">VIEW SEPSIS TECH</a>
+    </div>
+  </div>
+</section>
+
 </main>
 
 <script>
