@@ -177,10 +177,15 @@
             position: relative;
 
             &:after {
+              @media only screen and (max-width: 900px) {
+                display: none;
+              }
+              z-index: 0;
                 content: ' ';
-                height: 115%;
-                width: 2px;
-                background: $purple;
+                height: 2000px;
+                width: 6px;
+                background: url('../img/diagram-divisor.svg') no-repeat;
+                background-position: center center;
                 position: absolute;
                 top: 0;
                 right: 50%;
@@ -189,6 +194,9 @@
 
         .left-diagram {
           margin-bottom: -20%;
+                      @media only screen and (max-width: 900px) {
+                        margin-bottom:1em;
+                      }
             figure {
                 figcaption {
                     padding-top: 3em;
@@ -203,13 +211,22 @@
                     }
 
                     &:after {
+                      z-index: 1;
                         content: ' ';
-                        height: 2px;
-                        width: 60%;
-                        background: $green;
+                        height: 6px;
+                        width: 61%;
+                        background: url('../img/diagram-connector-left.svg')  no-repeat center right;
                         position: absolute;
-                        top: 196px;
-                        right: 0;
+                        top: 190px;
+                        right:0;
+                        @media only screen and (max-width: 900px) {
+                          display: none;
+                        }
+
+                        @media only screen and (max-width: 1210px) {
+                          right: 0;
+                          width: 40%;
+                        }
                     }
                 }
             }
@@ -220,19 +237,28 @@
             margin-bottom:-15%;
             padding-left: 8em;
 
+            @media only screen and (max-width: 900px) {
+              padding-left: 1rem;
+              margin-top: 1em;
+              margin-bottom: 1em;
+            }
+
             figure {
-                min-height: 500px;
-                max-height: 500px;
 
                 &:after {
-                    content: '•';
-                    color: $green;
-                    height: 2px;
+                    z-index: 1;
+                    content: '';
+                    height: 6px;
                     width: 18%;
-                    background: $green;
+                    background: url('../img/diagram-connector-right.svg')  no-repeat;
                     position: absolute;
-                    top: 192px;
-                    left: 0;
+                    top: 189px;
+                    left: -6px;
+
+                                @media only screen and (max-width: 900px) {
+                                  display: none;
+                                }
+
                 }
 
                 figcaption {

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="6px" height="2000px" viewBox="0 0 6 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>diagram-divisor</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad-Pro-Portrait" transform="translate(-986.000000, -1633.000000)" fill="#858CDA">
+            <path d="M987.740644,3627.92664 L987.740644,1638.07336 C986.726551,1637.71493 986,1636.7478 986,1635.61097 C986,1634.16897 987.168969,1633 988.610966,1633 C990.052963,1633 991.221932,1634.16897 991.221932,1635.61097 C991.221932,1636.7478 990.495381,1637.71493 989.481288,1638.07336 L989.481288,3627.92664 C990.495381,3628.28507 991.221932,3629.2522 991.221932,3630.38903 C991.221932,3631.83103 990.052963,3633 988.610966,3633 C987.168969,3633 986,3631.83103 986,3630.38903 C986,3629.2522 986.726551,3628.28507 987.740644,3627.92664 Z" id="diagram-divisor"></path>
+        </g>
+    </g>
+</svg>
