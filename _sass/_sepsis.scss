@@ -14,6 +14,10 @@ html {
         width: 100%;
         padding-bottom: 10%;
         z-index: 0;
+
+          @media only screen and (max-width: 900px) {
+              display: none;
+          }
     }
 }
 .sepsis-header__bars{
@@ -35,6 +39,10 @@ html {
     p{
       color: white;
       padding-top: 20%;
+
+                @media only screen and (max-width: 900px) {
+                    padding-top: 0%;
+                }
     }
 }
 
@@ -104,6 +112,10 @@ html {
     z-index: 2;
   }
   .sepsis-disease__body{
+
+              @media only screen and (max-width: 900px) {
+                  display: none;
+              }
     background: url('../img/sepsis-body.png') no-repeat;
     background-size: contain;
     width: 562px;
@@ -116,6 +128,10 @@ html {
     position: absolute;
   }
   .sepsis-disease__body-blue{
+
+              @media only screen and (max-width: 900px) {
+                  display: none;
+              }
     background: url('../img/sepsis-body--blue.png') no-repeat;
     background-size: contain;
     width: 562px;

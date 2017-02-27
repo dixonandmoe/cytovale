@@ -2791,6 +2791,10 @@ body {
     font-size: 72px;
     font-weight: 300;
     color: #3ECDC3; }
+    @media only screen and (max-width: 900px) {
+      .layout-header h1 {
+        font-size: 48px;
+        margin-top: 1em; } }
 
 /**
  * Site footer
@@ -3390,6 +3394,9 @@ p {
   width: 100%;
   padding-bottom: 10%;
   z-index: 0; }
+  @media only screen and (max-width: 900px) {
+    #technology-header:after {
+      display: none; } }
 
 .technology-header__bars {
   position: absolute;
@@ -3401,6 +3408,9 @@ p {
   font-size: 150%;
   line-height: 150%; }
 
+@media only screen and (max-width: 900px) {
+  .header-technology--office {
+    display: none; } }
 .header-technology--office img {
   position: absolute;
   float: right;
@@ -3416,6 +3426,12 @@ p {
   padding-bottom: 5%;
   padding-top: 5%;
   width: 100%; }
+  @media only screen and (max-width: 900px) {
+    .technology-separator {
+      background-size: 200% 200%;
+      background-position: center;
+      margin-top: 0em;
+      padding: 10%; } }
 
 #technology-main {
   background: #201743;
@@ -3431,6 +3447,9 @@ p {
       color: white; }
   #technology-main .technology-states {
     margin: 2.5em 0; }
+    @media only screen and (max-width: 900px) {
+      #technology-main .technology-states {
+        padding: 0 1rem; } }
     #technology-main .technology-states .technology-state__blocks {
       padding: 3em 2em;
       margin-top: 34px;
@@ -3450,10 +3469,16 @@ p {
   .technology-comp p {
     color: white;
     font-size: 100%; }
+  @media only screen and (max-width: 900px) {
+    .technology-comp {
+      padding: 1rem; } }
   .technology-comp .technology-comp__table {
     margin-top: 0.25em;
     color: #424242;
     background: rgba(255, 255, 255, 0.9); }
+    @media only screen and (max-width: 900px) {
+      .technology-comp .technology-comp__table {
+        margin: 1rem 0; } }
     .technology-comp .technology-comp__table h1 {
       font-size: 150%;
       margin-bottom: 0.25em; }
@@ -3472,6 +3497,9 @@ p {
     padding-top: 4em; }
   .technology-comp .technology-comp__titles {
     padding-bottom: 1em; }
+    @media only screen and (max-width: 900px) {
+      .technology-comp .technology-comp__titles {
+        display: none; } }
     .technology-comp .technology-comp__titles b {
       color: #3ECDC3;
       text-transform: uppercase;
@@ -3587,6 +3615,9 @@ html {
   width: 100%;
   padding-bottom: 10%;
   z-index: 0; }
+  @media only screen and (max-width: 900px) {
+    #sepsis-header:after {
+      display: none; } }
 
 .sepsis-header__bars {
   position: absolute;
@@ -3601,6 +3632,9 @@ html {
 .header-sepsis__subtitle p {
   color: white;
   padding-top: 20%; }
+  @media only screen and (max-width: 900px) {
+    .header-sepsis__subtitle p {
+      padding-top: 0%; } }
 
 .sepsis-main {
   margin: 15em 0 0; }
@@ -3661,6 +3695,9 @@ html {
     left: 15%;
     bottom: 0;
     position: absolute; }
+    @media only screen and (max-width: 900px) {
+      .sepsis-disease .sepsis-disease__body {
+        display: none; } }
     @media only screen and (max-width: 1500px) {
       .sepsis-disease .sepsis-disease__body {
         left: 2.5%; } }
@@ -3672,6 +3709,9 @@ html {
     right: 15%;
     bottom: 0;
     position: absolute; }
+    @media only screen and (max-width: 900px) {
+      .sepsis-disease .sepsis-disease__body-blue {
+        display: none; } }
     @media only screen and (max-width: 1500px) {
       .sepsis-disease .sepsis-disease__body-blue {
         right: 2.5%; } }
@@ -3707,6 +3747,9 @@ html {
   width: 100%;
   padding-bottom: 10%;
   z-index: 0; }
+  @media only screen and (max-width: 900px) {
+    #publications-header:after {
+      display: none; } }
 
 .publications-header__bars {
   position: absolute;
@@ -3732,6 +3775,9 @@ html {
   width: 100%;
   padding-bottom: 10%;
   z-index: 0; }
+  @media only screen and (max-width: 900px) {
+    #team-header:after {
+      display: none; } }
 
 .team-header__bars {
   position: absolute;
@@ -3750,6 +3796,9 @@ html {
   border-radius: 1000px;
   border: 4px white solid;
   z-index: 1; }
+  @media only screen and (max-width: 900px) {
+    .header-team--office img {
+      display: none; } }
 
 .team-main {
   margin: 15em 0 0; }
@@ -3775,7 +3824,7 @@ html {
     margin-top: -.5em; }
   .team-members__block .team-members__description p {
     font-size: 100%;
-    padding-top: 2em;
+    padding-top: 1em;
     color: #403E50; }
 
 .board-members__block {

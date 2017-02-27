@@ -9,6 +9,9 @@
         width: 100%;
         padding-bottom: 10%;
         z-index: 0;
+        @media only screen and (max-width: 900px) {
+            display: none;
+        }
     }
 }
 
@@ -27,6 +30,9 @@
 }
 
 .header-technology--office {
+  @media only screen and (max-width: 900px) {
+      display: none;
+  }
     img {
         position: absolute;
         float: right;
@@ -44,6 +50,12 @@
     padding-bottom: 5%;
     padding-top: 5%;
     width: 100%;
+    @media only screen and (max-width: 900px) {
+        background-size: 200% 200%;
+        background-position: center;
+        margin-top: 0em;
+        padding: 10%;
+    }
 }
 
 #technology-main {
@@ -67,6 +79,9 @@
 
     .technology-states {
         margin: 2.5em 0;
+        @media only screen and (max-width: 900px) {
+            padding: 0 1rem;
+        }
 
         .technology-state__blocks {
             padding: 3em 2em;
@@ -96,8 +111,14 @@
         color: white;
         font-size: 100%;
     }
+    @media only screen and (max-width: 900px) {
+        padding: 1rem;
+    }
 
     .technology-comp__table {
+        @media only screen and (max-width: 900px) {
+            margin: 1rem 0;
+        }
         margin-top: 0.25em;
         color: $grey-color-dark;
         background: rgba(255,255,255,.9);
@@ -131,6 +152,9 @@
     }
 
     .technology-comp__titles {
+        @media only screen and (max-width: 900px) {
+            display: none;
+        }
         padding-bottom: 1em;
 
         b {
@@ -177,10 +201,10 @@
             position: relative;
 
             &:after {
-              @media only screen and (max-width: 900px) {
-                display: none;
-              }
-              z-index: 0;
+                @media only screen and (max-width: 900px) {
+                    display: none;
+                }
+                z-index: 0;
                 content: ' ';
                 height: 2000px;
                 width: 6px;
@@ -193,10 +217,11 @@
         }
 
         .left-diagram {
-          margin-bottom: -20%;
-                      @media only screen and (max-width: 900px) {
-                        margin-bottom:1em;
-                      }
+            margin-bottom: -20%;
+            @media only screen and (max-width: 900px) {
+                margin-bottom: 1em;
+            }
+
             figure {
                 figcaption {
                     padding-top: 3em;
@@ -211,21 +236,20 @@
                     }
 
                     &:after {
-                      z-index: 1;
+                        z-index: 1;
                         content: ' ';
                         height: 6px;
                         width: 61%;
-                        background: url('../img/diagram-connector-left.svg')  no-repeat center right;
+                        background: url('../img/diagram-connector-left.svg') no-repeat center right;
                         position: absolute;
                         top: 190px;
-                        right:0;
+                        right: 0;
                         @media only screen and (max-width: 900px) {
-                          display: none;
+                            display: none;
                         }
-
                         @media only screen and (max-width: 1210px) {
-                          right: 0;
-                          width: 40%;
+                            right: 0;
+                            width: 40%;
                         }
                     }
                 }
@@ -234,31 +258,27 @@
 
         .right-diagram {
             margin-top: 15%;
-            margin-bottom:-15%;
+            margin-bottom: -15%;
             padding-left: 8em;
-
             @media only screen and (max-width: 900px) {
-              padding-left: 1rem;
-              margin-top: 1em;
-              margin-bottom: 1em;
+                padding-left: 1rem;
+                margin-top: 1em;
+                margin-bottom: 1em;
             }
 
             figure {
-
                 &:after {
                     z-index: 1;
                     content: '';
                     height: 6px;
                     width: 18%;
-                    background: url('../img/diagram-connector-right.svg')  no-repeat;
+                    background: url('../img/diagram-connector-right.svg') no-repeat;
                     position: absolute;
                     top: 189px;
                     left: -6px;
-
-                                @media only screen and (max-width: 900px) {
-                                  display: none;
-                                }
-
+                    @media only screen and (max-width: 900px) {
+                        display: none;
+                    }
                 }
 
                 figcaption {
@@ -278,6 +298,6 @@
     }
 }
 
-.layout-cta{
-  background: white;
+.layout-cta {
+    background: white;
 }
