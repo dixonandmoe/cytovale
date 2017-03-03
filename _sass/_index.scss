@@ -35,7 +35,7 @@ p {
   background-position: center;
   color: #fff;
   z-index: 2;
-  
+
   // animation: header-slide 1s ease-out;
   .home-h1 {
     color: $green;
@@ -206,7 +206,7 @@ p {
   width: 100%;
   height: 100%;
   border-radius: 150px;
-  border: 1px solid rgba(255,255,255,0.1); 
+  border: 1px solid rgba(255,255,255,0.1);
   // opacity: 0;
 }
 
@@ -252,7 +252,7 @@ p {
     position: absolute;
     width: 8px;
     height: 8px;
-    top: 0; 
+    top: 0;
     left: 50%;
     margin-left: -4px;
     background: #6677CC;
@@ -435,6 +435,120 @@ p {
 .crv4 {
   animation-delay: 3s;
 }
+
+.index-sepsis__block {
+  position: relative;
+  background: #fff;
+  box-shadow: 0 2px 30px rgba(0,0,0,0.05);
+  padding: 110px 0;
+  z-index: 2;
+  h2 {
+    color: $text-color;
+    font-size: 56px;
+    margin-top: -10px;
+    letter-spacing: 0.02em;
+  }
+  p {
+
+  }
+}
+.index-sepsis__subtitle {
+  text-align: right;
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  color: $purple;
+  letter-spacing: 0.2em;
+}
+
+.index-technology {
+  position: relative;
+  background: $dark;
+  margin-top: 10em;
+  padding: 3em 0 10em;
+  &:after {
+    content: ' ';
+    position: absolute;
+    bottom: 100%;
+    background-image: url('/img/index-technology.svg');
+    background-size: 100% 100%;
+    background-position: 0 1px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 16%;
+  }
+  h2 {
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    color: #fff;
+  }
+  h5 {
+    margin-bottom: 1em;
+  }
+  p {
+    color: #fff;
+  }
+  a {
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: $light-purple;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    margin-top: 2em;
+    padding: 0 60px;
+    background: #fff;
+  }
+}
+
+.index-team {
+  padding: 6em 0 12em;
+  background: #F3F2FA;
+  h2 {
+    font-size: 48px;
+  }
+  a {
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    margin-top: 2em;
+    padding: 0 60px;
+    background: $green;
+  }
+}
+.index-team__employees {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 300px;
+  margin-top: 48px;
+}
+.index-team__employee {
+  background: $dark;
+  color: white;
+  margin: 10px 14px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

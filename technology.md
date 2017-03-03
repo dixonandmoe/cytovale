@@ -1,7 +1,8 @@
 ---
 title: Technology
 header_title: Technology
-header_subtitle: CYTOVALE
+header_subtitle: Three decades of work in labs spanning the globe tell us that
+                  the biomechanical properties cells are intimately linked with cell state
 header_image: "/uploads/banner4.png"
 news:
   title: In the News
@@ -12,7 +13,6 @@ news:
   - title: Oxygen
     company: Central Hudson Gas & Electric
     quote: Shorter lead times are important in picking a provider. Actvcontent's platform
-      decreases provider lead time by shortening assembly times and streamlining QA.
+      decreases provider lead time by shortening assembly times and streamliningQA.
 layout: technology
 ---
-

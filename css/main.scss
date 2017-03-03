@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "futura-pt", "Futura LT", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -15,13 +15,14 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 
-// 
+//
 $text-color:    #403E50;
 $bg-color:      #fdfdfd;
 $green:         #3ECDC3;
 $dark:          #201743;
 $purple:        #8290D6;
 $light-purple:  #6677CC;
+
 
 // used on actvcontent
 $blue:          #4089B0;
@@ -65,9 +66,9 @@ $screen-xl-min: 90.063em; // min breakpoint for desktop+ (1441px)
   "layout",
   "flickity",
   "index",
-  "blog"
+  "blog",
+  "technology",
+  "sepsis",
+  "publications",
+  "team"
 ;
-
-
-
-

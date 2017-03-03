@@ -69,7 +69,7 @@ body {
       position: relative;
       top: 4px;
       width: 100%;
-    } 
+    }
   }
 }
 
@@ -106,6 +106,11 @@ body {
     font-size: 72px;
     font-weight: 300;
     color: $green;
+
+              @media only screen and (max-width: 900px) {
+                  font-size: 48px;
+                  margin-top: 1em;
+              }
   }
 }
 
@@ -179,7 +184,11 @@ body {
     color: $green;
   }
   h5 {
+<<<<<<< HEAD
     color: rgba(255,255,255,1); 
+=======
+    color: rgba(255,255,255,1);
+>>>>>>> alex
     margin: 2px 0 12px;
   }
   .footer-link {

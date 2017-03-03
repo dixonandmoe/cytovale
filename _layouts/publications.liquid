@@ -2,11 +2,17 @@
 layout: default
 ---
 
-<header class="layout-header">
+<header id="publications-header" class="layout-header">
+
   <div class="row">
-    <div class="col-xs-24">
+    <div class="col-md-1 col-xs-0" style="padding-top:1em;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="141 285 16 17">
+      <style>.b{stroke-width:2;stroke:#FFF;}</style>
+      <g fill="none"><path d="M147 288L155 288" class="b"/>
+        <path d="M142 300L155 300" class="b"/><path d="M151.5 294L155.1 294" class="b"/></g></svg>
+</div>
+    <div class="header-sepsis col-xs-12 col-md-offset-0 col-md-10 col-xs-24">
       <h1>{{ page.header_title }}</h1>
-      <h5>{{ page.header_subtitle }}</h5>
     </div>
   </div>
 </header>
@@ -16,56 +22,131 @@ layout: default
 <section class="blog-index">
 
   <div class="row">
+
     <div class="col-xs-24 col-sm-20 col-md-16">
+
       <h2>Publications</h2>
+
       {% for post in site.publications %}
         {% if forloop.first == true %}
+
+          <div class="post-index__featured">
+
           <h5 class="post-index__subtitle">Featured Publication</h5>
-          <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+
+          <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
 
           {% assign truncatedContent = '' %}
           {% assign paragraphs = post.content | split:'</p>' %}
-          {% for paragraph in paragraphs limit:2 %}
+          {% for paragraph in paragraphs limit:3 %}
               {{ truncatedContent | append: paragraph }}
               {{ truncatedContent | append: '</p>' }}
           {% endfor %}
 
-          <div class="post-block">
-            <a href="{{ post.url }}">Read More</a>
-          </div>
+          <a href="{{ post.url }}"><div class="post-read">
+            Read Publication
+          </div></a>
 
-          <div class="blog-separator"></div>
+
+        </div>
 
         {% else %}
+
           <div class="blog-index__post">
-            <a href="{{ post.url }}"><h3 class="blog-secondary__title">{{ post.title }}</h3></a>
+            <div class="row">
+              <div class="col-md-21 col-xs-24 index__post-content">
+              <a href="{{ post.url }}">
+              <h3 class="blog-secondary__title">{{ post.title }}</h3>
+            </a>
             {% assign truncatedContent = '' %}
             {% assign paragraphs = post.content | split:'</p>' %}
             {% for paragraph in paragraphs limit:1 %}
                 {{ truncatedContent | append: paragraph }}
                 {{ truncatedContent | append: '</p>' }}
             {% endfor %}
-
-            <div class="post-block post-block--small">
-              <a href="{{ post.url }}">Read More</a>
-            </div>
           </div>
+          <div class="col-md-3 col-xs-24 index__post-arrow">
+            <a href="{{ post.url }}">
+              <img src="../img/post-arrow.svg"/>
+            </a>
+          </div>
+          </div>
+
+          </div>
+          <div class="blog-index__post">
+            <div class="row">
+              <div class="col-md-21 col-xs-24 index__post-content">
+              <a href="{{ post.url }}">
+              <h3 class="blog-secondary__title">{{ post.title }}</h3>
+            </a>
+            {% assign truncatedContent = '' %}
+            {% assign paragraphs = post.content | split:'</p>' %}
+            {% for paragraph in paragraphs limit:1 %}
+                {{ truncatedContent | append: paragraph }}
+                {{ truncatedContent | append: '</p>' }}
+            {% endfor %}
+          </div>
+          <div class="col-md-3 col-xs-24 index__post-arrow">
+            <a href="{{ post.url }}">
+              <img src="../img/post-arrow.svg"/>
+            </a>
+          </div>
+          </div>
+
+          </div>
+          <div class="blog-index__post">
+            <div class="row">
+              <div class="col-md-21 col-xs-24 index__post-content">
+              <a href="{{ post.url }}">
+              <h3 class="blog-secondary__title">{{ post.title }}</h3>
+            </a>
+            {% assign truncatedContent = '' %}
+            {% assign paragraphs = post.content | split:'</p>' %}
+            {% for paragraph in paragraphs limit:1 %}
+                {{ truncatedContent | append: paragraph }}
+                {{ truncatedContent | append: '</p>' }}
+            {% endfor %}
+          </div>
+          <div class="col-md-3 col-xs-24 index__post-arrow">
+            <a href="{{ post.url }}">
+              <img src="../img/post-arrow.svg"/>
+            </a>
+          </div>
+          </div>
+
+          </div>
+
         {% endif %}
       {% endfor %}
     </div>
 
 
 
-    <div class="col-xs-24 col-sm-4 col-md-8">
+    <div class="blog-index__news col-xs-24 col-sm-4 col-md-8">
+      <div class="blog-index__border"></div>
       <h3>In the News</h3>
+      <ul>
       {% for post in page.news.posts %}
-        {{post.title}}<br>
+        <li>{{post.title}}</li>
       {% endfor %}
+    </ul>
     </div>
+
   </div>
 </section>
 
 
 
 
+<section class="layout-cta cta">
+  <div class="row">
+    <div class="col-xs-24 col-sm-11 col-md-offset-1 col-md-12">
+      <h2 class="blue">Want to Learn More<span class="qmark">?</span></h2>
+      <h2>Read How We Use the Technology</h2>
+    </div>
+    <div class="col-xs-24 col-sm-10 col-md-10 text-right">
+      <a class="cta-link" href="/technology">VIEW SEPSIS TECH</a>
+    </div>
+  </div>
+</section>
 </main>
