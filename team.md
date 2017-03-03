@@ -1,8 +1,8 @@
 ---
 title: Team
 header_title: Team
-header_subtitle: We’re inspired by the power of biology and driven to build
-                  tools that make it possible to access that power in new ways.
+header_subtitle: We’re inspired by the power of biology and driven to build tools
+  that make it possible to access that power in new ways.
 header_image: "/uploads/banner4.png"
 news:
   title: In the News
@@ -16,3 +16,4 @@ news:
       decreases provider lead time by shortening assembly times and streamlining QA.
 layout: team
 ---
+
