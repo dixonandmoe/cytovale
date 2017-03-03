@@ -2,8 +2,11 @@
 
 
 .blog-index {
-  background: #fff;
-  padding: 96px 0;
+  h2{
+    letter-spacing: 2px;
+  }
+  background: #F4F3FA;
+  padding: 12em 0;
   @media only screen and (max-width: 640px) {
     padding: 36px 0;
   }
@@ -22,11 +25,88 @@
 }
 
 .blog-index__post {
-  margin-bottom: 64px;
+  box-shadow: 0 2px 30px rgba(0,0,0,0.05);
+  transition: all 250ms linear;
+
+  &:hover{
+    transition: all 250ms linear;
+    box-shadow: 0 2px 30px rgba(0,0,0,0.15);
+  }
+  position: relative;
+  background: white;
+  margin:2em 0;
+  padding: 3em 2em;
+  h3{
+    color: $text-color;
+    font-size: 100%;
+    &:hover{
+      opacity: .8;
+
+    }
+  }
+  p{
+    margin-bottom: 0;
+    font-size: 85%;
+    color: $grey-color;
+  }
+}
+.post-index__subtitle{
+  color: $text-color;
+}
+.index__post-arrow{
+  text-align: right;
+  @media only screen and (min-width: 1300px) {
+    top: 45%;
+    right: 20px;
+    position: absolute;
+    &:hover{
+      opacity: .7;
+    }
+  }
+}
+.index__post-content{
 }
 
-.post-index__subtitle {
-  // color: $green;
+.post-index__featured {
+  transition: all 250ms linear;
+
+  box-shadow: 0 2px 30px rgba(0,0,0,.10);
+  &:hover{
+    transition: all 250ms linear;
+
+    box-shadow: 0 2px 30px rgba(0,0,0,0.25);
+  }
+  margin-top: 4em;
+  background: white;
+  padding: 2em 2em;
+  h1{
+    color: $text-color;
+    padding: 1em 0;
+    font-size: 200%;
+    &:hover{
+      opacity: .8;
+    }
+  }
+  p{
+    font-size: 100%;
+    color: $grey-color-dark;
+  }
+}
+
+
+
+.post-read{
+  font-weight: bold;
+  color: $purple;
+  padding: 1em 0;
+  background: url('../img/post-arrow.svg') no-repeat right;
+  a{
+    color: inherit;
+  }
+
+  &:hover{
+    opacity: .7;
+  }
 }
 
 .post-header {
@@ -49,21 +129,39 @@
   }
 }
 
-.post-block {
-  margin-top: 32px;
-  a {
-    display: inline-block;
-    background: $green;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    border-radius: 4px;
-    padding: 8px 16px;
-  }
-}
 .post-block--small a {
   font-size: 10px;
   padding: 8px 12px;
+
+}
+
+.blog-index__news {
+  padding-left: 4em;
+  .blog-index__border{
+    margin-top: 6.5em;
+    height: 20px;
+    width: 100%;
+    border-top: $purple 2px solid;
+    border-bottom: $purple 2px solid;
+  }
+  h3{
+    padding-top: 1em;
+    color: $dark;
+    font-size: 200%;
+    letter-spacing: 2px;
+  }
+  ul{
+    li{
+      color: $grey-color;
+      padding: .5em 0;
+      transition: all 250ms linear;
+
+      &:hover{
+        color:$grey-color-dark;
+        transition: all 250ms linear;
+
+      }
+    }
+  }
+
 }
