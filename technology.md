@@ -1,8 +1,8 @@
 ---
 title: Technology
 header_title: Technology
-header_subtitle: Three decades of work in labs spanning the globe tell us that
-                  the biomechanical properties cells are intimately linked with cell state
+header_subtitle: Three decades of work in labs spanning the globe tell us that the
+  biomechanical properties cells are intimately linked with cell state
 header_image: "/uploads/banner4.png"
 news:
   title: In the News
@@ -16,3 +16,4 @@ news:
       decreases provider lead time by shortening assembly times and streamliningQA.
 layout: technology
 ---
+
