@@ -13,7 +13,6 @@ dl, dd, ol, ul, figure {
 body {
   font: 400 16px/1.5 "futura-pt", "Futura LT", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #403E50;
-  background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -2807,7 +2806,8 @@ body {
 
 .cta {
   padding: 72px 0;
-  border-bottom: 1px solid #434F60; }
+  border-bottom: 1px solid #434F60;
+  background: #fff; }
   .cta h2 {
     color: #201743;
     margin: 0;
@@ -3049,6 +3049,7 @@ p {
     font-size: 78px;
     letter-spacing: 0.04em;
     margin: 0;
+    margin-top: -5px;
     margin-left: 100px;
     animation: fade-in-left 1s ease-out; }
   .header-index p {
@@ -3272,11 +3273,24 @@ p {
     height: 100%; }
 
 .index-about {
-  padding: 16em 0 10em;
-  background: #fff; }
+  position: relative;
+  padding: 0 0 10em;
+  margin-top: 16em;
+  z-index: 3; }
   .index-about h2, .index-about p {
     position: relative;
     z-index: 3; }
+
+.index-about__photos {
+  float: right;
+  height: 400px;
+  width: 400px;
+  background: red;
+  margin-top: -60px;
+  margin-right: 20px; }
+
+.index-sepsis {
+  background: #F4F3FA; }
 
 .index-sepsis__block {
   position: relative;
@@ -3850,10 +3864,6 @@ p {
 .layout-cta {
   background: white; }
 
-body,
-html {
-  background-color: #F4F3FA; }
-
 #sepsis-header:after {
   content: ' ';
   position: absolute;
@@ -3982,10 +3992,6 @@ html {
       width: 100%;
       height: 100%; }
 
-body,
-html {
-  background-color: #F4F3FA; }
-
 #publications-header:after {
   content: ' ';
   position: absolute;
@@ -4009,10 +4015,6 @@ html {
   color: white;
   font-size: 150%;
   line-height: 150%; }
-
-body,
-html {
-  background-color: #F4F3FA; }
 
 #team-header:after {
   content: ' ';
