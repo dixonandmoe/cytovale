@@ -3673,7 +3673,8 @@ p {
 
 @media only screen and (max-width: 900px) {
   .header-technology--office {
-    display: none; } }
+    width: 90%;
+    margin: 2em 0; } }
 .header-technology--office img {
   position: absolute;
   float: right;
@@ -4026,9 +4027,6 @@ p {
   width: 100%;
   padding-bottom: 10%;
   z-index: 0; }
-  @media only screen and (max-width: 900px) {
-    #team-header:after {
-      display: none; } }
 
 .team-header__bars {
   position: absolute;
@@ -4049,10 +4047,14 @@ p {
   z-index: 1; }
   @media only screen and (max-width: 900px) {
     .header-team--office img {
-      display: none; } }
+      width: 90%;
+      margin: 1em 0; } }
 
 .team-main {
   margin: 15em 0 0; }
+  @media only screen and (max-width: 900px) {
+    .team-main {
+      text-align: center; } }
 
 .team-members__block {
   margin-top: 2em;
@@ -4077,6 +4079,10 @@ p {
     font-size: 100%;
     padding-top: 1em;
     color: #403E50; }
+
+@media only screen and (max-width: 900px) {
+  .board-main {
+    text-align: center; } }
 
 .board-members__block {
   margin-top: 2em;

@@ -31,7 +31,8 @@
 
 .header-technology--office {
   @media only screen and (max-width: 900px) {
-      display: none;
+  width: 90%;
+  margin: 2em 0;
   }
     img {
         position: absolute;
