@@ -4,6 +4,7 @@ header_title: Early<br>Sepsis<br>Detection
 header_subtitle: We’re inspired by the power of biology and driven to build tools
   that make it possible to access that power in new ways.
 header_image: "/uploads/banner4.png"
+class: sepsis
 news:
   title: In the News
   posts:

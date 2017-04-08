@@ -2,6 +2,7 @@
 title: Cytovale
 header_title: Cytovale
 header_subtitle: Putting the squeeze on cells...<br>unmasking biophysical markers
+class: index
 features:
   title: Features
   subtitle: Value-Add Features

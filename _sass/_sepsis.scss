@@ -1,24 +1,20 @@
-body,
-html {
-    background-color: #F4F3FA;
-}
 
 #sepsis-header {
-    &:after {
-        content: ' ';
-        position: absolute;
-        top: 600px;
-        background-image: url('/img/layout-header.svg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 100%;
-        padding-bottom: 10%;
-        z-index: 0;
+  &:after {
+    content: ' ';
+    position: absolute;
+    top: 600px;
+    background-image: url('/img/layout-header.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 10%;
+    z-index: 0;
 
-          @media only screen and (max-width: 900px) {
-              display: none;
-          }
+    @media only screen and (max-width: 900px) {
+      display: none;
     }
+  }
 }
 .sepsis-header__bars{
   position: absolute;
@@ -28,26 +24,26 @@ html {
 
 
 .header-sepsis {
-    p {
-        color: white;
-        font-size: 150%;
-        line-height: 150%;
-    }
+  p {
+    color: white;
+    font-size: 150%;
+    line-height: 150%;
+  }
 }
 
 .header-sepsis__subtitle {
-    p{
-      color: white;
-      padding-top: 20%;
+  p{
+    color: white;
+    padding-top: 20%;
 
-                @media only screen and (max-width: 900px) {
-                    padding-top: 0%;
-                }
+    @media only screen and (max-width: 900px) {
+      padding-top: 0%;
     }
+  }
 }
 
 .sepsis-main {
-    margin: 15em 0 0;
+  margin: 15em 0 0;
 }
 
 .sepsis-facts{
@@ -113,9 +109,9 @@ html {
   }
   .sepsis-disease__body{
 
-              @media only screen and (max-width: 900px) {
-                  display: none;
-              }
+    @media only screen and (max-width: 900px) {
+      display: none;
+    }
     background: url('../img/sepsis-body.png') no-repeat;
     background-size: contain;
     width: 562px;
@@ -129,9 +125,9 @@ html {
   }
   .sepsis-disease__body-blue{
 
-              @media only screen and (max-width: 900px) {
-                  display: none;
-              }
+    @media only screen and (max-width: 900px) {
+      display: none;
+    }
     background: url('../img/sepsis-body--blue.png') no-repeat;
     background-size: contain;
     width: 562px;
