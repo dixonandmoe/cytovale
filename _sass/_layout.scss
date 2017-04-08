@@ -8,15 +8,15 @@ body {
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+  border-top: 5px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 56px;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+  // Positioning context for the mobile navigation icon
+  position: relative;
 }
 
-.site-title {
+  .site-title {
     font-size: 26px;
     font-weight: 300;
     line-height: 56px;
@@ -26,56 +26,56 @@ body {
 
     &,
     &:visited {
-        color: $grey-color-dark;
+      color: $grey-color-dark;
     }
-}
-
-.layout-nav {
-  position: relative;
-  height: 84px;
-  line-height: 84px;
-  background: $dark;
-  padding: 0 24px;
-  .menu-icon {
-    display: none;
   }
-  .nav-link__home {
-    display: block;
+
+  .layout-nav {
+    position: relative;
     height: 84px;
-    img {
-      position: absolute;
-      top: -4px;
-      bottom: 0;
-      margin: auto;
+    line-height: 84px;
+    background: $dark;
+    padding: 0 24px;
+    .menu-icon {
+      display: none;
+    }
+    .nav-link__home {
+      display: block;
+      height: 84px;
+      img {
+        position: absolute;
+        top: -4px;
+        bottom: 0;
+        margin: auto;
+      }
+    }
+
+    .nav-link {
+      color: $purple;
+      font-size: 12px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      animation: nav-fade 2s;
+      &:not(:last-child) {
+        margin-right: 36px;
+      }
+    }
+
+    @media only screen and (max-width: 640px) {
+      height: 64px;
+      line-height: 64px;
+
+      .nav-link__home img {
+        position: relative;
+        top: 4px;
+        width: 100%;
+      }
     }
   }
 
-  .nav-link {
-    color: $purple;
-    font-size: 12px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    animation: nav-fade 2s;
-    &:not(:last-child) {
-      margin-right: 36px;
-    }
-  }
-
-  @media only screen and (max-width: 640px) {
-    height: 64px;
-    line-height: 64px;
-
-    .nav-link__home img {
-      position: relative;
-      top: 4px;
-      width: 100%;
-    }
-  }
-}
 
 
-
-.nav-button {
+  .nav-button {
   // background: $green;
   color: #fff;
   font-size: 12px;
@@ -99,7 +99,7 @@ body {
 /**
  * Site header (non-homepage)
  */
-.layout-header {
+ .layout-header {
   background: $dark;
   padding: 150px 0;
   h1 {
@@ -107,10 +107,10 @@ body {
     font-weight: 300;
     color: $green;
 
-              @media only screen and (max-width: 900px) {
-                  font-size: 48px;
-                  margin-top: 1em;
-              }
+    @media only screen and (max-width: 900px) {
+      font-size: 48px;
+      margin-top: 1em;
+    }
   }
 }
 
@@ -118,7 +118,7 @@ body {
 /**
  * Site footer
  */
-.layout-footer {
+ .layout-footer {
   background: $dark;
   color: #fff;
   p {
