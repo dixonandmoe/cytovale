@@ -2710,7 +2710,15 @@ button:focus, button:active {
     display: none; } }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background: #F4F3FA; }
+
+.logo-text {
+  display: inline-block;
+  position: absolute;
+  top: -9px;
+  left: 64px;
+  font-weight: bold; }
 
 /**
  * Site header
@@ -3011,6 +3019,9 @@ http://flickity.metafizzy.co
 
 .flickity-page-dots .dot.is-selected {
   opacity: 1; }
+
+body.index {
+  background: #fff; }
 
 h1 {
   line-height: 1.1; }
@@ -4099,9 +4110,6 @@ p {
     font-size: 60%;
     letter-spacing: 2px;
     font-weight: 600; }
-
-body.contact {
-  background: #F4F3FA; }
 
 #contact-header:after {
   content: ' ';
