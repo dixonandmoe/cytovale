@@ -1,8 +1,16 @@
 
 body {
   overflow-x: hidden;
+  background: #F4F3FA;
 }
 
+.logo-text {
+  display: inline-block;
+  position: absolute;
+  top: -9px;
+  left: 64px;
+  font-weight: bold;
+}
 
 /**
  * Site header
