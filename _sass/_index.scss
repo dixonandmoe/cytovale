@@ -335,8 +335,11 @@ p {
   left: 0;
   width: 150px;
   height: 150px;
-  background: blue;
+  background: #f2f2f2;
   border-radius: 200px;
+  background-size: cover;
+  background-position: center;
+  border: 4px solid #fff;
   transition: all 300ms ease-in-out;
 
   &.active {
@@ -344,36 +347,47 @@ p {
     left: -125px;
     width: 400px;
     height: 400px;
-    background: green;
+    border: 8px solid #fff;
   }
   &.next {
     top: 48px;
     left: 160px;
     width: 180px;
     height: 180px;
-    background: purple;
   }
 }
 
 
 .index-sepsis {
   background: #F4F3FA;
+  padding: 10em 0 20em;
+  a {
+    display: inline-block;
+    position: absolute;
+    top: -20px;
+    height: 42px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: $dark;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding: 0 60px;
+    background: $green;
+  }
 }
 
 .index-sepsis__block {
   position: relative;
   background: #fff;
   box-shadow: 0 2px 30px rgba(0,0,0,0.05);
-  padding: 110px 0;
+  padding: 110px 0 180px;
   z-index: 2;
   h2 {
     color: $text-color;
     font-size: 56px;
     margin-top: -10px;
     letter-spacing: 0.02em;
-  }
-  p {
-
   }
 }
 .index-sepsis__subtitle {
@@ -383,11 +397,26 @@ p {
   color: $purple;
   letter-spacing: 0.2em;
 }
+.index-sepsis__cta {
+  position: absolute;
+  margin-top: -90px;
+  width: 100%;
+  z-index: 10;
+}
+.index-sepsis__cta-line {
+  border-top: 1px solid $purple;
+}
+.index-sepsis__cta-diagram {
+  float: right;
+  margin-top: -37px;
+  margin-right: 8px;
+}
+
 
 .index-technology {
   position: relative;
   background: $dark;
-  margin-top: 10em;
+  margin-top: 0em;
   padding: 3em 0 10em;
   &:after {
     content: ' ';
@@ -426,6 +455,12 @@ p {
     background: #fff;
   }
 }
+.index-technology__speedometer {
+  margin-top: -150px;
+  position: relative;
+  z-index: 10;
+}
+
 
 .index-team {
   padding: 6em 0 12em;
@@ -484,113 +519,6 @@ p {
 .crv4 {
   animation-delay: 3s;
 }
-
-.index-sepsis__block {
-  position: relative;
-  background: #fff;
-  box-shadow: 0 2px 30px rgba(0,0,0,0.05);
-  padding: 110px 0;
-  z-index: 2;
-  h2 {
-    color: $text-color;
-    font-size: 56px;
-    margin-top: -10px;
-    letter-spacing: 0.02em;
-  }
-  p {
-
-  }
-}
-.index-sepsis__subtitle {
-  text-align: right;
-  transform: rotate(-90deg);
-  transform-origin: top right;
-  color: $purple;
-  letter-spacing: 0.2em;
-}
-
-.index-technology {
-  position: relative;
-  background: $dark;
-  margin-top: 10em;
-  padding: 3em 0 10em;
-  &:after {
-    content: ' ';
-    position: absolute;
-    bottom: 100%;
-    background-image: url('/img/index-technology.svg');
-    background-size: 100% 100%;
-    background-position: 0 1px;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
-    padding-top: 16%;
-  }
-  h2 {
-    font-size: 56px;
-    letter-spacing: 0.02em;
-    color: #fff;
-  }
-  h5 {
-    margin-bottom: 1em;
-  }
-  p {
-    color: #fff;
-  }
-  a {
-    display: inline-block;
-    height: 42px;
-    line-height: 42px;
-    text-transform: uppercase;
-    color: $light-purple;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 0.2em;
-    margin-top: 2em;
-    padding: 0 60px;
-    background: #fff;
-  }
-}
-
-.index-team {
-  padding: 6em 0 12em;
-  background: #F3F2FA;
-  h2 {
-    font-size: 48px;
-  }
-  a {
-    display: inline-block;
-    height: 42px;
-    line-height: 42px;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 0.2em;
-    margin-top: 2em;
-    padding: 0 60px;
-    background: $green;
-  }
-}
-.index-team__employees {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  width: 100%;
-  height: 300px;
-  margin-top: 48px;
-}
-.index-team__employee {
-  background: $dark;
-  color: white;
-  margin: 10px 14px;
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
-}
-
-
-
 
 
 
