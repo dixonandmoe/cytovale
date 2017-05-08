@@ -126,6 +126,12 @@
     var cell = new Cell(60, 2);
 
     // line of cells
+    setInterval(function() {
+      if ( window.blurred ) { return; }    
+      var cell = new Cell(0);
+    }, 3800);
+
+    // line of cells
     setInterval(function(){
       var cell = new Cell(0);
     }, 3800);
@@ -134,6 +140,7 @@
     setTimeout(function(){
       var z = new Zoom();
       setInterval(function(){
+        if ( window.blurred ) { return; }
         var zoom = new Zoom();    
       }, 3800);
     }, 1300);  
@@ -143,6 +150,10 @@
     setTimeout(function(){captions[1].classList.add('active')}, 300);
   };
 
+
+  // When browser tab isn't focused, stop animating
+  window.onblur = function() { window.blurred = true; };
+  window.onfocus = function() { window.blurred = false; };
 
   // -----------------------------------
   // Animations
