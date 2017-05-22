@@ -20,7 +20,9 @@
         float: right;
         height: auto;
         border-radius: 1000px;
-        border: 4px white solid;
+        background: #fff;
+        border: 6px white solid;
+        box-shadow: 0 8px 40px rgba(0,0,0,0.2);
         z-index: 1;
 
           @media only screen and (max-width: 900px) {
