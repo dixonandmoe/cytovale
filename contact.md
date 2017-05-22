@@ -1,7 +1,8 @@
 ---
 title: Contact
 header_title: Contact Us
-header_subtitle: We're a Silicon Valley based company located in San Francisco. Get in touch to learn more!
+header_subtitle: We're a Silicon Valley based company located in San Francisco. Get
+  in touch to learn more!
 header_image: "/uploads/banner4.png"
 class: contact
 news:
