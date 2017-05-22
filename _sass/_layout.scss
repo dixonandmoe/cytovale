@@ -108,8 +108,10 @@ body {
  * Site header (non-homepage)
  */
  .layout-header {
+  position: relative;
   background: $dark;
-  padding: 150px 0;
+  padding: 130px 0 0;
+  height: 500px;
   h1 {
     font-size: 72px;
     font-weight: 300;
@@ -120,6 +122,11 @@ body {
       margin-top: 1em;
     }
   }
+}
+.layout-header__graphic {
+  position: absolute;
+  top: 500px;
+  width: 100%;
 }
 
 
