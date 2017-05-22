@@ -1,6 +1,6 @@
 ---
 title: Contact
-header_title: Contact
+header_title: Contact Us
 header_subtitle: CYTOVALE
 header_image: "/uploads/banner4.png"
 class: contact

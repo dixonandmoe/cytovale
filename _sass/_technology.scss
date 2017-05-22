@@ -1,19 +1,4 @@
-#technology-header {
-    &:after {
-        content: ' ';
-        position: absolute;
-        top: 600px;
-        background-image: url('/img/technology-header.svg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 100%;
-        padding-bottom: 10%;
-        z-index: 0;
-        @media only screen and (max-width: 900px) {
-            display: none;
-        }
-    }
-}
+
 
 .technology-header__bars {
     position: absolute;
