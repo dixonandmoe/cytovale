@@ -183,7 +183,7 @@
         margin-bottom: 4em;
 
         h1 {
-            font-size: 150%;
+            font-size: 36px;
         }
         text-align: center;
         color: white;
@@ -197,8 +197,15 @@
         margin-top: 5%;
         margin-bottom: 15%;
 
+        figure > img {
+            width: 600px;
+            max-width: none;
+            margin-left: -120px;
+        }
+
         .technology-system__div {
             position: relative;
+            margin-top: -60px;
 
             &:after {
                 @media only screen and (max-width: 900px) {
@@ -206,29 +213,30 @@
                 }
                 z-index: 0;
                 content: ' ';
-                height: 2000px;
-                width: 6px;
-                background: url('../img/diagram-divisor.svg') no-repeat;
-                background-position: center center;
+                height: 101%;
+                width: 2px;
+                background: #8290D6;
                 position: absolute;
-                top: 0;
+                top: 60px;
                 right: 50%;
+                transform: translateX(-3px);
             }
         }
 
         .left-diagram {
-            margin-bottom: -20%;
+            margin-bottom: -230px;
             @media only screen and (max-width: 900px) {
                 margin-bottom: 1em;
             }
 
             figure {
                 figcaption {
-                    padding-top: 3em;
+                    position: relative;
+                    z-index: 2;
 
                     h3 {
                         color: $purple;
-                        font-size: 150%;
+                        font-size: 27px;
                     }
 
                     p {
@@ -239,11 +247,11 @@
                         z-index: 1;
                         content: ' ';
                         height: 6px;
-                        width: 61%;
+                        width: 40%;
                         background: url('../img/diagram-connector-left.svg') no-repeat center right;
                         position: absolute;
-                        top: 190px;
-                        right: 0;
+                        top: 16px;
+                        right: -16px;
                         @media only screen and (max-width: 900px) {
                             display: none;
                         }
@@ -257,8 +265,7 @@
         }
 
         .right-diagram {
-            margin-top: 15%;
-            margin-bottom: -15%;
+            margin-bottom: -230px;
             padding-left: 8em;
             @media only screen and (max-width: 900px) {
                 padding-left: 1rem;
@@ -267,30 +274,32 @@
             }
 
             figure {
-                &:after {
-                    z-index: 1;
-                    content: '';
-                    height: 6px;
-                    width: 18%;
-                    background: url('../img/diagram-connector-right.svg') no-repeat;
-                    position: absolute;
-                    top: 189px;
-                    left: -6px;
-                    @media only screen and (max-width: 900px) {
-                        display: none;
-                    }
-                }
+                
 
                 figcaption {
-                    padding-top: 3em;
+                    position: relative;
+                    z-index: 2;
 
                     h3 {
                         color: $purple;
-                        font-size: 150%;
+                        font-size: 27px;
                     }
 
                     p {
                         color: rgba(255,255,255,.7);
+                    }
+                    &:after {
+                        z-index: 1;
+                        content: '';
+                        height: 10px;
+                        width: 16%;
+                        background: url('../img/diagram-connector-right.svg') no-repeat;
+                        position: absolute;
+                        top: 16px;
+                        left: -84px;
+                        @media only screen and (max-width: 900px) {
+                            display: none;
+                        }
                     }
                 }
             }

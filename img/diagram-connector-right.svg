@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="111px" height="6px" viewBox="0 0 111 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="7px" viewBox="0 0 83 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
     <title>diagram-connector-right</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="iPad-Pro-Portrait" transform="translate(-595.000000, -764.000000)" fill="#46CFC4">
-            <path d="M600.829294,766 L706,766 L706,768 L600.829294,768 C600.417458,769.165192 599.306219,770 598,770 C596.343146,770 595,768.656854 595,767 C595,765.343146 596.343146,764 598,764 C599.306219,764 600.417458,764.834808 600.829294,766 Z" id="diagram-connector-right"></path>
+        <g id="technology" transform="translate(-717.000000, -3918.000000)" fill="#3ECDC3">
+            <g id="diagram-connector-right" transform="translate(717.000000, 3918.000000)">
+                <circle id="Oval-5-Copy" cx="3.5" cy="3.5" r="3.5"></circle>
+                <rect id="Rectangle-9" x="3" y="3" width="80" height="2"></rect>
+            </g>
         </g>
     </g>
 </svg>

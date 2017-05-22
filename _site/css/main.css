@@ -3763,48 +3763,54 @@ p {
     text-align: center;
     color: white; }
     .technology-system .technology-system__title h1 {
-      font-size: 150%; }
+      font-size: 36px; }
     .technology-system .technology-system__title svg {
       margin-bottom: 1em; }
   .technology-system .technology-system__diagrams {
     margin-top: 5%;
     margin-bottom: 15%; }
+    .technology-system .technology-system__diagrams figure > img {
+      width: 600px;
+      max-width: none;
+      margin-left: -120px; }
     .technology-system .technology-system__diagrams .technology-system__div {
-      position: relative; }
+      position: relative;
+      margin-top: -60px; }
       .technology-system .technology-system__diagrams .technology-system__div:after {
         z-index: 0;
         content: ' ';
-        height: 2000px;
-        width: 6px;
-        background: url("../img/diagram-divisor.svg") no-repeat;
-        background-position: center center;
+        height: 101%;
+        width: 2px;
+        background: #8290D6;
         position: absolute;
-        top: 0;
-        right: 50%; }
+        top: 60px;
+        right: 50%;
+        transform: translateX(-3px); }
         @media only screen and (max-width: 900px) {
           .technology-system .technology-system__diagrams .technology-system__div:after {
             display: none; } }
     .technology-system .technology-system__diagrams .left-diagram {
-      margin-bottom: -20%; }
+      margin-bottom: -230px; }
       @media only screen and (max-width: 900px) {
         .technology-system .technology-system__diagrams .left-diagram {
           margin-bottom: 1em; } }
       .technology-system .technology-system__diagrams .left-diagram figure figcaption {
-        padding-top: 3em; }
+        position: relative;
+        z-index: 2; }
         .technology-system .technology-system__diagrams .left-diagram figure figcaption h3 {
           color: #8290D6;
-          font-size: 150%; }
+          font-size: 27px; }
         .technology-system .technology-system__diagrams .left-diagram figure figcaption p {
           color: rgba(255, 255, 255, 0.7); }
         .technology-system .technology-system__diagrams .left-diagram figure figcaption:after {
           z-index: 1;
           content: ' ';
           height: 6px;
-          width: 61%;
+          width: 40%;
           background: url("../img/diagram-connector-left.svg") no-repeat center right;
           position: absolute;
-          top: 190px;
-          right: 0; }
+          top: 16px;
+          right: -16px; }
           @media only screen and (max-width: 900px) {
             .technology-system .technology-system__diagrams .left-diagram figure figcaption:after {
               display: none; } }
@@ -3813,33 +3819,33 @@ p {
               right: 0;
               width: 40%; } }
     .technology-system .technology-system__diagrams .right-diagram {
-      margin-top: 15%;
-      margin-bottom: -15%;
+      margin-bottom: -230px;
       padding-left: 8em; }
       @media only screen and (max-width: 900px) {
         .technology-system .technology-system__diagrams .right-diagram {
           padding-left: 1rem;
           margin-top: 1em;
           margin-bottom: 1em; } }
-      .technology-system .technology-system__diagrams .right-diagram figure:after {
-        z-index: 1;
-        content: '';
-        height: 6px;
-        width: 18%;
-        background: url("../img/diagram-connector-right.svg") no-repeat;
-        position: absolute;
-        top: 189px;
-        left: -6px; }
-        @media only screen and (max-width: 900px) {
-          .technology-system .technology-system__diagrams .right-diagram figure:after {
-            display: none; } }
       .technology-system .technology-system__diagrams .right-diagram figure figcaption {
-        padding-top: 3em; }
+        position: relative;
+        z-index: 2; }
         .technology-system .technology-system__diagrams .right-diagram figure figcaption h3 {
           color: #8290D6;
-          font-size: 150%; }
+          font-size: 27px; }
         .technology-system .technology-system__diagrams .right-diagram figure figcaption p {
           color: rgba(255, 255, 255, 0.7); }
+        .technology-system .technology-system__diagrams .right-diagram figure figcaption:after {
+          z-index: 1;
+          content: '';
+          height: 10px;
+          width: 16%;
+          background: url("../img/diagram-connector-right.svg") no-repeat;
+          position: absolute;
+          top: 16px;
+          left: -84px; }
+          @media only screen and (max-width: 900px) {
+            .technology-system .technology-system__diagrams .right-diagram figure figcaption:after {
+              display: none; } }
 
 .layout-cta {
   background: white; }
