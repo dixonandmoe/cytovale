@@ -79,9 +79,8 @@ layout: default
 <section class="index-about" id="about">
   <div class="row">
     <div class="col-xs-24 col-md-offset-1 col-md-11">
-      <h2>Office+Lab Hybrid</h2>
-      <p>Based in San Francisco, Cytovale HQ is a bespoke work space fitted out to be the physical equivalent of our technology+biology hybrid company. As a team of 15, working in a collaborative space allows to move quickly and solve the big problems.</p>
-      <p>Based in San Francisco, Cytovale HQ is a bespoke work space fitted out to be the physical equivalent of our technology+biology hybrid company. As a team of 15, working in a collaborative space allows to move quickly and solve the big problems.</p>
+      <h2>{{ page.about.title }}</h2>
+      <p>{{ page.about.description }}</p>
     </div>
     <div class="col-xs-24 col-md-12">
       <div class="index-about__photos">
@@ -103,13 +102,10 @@ layout: default
             <h5 class="index-sepsis__subtitle">Primary Product</h5>
           </div>
           <div class="col-md-offset-1 col-xs-6">
-            <h2>Early<br>
-              Sepsis<br>
-              Detection
-            </h2>
+            <h2>{{ page.sepsis.title }}</h2>
           </div>
           <div class="col-xs-10">
-            <p>We are enrolling a multi-hundred patient clinical study in support of our flagship product in early sepsis detection in the emergency department, which has the potential to satisfy a $1B+ diagnostic market and significantly reduce morbidity and mortality within the hospital, and we are demonstrating our platform’s potential in several additional applications.</p>
+            <p>{{ page.sepsis.description }}</p>
           </div>
         </div>
       </div>
@@ -137,10 +133,10 @@ layout: default
       </div>
     </div>
     <div class="col-xs-24 col-md-offset-1 col-md-11">
-      <h5>The Cytovale System</h5>
-      <h2>Technology</h2>
+      <h5>{{ page.technology.subtitle }}</h5>
+      <h2>{{ page.technology.title }}</h2>
       <p>
-        Three decades of work in labs spanning the globe tell us that the biomechanical properties cells are intimately linked with cell state.  Until deformability cytometry, most techniques could only measure tens of cells per hour.
+        {{ page.technology.description }}
       </p>
       <a href="/technology">Get Technical</a>
     </div>
@@ -151,29 +147,17 @@ layout: default
 <section class="index-team" id="team">
   <div class="row">
     <div class="col-xs-24 col-md-offset-6 col-md-12 text-center">
-      <h5>Life Scientist, Technologists, Dreamers</h5>
-      <h2>The Cytovale Team</h2>
+      <h5>{{ page.team.subtitle }}</h5>
+      <h2>{{ page.team.title }}</h2>
       <a href="/team">Meet the Team</a>
     </div>
   </div>
   <div class="row">
     <div class="col-xs-24 col-md-offset-3 col-md-18 text-center">
       <div class="index-team__employees js-team">
-        <div class="index-team__employee">1</div>
-        <div class="index-team__employee">2</div>
-        <div class="index-team__employee">3</div>
-        <div class="index-team__employee"></div>
-        <div class="index-team__employee"></div>
-        <div class="index-team__employee"></div>
-        <div class="index-team__employee"></div>
-        <div class="index-team__employee"></div>
-        <div class="index-team__employee"></div>
-        <div class="index-team__employee"></div>
-        <div class="index-team__employee"></div>
-        <div class="index-team__employee"></div>
-        <div class="index-team__employee"></div>
-        <div class="index-team__employee"></div>
-        <div class="index-team__employee"></div>
+        {% for person in page.team.people %}
+          <div title="{{ person.name }}" class="index-team__employee" style="background-image: url('{{ person.image }}')"></div>
+        {% endfor %}
       </div>
     </div>
   </div>
@@ -192,6 +176,4 @@ layout: default
 </section>
 
 </main>
-
-<script src="/js/index.js" type="text/javascript"></script>
 
