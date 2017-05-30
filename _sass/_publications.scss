@@ -17,3 +17,13 @@
     line-height: 150%;
   }
 }
+
+.blog-index__news {
+  a {
+    color: $light-purple;
+    transition: all 275ms ease-out;
+    &:hover {
+      color: $dark;
+    }
+  }
+}

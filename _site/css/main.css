@@ -3529,22 +3529,21 @@ p {
   position: relative;
   background: white;
   margin: 2em 0;
-  padding: 3em 2em; }
+  padding: 3em 3em; }
   .blog-index__post:hover {
     transition: all 250ms linear;
     box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15); }
   .blog-index__post h3 {
     color: #403E50;
-    font-size: 100%; }
+    font-size: 24px; }
     .blog-index__post h3:hover {
       opacity: .8; }
   .blog-index__post p {
     margin-bottom: 0;
-    font-size: 85%;
-    color: #828282; }
+    font-size: 16px; }
 
 .post-index__subtitle {
-  color: #403E50; }
+  color: #8290D6; }
 
 .index__post-arrow {
   text-align: right; }
@@ -3561,14 +3560,15 @@ p {
   box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
   margin-top: 4em;
   background: white;
-  padding: 2em 2em; }
+  padding: 3em 3em; }
   .post-index__featured:hover {
     transition: all 250ms linear;
     box-shadow: 0 2px 30px rgba(0, 0, 0, 0.25); }
   .post-index__featured h1 {
     color: #403E50;
     padding: 1em 0;
-    font-size: 200%; }
+    font-size: 36px;
+    line-height: 1.2; }
     .post-index__featured h1:hover {
       opacity: .8; }
   .post-index__featured p {
@@ -3969,6 +3969,12 @@ p {
   color: white;
   font-size: 16px;
   line-height: 150%; }
+
+.blog-index__news a {
+  color: #6677CC;
+  transition: all 275ms ease-out; }
+  .blog-index__news a:hover {
+    color: #201743; }
 
 .team-header__bars {
   position: absolute;

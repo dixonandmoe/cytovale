@@ -6,9 +6,7 @@ class: index
 about:
   title: Office+Lab Hybrid
   description: |-
-    Based in San Francisco, Cytovale HQ is a bespoke work space fitted out to be the physical equivalent of our technology+biology hybrid company. As a team of 15, working in a collaborative space allows to move quickly and solve the big problems.
-
-    Based in San Francisco, Cytovale HQ is a bespoke work space fitted out to be the physical equivalent of our technology+biology hybrid company. As a team of 15, working in a collaborative space allows to move quickly and solve the big problems.
+    Based in San Francisco, Cytovale HQ is a bespoke work space fitted out to be the physical equivalent of our technology+biology hybrid company. As a team of 15, working in a collaborative space allows to move quickly and solve the big problems.<br><br>The company develops biomarkers based on the mechanical properties of individual cells or mechanomics. It uses microfluidics to route and physically probe individual cells. 
 sepsis:
   title: Early<br>Sepsis<br>Detection
   description: We are enrolling a multi-hundred patient clinical study in support
