@@ -3447,9 +3447,11 @@ p {
   background: #201743;
   color: white;
   margin: 10px 14px;
-  height: 100px;
-  width: 100px;
-  border-radius: 50px; }
+  height: 110px;
+  width: 110px;
+  border-radius: 55px;
+  background-size: cover;
+  border: 8px solid #fff; }
 
 .crv1,
 .crv2,

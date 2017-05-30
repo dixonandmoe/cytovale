@@ -14,7 +14,7 @@
   shuffle(dupes);
 
   dupes.forEach(function(dupe){
-    dupe.style.transform = 'scale('+ randomRange(0.4, 1.1) +') translateX('+ randomRange(-12, 12) +'px)';
+    dupe.style.transform = 'scale('+ randomRange(0.6, 1.2) +') translateX('+ randomRange(-15, 15) +'px)';
     team.appendChild(dupe);
   });
   
