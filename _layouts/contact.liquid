@@ -14,7 +14,7 @@ layout: default
       <p>{{ page.header_subtitle }}</p>
     </div>
     <div class="col-xs-12 col-md-offset-2 col-md-10">
-      <div class="contact-header__image" style="background-image:url('/img/index-office.jpg')"></div>
+      <div class="contact-header__image" style="background-image:url('{{ page.header_image }}')"></div>
     </div>
   </div>
 </header>
@@ -24,28 +24,21 @@ layout: default
   <section class="blog-index">
     <div class="row">
       <div class="col-xs-24 col-sm-20 col-md-16">
-        <div id="map" style="width: 100%;height: 400px">
-          
-        </div>
+        <div id="map" style="width:100%;height:400px"></div>
       </div>
       <div class="blog-index__news col-xs-24 col-sm-4 col-md-8">
         <div class="contact-list__border"></div>
         <h3>Contact Us</h3>
         <h5 class="contact-list__heading">Address</h5>
         <p>
-          150 Executive Park Blvd, Suite 4100<br>
-          San Francisco CA 94134<br>
-          <a href="https://www.google.com/maps/place/150+Executive+Park+Blvd+%234100,+San+Francisco,+CA+94134/@37.7108586,-122.3977769,16z/data=!4m5!3m4!1s0x808f7f2f0260f91b:0x3a70a9743773cc23!8m2!3d37.7110114!4d-122.3933781">Google Map</a>
+          {{ page.address }}
+          <a href="{{ page.google_map }}">Google Map</a>
         </p>
         <h5 class="contact-list__heading">Email</h5>
-        <p>
-          info@cytovale.com
+        <p>{{ page.email }}
         </p>
         <h5 class="contact-list__heading">Phone</h5>
-        <p>
-          (562) 881 - 6919
-        </p>
-
+        <p>{{ page.phone }}</p>
       </div>
     </div>
   </section>

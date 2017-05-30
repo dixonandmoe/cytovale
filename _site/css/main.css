@@ -4002,10 +4002,14 @@ p {
 .team-main {
   margin: 15em 0 0; }
 
+.team-list {
+  margin: 0 0 4em; }
+
 .team-members__block {
-  margin-top: 2em;
-  margin-bottom: 4em;
   position: relative;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  min-height: 490px;
   background: #fff;
   box-shadow: 0 2px 30px rgba(0, 0, 0, 0.05);
   padding: 3em;
@@ -4026,9 +4030,36 @@ p {
     padding-top: 1em;
     color: #403E50; }
 
+.team-members__image {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100px;
+  background-color: #828282; }
+  .team-members__image:before {
+    content: '';
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    width: 110px;
+    height: 110px;
+    border: 2px solid #3ECDC3;
+    border-radius: 100px; }
+
+.team-members__image--small {
+  top: 10px;
+  width: 80px;
+  height: 80px; }
+  .team-members__image--small:before {
+    width: 94px;
+    height: 94px; }
+
 .board-members__block {
-  margin-top: 2em;
-  margin-bottom: 4em;
+  height: 120px;
+  margin-top: 1em;
+  margin-bottom: 1em;
   position: relative;
   background: #fff;
   box-shadow: 0 2px 30px rgba(0, 0, 0, 0.05);
@@ -4038,7 +4069,7 @@ p {
     margin-top: .5em; }
   .board-members__block h1 {
     color: #403E50;
-    margin-top: 1em;
+    margin-top: 1.3em;
     margin-bottom: .15em; }
   .board-members__block .board-members__subtitle {
     text-transform: uppercase;
@@ -4046,7 +4077,21 @@ p {
     opacity: 0.7;
     font-size: 60%;
     letter-spacing: 2px;
+    line-height: 1.8;
     font-weight: 600; }
+
+.investor__block {
+  display: flex;
+  align-items: center; }
+
+.investor__block-image {
+  width: 33%; }
+
+.investor__block-title {
+  padding: 0 0 0 1em; }
+
+.investor__block-name {
+  margin: 0 !important; }
 
 .contact-header__image {
   width: 500px;

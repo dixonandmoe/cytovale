@@ -27,8 +27,8 @@ team:
   people:
   - name: Ajay Shah
     image: "/uploads/ajay-shah.jpg"
-  - name: Mary Macdonald
-    image: "/uploads/mary-macdonald.jpg"
+  - name: Mara Macdonald
+    image: "/uploads/mara-macdonald.jpg"
   - name: M. Cyrus Maher
     image: "/uploads/m-cyrus-maher.jpg"
   - name: Henry Tat Kwong Tse
@@ -43,8 +43,8 @@ team:
     image: "/uploads/braxton-dunstone.jpg"
   - name: Ajay Shah
     image: "/uploads/ajay-shah.jpg"
-  - name: Mary Macdonald
-    image: "/uploads/mary-macdonald.jpg"
+  - name: Mara Macdonald
+    image: "/uploads/mara-macdonald.jpg"
   - name: M. Cyrus Maher
     image: "/uploads/m-cyrus-maher.jpg"
   - name: Henry Tat Kwong Tse
