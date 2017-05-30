@@ -5,13 +5,10 @@ header_subtitle: Putting the squeeze on cells...<br>unmasking biophysical marker
 class: index
 about:
   title: Office+Lab Hybrid
-  description: Based in San Francisco, Cytovale HQ is a bespoke work space fitted
-    out to be the physical equivalent of our technology+biology hybrid company. As
-    a team of 15, working in a collaborative space allows to move quickly and solve
-    the big problems.<br><br>Based in San Francisco, Cytovale HQ is a bespoke work
-    space fitted out to be the physical equivalent of our technology+biology hybrid
-    company. As a team of 15, working in a collaborative space allows to move quickly
-    and solve the big problems.
+  description: |-
+    Based in San Francisco, Cytovale HQ is a bespoke work space fitted out to be the physical equivalent of our technology+biology hybrid company. As a team of 15, working in a collaborative space allows to move quickly and solve the big problems.
+
+    Based in San Francisco, Cytovale HQ is a bespoke work space fitted out to be the physical equivalent of our technology+biology hybrid company. As a team of 15, working in a collaborative space allows to move quickly and solve the big problems.
 sepsis:
   title: Early<br>Sepsis<br>Detection
   description: We are enrolling a multi-hundred patient clinical study in support
