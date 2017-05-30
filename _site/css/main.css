@@ -3700,14 +3700,16 @@ p {
     margin-bottom: 2em; }
   .technology-comp p {
     color: white;
-    font-size: 100%; }
+    font-size: 18px; }
   @media only screen and (max-width: 900px) {
     .technology-comp {
       padding: 1rem; } }
   .technology-comp .technology-comp__table {
     margin-top: 0.25em;
     color: #424242;
-    background: rgba(255, 255, 255, 0.9); }
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center; }
     @media only screen and (max-width: 900px) {
       .technology-comp .technology-comp__table {
         margin: 1rem 0; } }
@@ -3719,7 +3721,7 @@ p {
       color: #8290D6; }
     .technology-comp .technology-comp__table div {
       margin-top: 0.7em;
-      padding: 1.5em; }
+      padding: 1.1em; }
     .technology-comp .technology-comp__table div.image {
       margin-top: 0;
       background: white; }
