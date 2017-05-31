@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="67px" height="185px" viewBox="0 0 67 185" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>cell-squeezed</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="28.518039%" cy="58.2021303%" fx="28.518039%" fy="58.2021303%" r="67.2142853%" id="radialGradient-1">
+            <stop stop-color="#ECEAF1" offset="0%"></stop>
+            <stop stop-color="#756AD5" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-04" transform="translate(-1000.000000, -332.000000)">
+            <g id="cell-squeezed" transform="translate(1001.000000, 333.000000)">
+                <path d="M32.3854113,182.864145 C48.9163824,182.864145 55.2364107,148.239865 63.7287449,100.298077 C72.2210792,52.356289 48.9163824,0 32.3854113,0 C15.8544402,0 0,36.2864448 0,86.7829842 C0,137.279523 15.8544402,182.864145 32.3854113,182.864145 Z" id="Oval-2" stroke="#7E70B1" fill-opacity="0.1" fill="#FFFFFF"></path>
+                <path d="M32.3854113,182.864145 C48.9163824,182.864145 56.4291258,154.969615 62.3173824,100.730249 C68.205639,46.4908844 48.9163824,0 32.3854113,0 C15.8544402,0 0,36.2864448 0,86.7829842 C0,137.279523 15.8544402,182.864145 32.3854113,182.864145 Z" id="Oval-2" stroke="#B6A4FC" fill-opacity="0.1" fill="url(#radialGradient-1)"></path>
+                <ellipse id="Oval-2" stroke="#B6A4FC" cx="32.6307553" cy="91.4320726" rx="24.7797465" ry="91.4320726"></ellipse>
+                <path d="M20.3072652,82.4788818 C20.3072652,97.9758432 18.344513,111.923109 23.7420815,119.671589 C29.1396501,127.42007 35.0279067,128.969766 36.4999708,128.969766 C37.972035,128.969766 44.3509796,125.870374 44.3509796,107.27402 C44.3509796,88.6776664 51.7113004,80.9291856 41.8975394,70.0813126 C32.0837784,59.2334396 24.2237921,52.6171656 20.7979532,54.5843511 C17.3721143,56.5515367 20.3072652,66.9819203 20.3072652,82.4788818 Z" id="Path-2" stroke="#6677CC" fill-opacity="0.8" fill="#6677CC"></path>
+            </g>
+        </g>
+    </g>
+</svg>
