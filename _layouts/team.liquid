@@ -1,0 +1,165 @@
+---
+layout: default
+---
+
+<header id="team-header" class="layout-header">
+  <div class="layout-header__graphic">
+    {% include header-graphic.html %}
+  </div>
+  <div class="row">
+    <div class="team-header__bars">
+    </div>
+    <div class="col-md-1 col-xs-0" style="padding-top:1em;">
+    </div>
+    <div class="header-team col-xs-12 col-md-offset-0 col-md-10 col-xs-24">
+      <h1>{{ page.header_title }}</h1>
+      <p>{{ page.header_subtitle }}</p>
+    </div>
+    <div class="header-team--office col-xs-12 col-md-offset-2 col-md-10 col-xs-24">
+      <div class="contact-header__image" style="background-image:url('/uploads/cytovale-team.jpg')"></div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="team-main">
+  <div class="row">
+    <div class="col-xs-24">
+      <h2>{{ page.management.title }}</h2>
+    </div>
+</section>
+
+
+<section class="team-members team-list">
+  <div class="row">
+
+    {% for member in page.management.members %}
+      <div class="col-xs-24 col-md-12">
+        <div class="team-members__block">
+          <div class="row">
+            <div class="col-md-6 col-xs-24">
+              <div class="team-members__image" style="background-image: url('{{ member.image }}')"></div>
+            </div>
+          <div class="col-md-18 col-xs-24">
+            <h1 class="team-members__name">{{ member.name }}</h1>
+            <p class="team-members__subtitle">{{ member.title }}</p></div>
+        </div>
+        <div class="row">
+          <div class="team-members__description col-md-24">
+            <p>{{ member.bio }}</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    {% endfor %}
+
+  </div>
+</section>
+
+
+<section class="team-list">
+  <div class="row">
+    <div class="col-xs-24">
+      <h2>{{ page.board.title }}</h2>
+    </div>
+  </div>
+
+  <section class="board-members">
+    <div class="row">
+
+      {% for member in page.board.members %}
+      <div class="col-xs-24 col-md-8">
+        <div class="board-members__block">
+          <div class="row">
+            <div class="col-xs-8">
+              <div class="team-members__image team-members__image--small" style="background-image: url('{{ member.image }}')"></div>
+            </div>
+          <div class="col-xs-16">
+            <h1 class="board-members__name">{{ member.name }}</h1>
+            <p class="board-members__subtitle">{{ member.title }}</p></div>
+        </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </section>
+</section>
+
+
+<section class="team-list">
+  <div class="row">
+    <div class="col-xs-24">
+      <h2>{{ page.advisors.title }}</h2>
+    </div>
+  </div>
+
+
+  <section class="board-members">
+    <div class="row">
+
+      {% for member in page.advisors.members %}
+      <div class="col-xs-24 col-md-8">
+        <div class="board-members__block">
+          <div class="row">
+            <div class="col-xs-8">
+              <div class="team-members__image team-members__image--small" style="background-image: url('{{ member.image }}')"></div>
+            </div>
+          <div class="col-xs-16">
+            <h1 class="board-members__name">{{ member.name }}</h1>
+            <p class="board-members__subtitle">{{ member.title }}</p></div>
+        </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </section>
+</section>
+
+
+<section class="team-list">
+  <div class="row">
+    <div class="col-xs-24">
+      <h2>{{ page.investors.title }}</h2>
+    </div>
+  </div>
+
+
+  <section class="board-members">
+    <div class="row">
+
+      {% for member in page.investors.members %}
+      <div class="col-xs-24 col-md-8">
+        <div class="board-members__block investor__block">
+          <div class="investor__block-image">
+            <img src="{{ member.image }}" alt="{{ member.name }}">
+          </div>
+          <div class="investor__block-title">
+            <h1 class="board-members__name investor__block-name">{{ member.name }}</h1>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </section>
+</section>
+
+
+
+<section class="layout-cta cta">
+  <div class="row">
+    <div class="col-xs-24 col-sm-11 col-md-offset-1 col-md-12">
+      <h2 class="blue">Want to Learn More<span class="qmark">?</span></h2>
+      <h2>Read How We Use the Technology</h2>
+    </div>
+    <div class="col-xs-24 col-sm-10 col-md-10 text-right">
+      <a class="cta-link" href="/technology">VIEW SEPSIS TECH</a>
+    </div>
+  </div>
+</section>
+
+
+</main>

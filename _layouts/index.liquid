@@ -1,0 +1,179 @@
+---
+layout: default
+---
+
+<header class="header-index">
+
+  <div class="header-index__graphic">
+    <svg width="1440px" height="402px" viewBox="0 0 1440 402" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-header-svg" fill="#201743">
+          <path d="M0,0 L1440,0 L1440,393 C1169.01099,404 880.21978,219 598.351648,118 C316.483516,17 0,13 0,13 L0,0 Z" id="header-bg"></path>
+        </g>
+      </g>
+    </svg>
+  </div>  
+
+  <div class="row">
+    <div class="header-index__content">
+      <h1 class="home-h1">{{ page.header_title }}</h1>
+      <p>{{ page.header_subtitle }}</p>
+    </div>
+  </div>
+  <div class="header-index__diagram">
+    <div class="header-index__diagram-style">
+      <div class="header-index__diagram-background"></div>
+    </div> 
+
+    <div class="header-index__diagram-caption">
+      <div class="row">
+        <div class="col-md-offset-3 col-md-3">
+          <div class="header-index__caption">
+            <div class="header-index__caption-line"></div>
+            <h6 class="js-caption">Morphological<br>Markers</h6>
+          </div>
+        </div>
+        <div class="col-md-offset-4 col-md-3">
+          <div class="header-index__caption">
+            <div class="header-index__caption-line"></div>
+            <h6 class="js-caption">Molecular<br>Markers</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-index__cells">
+      <!-- Dynamically add cells here -->
+    </div>
+
+    <div class="row" style="position: relative;">
+      <div class="header-index__zoom header-index__zoom-position">
+        <div class="header-index__zoom-line top"><div class="box"></div></div>
+        <div class="header-index__zoom-line bottom"><div class="box"></div></div>
+        <div class="header-index__zoom-line left"><div class="box"></div></div>
+        <div class="header-index__zoom-line right"><div class="box"></div></div>
+      
+        <div class="header-index__zoom-curves">
+          <img class="top-left" src="img/top-left.svg">
+          <img class="top-right" src="img/top-right.svg">
+          <img class="bottom-right" src="img/bottom-right.svg">
+          <img class="bottom-left" src="img/bottom-left.svg">
+        </div>
+
+        <div class="header-index__zoom-style"></div>
+        <div class="header-index__zoom-mask"></div>
+        <div class="header-index__zoom-flow">{% include flow.html %}</div>
+        <div class="header-index__zoom-angle">{% include angle.html %}</div>
+        <div class="header-index__zoom-measure">{% include measure.html %}</div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+<main>
+
+
+<section class="index-about" id="about">
+  <div class="row">
+    <div class="col-xs-24 col-md-offset-1 col-md-11">
+      <h2>{{ page.about.title }}</h2>
+      <p>{{ page.about.description }}</p>
+    </div>
+    <div class="col-xs-24 col-md-12">
+      <div class="index-about__photos">
+        <div class="index-about__photo active" style="background-image:url('/img/index-office.jpg')"></div>
+        <div class="index-about__photo next" style="background-image:url('/img/index-microscope.jpg')"></div>
+        <div class="index-about__photo" style="background-image:url('/img/index-shop.jpg')"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="index-sepsis" id="about">
+  <div class="row">
+    <div class="col-xs-24">
+      <div class="index-sepsis__block">
+        <div class="row">
+          <div class="col-xs-4">
+            <h5 class="index-sepsis__subtitle">Primary Product</h5>
+          </div>
+          <div class="col-md-offset-1 col-xs-6">
+            <h2>{{ page.sepsis.title }}</h2>
+          </div>
+          <div class="col-xs-10">
+            <p>{{ page.sepsis.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="index-sepsis__cta">
+    <div class="index-sepsis__cta-line"></div>
+    <div class="row index-sepsis__cta-content">
+      <div class="col-xs-5">
+        <img class="index-sepsis__cta-diagram" src="/img/index-target.svg">
+      </div>
+      <div class="col-xs-8">
+        <a href="/sepsis">Read the Research</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="index-technology" id="technology">
+  <div class="row">
+    <div class="col-xs-24 col-md-12">
+      <div class="index-technology__speedometer">
+        <img src="/img/index-speedometer.svg">
+      </div>
+    </div>
+    <div class="col-xs-24 col-md-offset-1 col-md-11">
+      <h5>{{ page.technology.subtitle }}</h5>
+      <h2>{{ page.technology.title }}</h2>
+      <p>
+        {{ page.technology.description }}
+      </p>
+      <a href="/technology">Get Technical</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="index-team" id="team">
+  <div class="row">
+    <div class="col-xs-24 col-md-offset-6 col-md-12 text-center">
+      <h5>{{ page.team.subtitle }}</h5>
+      <h2>{{ page.team.title }}</h2>
+      <a href="/team">Meet the Team</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-24 col-md-offset-3 col-md-18 text-center">
+      <div class="index-team__employees js-team">
+        {% for person in page.team.people %}
+          <div title="{{ person.name }}" class="index-team__employee" style="background-image: url('{{ person.image }}')"></div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="row">
+    <div class="col-xs-24 col-sm-11 col-md-offset-1 col-md-10">
+      <h2 class="blue">Ready to learn more<span class="qmark">?</span></h2>
+      <h2>Read about our innovations</h2>
+    </div>
+    <div class="col-xs-24 col-sm-10 col-md-10 text-right">
+      <a class="cta-link" href="/technology">View Technology</a>
+    </div>
+  </div>
+</section>
+
+</main>
+

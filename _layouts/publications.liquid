@@ -1,0 +1,108 @@
+---
+layout: default
+---
+
+<header id="publications-header" class="layout-header">
+  <div class="layout-header__graphic">
+    {% include header-graphic.html %}
+  </div>
+  <div class="row">
+    <div class="col-md-1 col-xs-0" style="padding-top:1em;">
+    </div>
+    <div class="header-sepsis col-xs-12 col-md-offset-0 col-md-10 col-xs-24">
+      <h1>{{ page.header_title }}</h1>
+    </div>
+    <div class="col-md-12">
+      <img class="publications-header__image" src="{{ page.header_image1 }}" style="width: 220px; top: 80px; left: -40px;">
+      <img class="publications-header__image" src="{{ page.header_image2 }}" style="width: 300px; top: -70px; right: -10px">
+      <img class="publications-header__image" src="{{ page.header_image3 }}" style="width: 360px; top: -20px; left: 120px; ">
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="blog-index">
+
+  <div class="row">
+
+    <div class="col-xs-24 col-sm-20 col-md-16">
+
+      <h2>Publications</h2>
+
+      {% for post in site.publications %}
+        {% if forloop.first == true %}
+
+          <div class="post-index__featured">
+            <h5 class="post-index__subtitle">Featured Publication</h5>
+              <a href="{{ post.link }}"><h1>{{ post.title }}</h1></a>
+
+              {% assign truncatedContent = '' %}
+              {% assign paragraphs = post.content | split:'</p>' %}
+              {% for paragraph in paragraphs limit:3 %}
+                {{ truncatedContent | append: paragraph }}
+                {{ truncatedContent | append: '</p>' }}
+              {% endfor %}
+            <a href="{{ post.link }}">
+              <div class="post-read">
+                Read Publication
+              </div>
+            </a>
+          </div>
+
+        {% else %}
+
+          <div class="blog-index__post">
+            <div class="row">
+              <div class="col-md-21 col-xs-24 index__post-content">
+                <a href="{{ post.link }}">
+                  <h3 class="blog-secondary__title">{{ post.title }}</h3>
+                </a>
+                {% assign truncatedContent = '' %}
+                {% assign paragraphs = post.content | split:'</p>' %}
+                {% for paragraph in paragraphs limit:1 %}
+                  {{ truncatedContent | append: paragraph }}
+                  {{ truncatedContent | append: '</p>' }}
+                {% endfor %}
+              </div>
+              <div class="col-md-3 col-xs-24 index__post-arrow">
+                <a href="{{ post.link }}">
+                  <img src="../img/post-arrow.svg"/>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        {% endif %}
+      {% endfor %}
+    </div>
+
+
+    <div class="blog-index__news col-xs-24 col-sm-4 col-md-8">
+      <div class="blog-index__border"></div>
+      <h3>In the News</h3>
+      <ul>
+      {% for post in page.news.posts %}
+        <li><a href="{{ post.link }}">{{post.title}}</a></li>
+      {% endfor %}
+    </ul>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<section class="layout-cta cta">
+  <div class="row">
+    <div class="col-xs-24 col-sm-11 col-md-offset-1 col-md-12">
+      <h2 class="blue">Want to Learn More<span class="qmark">?</span></h2>
+      <h2>Read How We Use the Technology</h2>
+    </div>
+    <div class="col-xs-24 col-sm-10 col-md-10 text-right">
+      <a class="cta-link" href="/technology">VIEW SEPSIS TECH</a>
+    </div>
+  </div>
+</section>
+</main>
