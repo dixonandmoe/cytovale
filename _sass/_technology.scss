@@ -56,6 +56,7 @@
 
         sub {
             opacity: 0.5;
+            font-size: 16px;
         }
 
         p {
@@ -71,7 +72,7 @@
         }
 
         .technology-state__blocks {
-            padding: 3em 2em;
+            // padding: 3em 2em;
             margin-top: 34px;
             background: rgba(255,255,255,.9);
             min-height: 275px;
@@ -80,6 +81,15 @@
                 color: #403E50;
                 font-size: 100%;
             }
+        }
+
+        .technology-states__image {
+            background: #fff;
+            text-align: center;
+        }
+        .technology-states__text {
+            height: 190px;
+            padding: 1.5em 2em 1em;
         }
     }
 }
@@ -130,7 +140,9 @@
         div.image {
             img {
                 max-width: 150px;
+                height: 64px;
             }
+            text-align: center;
             margin-top: 0;
             background: white;
         }
