@@ -41,8 +41,13 @@ layout: default
         {% for state in page.states.changes %}
         <div class="col-md-12">
           <div class="technology-state__blocks">
-            <h1>{{ state.title }}</h1>
-            <p>{{ state.description }}</p>
+            <div class="technology-states__image">
+              <img src="{{ state.image }}">
+            </div>
+            <div class="technology-states__text">
+              <h1>{{ state.title }}</h1>
+              <p>{{ state.description }}</p>
+            </div>
           </div>
         </div>
         {% endfor %}
@@ -153,11 +158,11 @@ layout: default
 <section class="layout-cta cta">
   <div class="row">
     <div class="col-xs-24 col-sm-11 col-md-offset-1 col-md-12">
-      <h2 class="blue">Want to Learn More<span class="qmark">?</span></h2>
-      <h2>Read How We Use the Technology</h2>
+      <h2 class="blue">Want to Collaborate<span class="qmark">?</span></h2>
+      <h2>Get in Touch to Work Together</h2>
     </div>
     <div class="col-xs-24 col-sm-10 col-md-10 text-right">
-      <a class="cta-link" href="/technology">VIEW SEPSIS TECH</a>
+      <a class="cta-link" href="/contact">CONTACT US</a>
     </div>
   </div>
 </section>

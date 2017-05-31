@@ -1,0 +1,29 @@
+.publications-header__image {
+  position: absolute;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.publications-header__bars{
+  position: absolute;
+  top: -4em;
+  margin-left: 4em;
+}
+
+
+.header-publications {
+  p {
+    color: white;
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+.blog-index__news {
+  a {
+    color: $light-purple;
+    transition: all 275ms ease-out;
+    &:hover {
+      color: $dark;
+    }
+  }
+}

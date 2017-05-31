@@ -1,0 +1,262 @@
+
+body {
+  overflow-x: hidden;
+  background: #F4F3FA;
+}
+
+.logo-text {
+  display: inline-block;
+  position: absolute;
+  top: -9px;
+  left: 64px;
+  font-weight: bold;
+}
+
+/**
+ * Site header
+ */
+.site-header {
+  border-top: 5px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 56px;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+  .site-title {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+
+    &,
+    &:visited {
+      color: $grey-color-dark;
+    }
+  }
+
+  .layout-nav {
+    position: relative;
+    height: 84px;
+    line-height: 84px;
+    background: $dark;
+    padding: 0 24px;
+    .menu-icon {
+      display: none;
+    }
+    .nav-link__home {
+      display: block;
+      height: 84px;
+      img {
+        position: absolute;
+        top: -4px;
+        bottom: 0;
+        margin: auto;
+      }
+    }
+
+    .nav-link {
+      color: $purple;
+      font-size: 12px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      animation: nav-fade 2s;
+      &:not(:last-child) {
+        margin-right: 36px;
+      }
+    }
+
+    @media only screen and (max-width: 640px) {
+      height: 64px;
+      line-height: 64px;
+
+      .nav-link__home img {
+        position: relative;
+        top: 4px;
+        width: 100%;
+      }
+    }
+  }
+
+
+
+  .nav-button {
+  // background: $green;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  padding: 8px 32px;
+  border: 1px solid #28336A;
+  text-transform: uppercase;
+  transition: all 350ms ease-out;
+  animation: nav-fade 2s;
+  @media only screen and (min-width: 1025px) {
+    &:hover {
+      background: darken($green, 5%);
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    padding: 8px 10px;
+  }
+}
+
+
+/**
+ * Site header (non-homepage)
+ */
+ .layout-header {
+  position: relative;
+  background: $dark;
+  padding: 130px 0 0;
+  height: 500px;
+  h1 {
+    font-size: 72px;
+    font-weight: 300;
+    color: $green;
+
+    @media only screen and (max-width: 900px) {
+      font-size: 48px;
+      margin-top: 1em;
+    }
+  }
+}
+.layout-header__graphic {
+  position: absolute;
+  top: 500px;
+  width: 100%;
+}
+
+
+/**
+ * Site footer
+ */
+ .layout-footer {
+  background: $dark;
+  color: #fff;
+  p {
+    color: #fff;
+  }
+}
+.cta {
+  padding: 72px 0;
+  border-bottom: 1px solid #434F60;
+  background: #fff;
+  h2 {
+    color: $dark;
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.2;
+    &.blue {
+      color: $light-purple;
+    }
+  }
+  .cta-link {
+    display: inline-block;
+    height: 52px;
+    line-height: 52px;
+    background: $dark;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0 48px;
+    margin-top: 14px;
+    transition: all 350ms ease-out;
+    &:hover {
+      cursor: pointer;
+      background: darken($green, 10%);
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    padding: 48px 0;
+    h2 {
+      font-size: 22px;
+    }
+    .cta-link {
+      width: 100%;
+      padding: 0;
+      text-align: center;
+      margin-top: 24px;
+    }
+  }
+}
+
+
+.footer-content {
+  padding: 100px 0 40px;
+  background-image: url('/img/footer-lines.svg');
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  svg {
+    width: 148px;
+  }
+  .footer-article__subtitle {
+    color: $green;
+  }
+  h5 {
+    color: rgba(255,255,255,1); 
+    margin: 2px 0 12px;
+  }
+  .footer-link {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.07em;
+  }
+  .footer-info {
+    color: rgba(255,255,255,0.4);
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 12px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(255,255,255,0.5); 
+  }
+  .footer-blog-title-link {
+    color: #fff;
+  }
+  .footer-blog-link {
+    background: $green;
+    padding: 6px 22px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .footer-logo {
+    margin-top: 80px
+  }
+  @media only screen and (max-width: 640px) {
+    h5 {
+      margin-top: 32px;
+    }
+  }
+}
+
+
+
+@keyframes nav-fade {
+  0% {
+    opacity: 0;
+    // transform: translateY(-100%);
+  }
+  40% {
+    opacity: 0;
+    // transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -3673,7 +3673,8 @@ p {
     text-align: center;
     margin: 5em 0 0; }
     #technology-main .technology-main__title sub {
-      opacity: 0.5; }
+      opacity: 0.5;
+      font-size: 16px; }
     #technology-main .technology-main__title p {
       padding-top: 2.5em;
       color: white; }
@@ -3683,13 +3684,18 @@ p {
       #technology-main .technology-states {
         padding: 0 1rem; } }
     #technology-main .technology-states .technology-state__blocks {
-      padding: 3em 2em;
       margin-top: 34px;
       background: rgba(255, 255, 255, 0.9);
       min-height: 275px; }
       #technology-main .technology-states .technology-state__blocks p {
         color: #403E50;
         font-size: 100%; }
+    #technology-main .technology-states .technology-states__image {
+      background: #fff;
+      text-align: center; }
+    #technology-main .technology-states .technology-states__text {
+      height: 190px;
+      padding: 1.5em 2em 1em; }
 
 .technology-comp {
   padding: 6em 0;
@@ -3723,10 +3729,12 @@ p {
       margin-top: 0.7em;
       padding: 1.1em; }
     .technology-comp .technology-comp__table div.image {
+      text-align: center;
       margin-top: 0;
       background: white; }
       .technology-comp .technology-comp__table div.image img {
-        max-width: 150px; }
+        max-width: 150px;
+        height: 64px; }
   .technology-comp .technology-comp__techs {
     padding-top: 4em; }
   .technology-comp .technology-comp__titles {
