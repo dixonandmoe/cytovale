@@ -12,20 +12,17 @@ states:
   changes:
   - title: Proliferation
     description: Cancer cells are more deformable than their non-cancerous counterparts
-      [Examples - http://www.ncbi.nlm.nih.gov/pubmed/20887019; http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3999871]
     image: "/uploads/tech-proliferation.jpg"
   - title: Activation
     description: Host immune response deformability signatures differ depending on
-      whether inflammation is acute or chronic inflammation [Tse et al] Differentiation
-      - Stem cells become less deformable as they differentiate [Dino paper]
+      whether inflammation is acute or chronic inflammation
     image: "/uploads/tech-activation.jpg"
   - title: Differentiation
-    description: Stem cells become less deformable as they differentiate [Dino paper]
+    description: Stem cells become less deformable as they differentiate
     image: "/uploads/tech-differentiation.jpg"
   - title: Migration
-    description: Metastatic cancer cells are more deformable than are those with less
-      metastatic potential [http://www.ncbi.nlm.nih.gov/pubmed/21642375] To learn
-      more, see this review.
+    description: 'Metastatic cancer cells are more deformable than are those with
+      less metastatic potential '
     image: "/uploads/tech-migration.jpg"
 techniques:
   title: Cell Measurement Comparison
