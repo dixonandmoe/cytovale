@@ -13,6 +13,8 @@ news:
   - title: When cells hit the wall - UCLA engineers put the squeeze on cells to diagnose
       disease
     link: http://newsroom.ucla.edu/releases/when-cells-hit-the-wall-ucla-engineers-232320
+  - title: Test Addl Pub
+    link: http://newsroom.ucla.edu/releases/when-cells-hit-the-wall-ucla-engineers-232320
 layout: publications
 ---
 
