@@ -6,7 +6,7 @@ header_image1: "/uploads/cell-01.jpg"
 header_image2: "/uploads/cell-02.jpg"
 header_image3: "/uploads/cell-03.jpg"
 news:
-  title: In the News
+  title: Additional Publications
   posts:
   - title: Cytovale at Breakout Labs
     link: http://www.breakoutlabs.org/crb_portfolio/cytovale/
