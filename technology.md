@@ -56,7 +56,7 @@ techniques:
     cost: "$$"
     through: 1 cell / 1 min
     image: "/uploads/tech-comparison-4.png"
-  - title: Mechanomics Platform
+  - title: Cytovale Mechanomics Platform
     subtitle: Adherent Cells
     cost: "¢"
     through: 2000 cells / 1 sec
