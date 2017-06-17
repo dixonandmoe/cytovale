@@ -1,6 +1,6 @@
 ---
-title: News and Publications
-header_title: News & Publications
+title: Publications
+header_title: Publications
 header_subtitle: CYTOVALE
 header_image1: "/uploads/cell-01.jpg"
 header_image2: "/uploads/cell-02.jpg"
@@ -18,4 +18,4 @@ news:
 layout: publications
 ---
 
-# News and Publications
+# Publications
