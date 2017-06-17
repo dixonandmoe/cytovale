@@ -1,5 +1,5 @@
 ---
-title: News and Publications
+title: Publications
 header_title: News & Publications
 header_subtitle: CYTOVALE
 header_image1: "/uploads/cell-01.jpg"
