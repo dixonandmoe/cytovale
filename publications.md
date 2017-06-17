@@ -18,4 +18,4 @@ news:
 layout: publications
 ---
 
-# News and Publications
+# Publications
