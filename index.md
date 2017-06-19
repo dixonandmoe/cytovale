@@ -4,13 +4,16 @@ header_title: Cytovale
 header_subtitle: Putting the squeeze on cells...<br>unmasking biophysical markers
 class: index
 about:
-  title: Office+Lab Hybrid
-  description: 'Based in San Francisco, Cytovale HQ is a bespoke work space fitted
-    out to be the physical equivalent of our technology+biology hybrid company. As
-    a team of 15, working in a collaborative space allows to move quickly and solve
-    the big problems.<br><br>Cytovale develops biomarkers based on the mechanical
-    properties of individual cells or mechanomics. It uses microfluidics to route
-    and physically probe individual cells. '
+  title: About Us
+  description: 'We’re a team of biologists, data scientists, and engineers developing
+    mechanical biomarkers to improve human health. Our novel microfluidic platform
+    allows us to probe individual cells to quantify the mechanicals signatures of
+    disease. We are applying this first to sepsis, a condition whose early detection
+    dramatically improves patient outcomes and reduces treatment cost.<br><br>Reflecting
+    our technology/biology hybrid company, at our San Francisco office the data team
+    sits across from a wet lab, and our biologists handle python as well as pipettes.
+    We believe close collaboration helps us move fast to bring health insights to
+    patients and their healthcare providers. '
 sepsis:
   title: Early<br>Sepsis<br>Detection
   description: We are enrolling a multi-hundred patient clinical study in support
