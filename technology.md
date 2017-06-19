@@ -100,7 +100,7 @@ techniques:
     image: "/uploads/tech-07-graph.png"
   - title: Diagnostic Check
     description: "￼The diagnostic disease signature enables a better lens into the
-      disease state of patients, enabling appropriate and timely care and reducing
+      disease state of the patient, enabling appropriate and timely care and reducing
       morbidity, mortality, and cost."
     image: "/uploads/tech-08-check.png"
 layout: technology
