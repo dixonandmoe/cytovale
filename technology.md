@@ -2,7 +2,7 @@
 title: Technology - Cytovale
 header_title: Technology
 header_subtitle: Three decades of work in labs spanning the globe tell us that the
-  biomechanical properties cells are intimately linked with cell state
+  biomechanical properties of cells are intimately linked with cell state
 header_image: "/uploads/tech-header-image.png"
 states:
   title: Biomechanical properties of single cells
