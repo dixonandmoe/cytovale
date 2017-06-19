@@ -60,7 +60,7 @@ techniques:
     subtitle: Adherent Cells
     cost: "¢"
     through: 2000 cells / 1 sec
-    image: "/uploads/tech-cytometry.jpg"
+    image: "/uploads/cell%20junction.jpg"
   system:
   - title: Diagnostic
     description: A fluid sample containing the diagnostic cells of interest is collected
