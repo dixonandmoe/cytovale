@@ -16,7 +16,8 @@ quick_facts:
       rapid diagnosis crucial."
     image: "/uploads/sepsis-chart-2.svg"
   - title: Costly Burden
-    description: Costs over $20B annually in healthcare costs in the U.S.
+    description: 'Costs over $20B annually in healthcare costs in the U.S. - a figure
+      that could be dramatically reduced by consistent early detection '
     image: "/uploads/sepsis-chart-3.svg"
 quote: "“The failure to detect sepsis early in its course leads to preventable morbidity
   and mortality in the emergency room”\n"
