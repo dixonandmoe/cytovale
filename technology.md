@@ -63,32 +63,28 @@ techniques:
     through: 2000 cells / 1 sec
     image: "/uploads/cell%20junction.jpg"
   system:
-  - title: Diagnostic
-    description: A fluid sample containing the diagnostic cells of interest is collected
-      from patients where diagnostic uncertainty exists.
+  - title: Patient
+    description: Diagnostic uncertainty means optimal course of treatment is uncertain.
     image: "/uploads/tech-01-diagnostic.png"
   - title: Fluid Sample
     description: A fluid sample containing the diagnostic cells of interest is collected
-      from patients where diagnostic uncertainty exists.
+      from the patient.
     image: "/uploads/tech-02-sample.png"
   - title: Cartridge Preparation
-    description: The fluid sample is processed and loaded on a single use, disposable
-      plastic cartridge with specific microfluidic paths responsible for assessing
-      the biomechanical properties of single cells.
+    description: The sample is processed and loaded on a single-use, microfluidic
+      cartridge with proprietary features for assessing the biomechanical properties
+      of single cells.
     image: "/uploads/tech-03-cartridge.png"
   - title: Processing
-    description: The loaded cartridge is inserted in a benchtop instrument containing
-      a “deconstructed microscope” and high speed￼￼videography capable of capturing
-      over 500,000 frames per second of images. The instrument actuates pressure driven
-      flow within the cartridge and captures information.
+    description: The cartridge is inserted in a benchtop instrument containing a “deconstructed
+      microscope” and high speed videography capable of capturing over 500,000 image
+      frames per second. The instrument actuates precision flow within the cartridge
+      and captures data.
     image: "/uploads/tech-04-processing.png"
   - title: Cellular Squeeze
-    description: Within the microfluidic channels of the cartridge under pressure
-      driven flow, cells are lined up into the center streamline in one branch of
-      an intersection. A wall of opposing fluid is pushed from the opposite side (think
-      of two fire hydrants pointed at each other), which squeeze the cell within the
-      intersection. The resulting images are captured with high speed videography
-      .
+    description: 'Under flow, precision microfluidic features apply carefully calibrated
+      forces to the cells, and the resulting deformation is captured with high speed
+      videography '
     image: "/uploads/tech-05-squeeze.png"
   - title: Metrics and Analytics
     description: "￼Image analysis captures dozens of metrics for each cell, including
@@ -97,11 +93,10 @@ techniques:
       and structural metrics (e.g., maximum cellular deformability) during the squeezing
       event."
     image: "/uploads/tech-06-metrics.png"
-  - title: Disease Signature Graphs
-    description: "￼Disease signatures are constructed either in 2 dimensions (e.g.,
-      plot of initial cell diameter vs. deformability) or multiple dimensions that
+  - title: Disease Signature
+    description: Disease signatures are constructed across multiple dimensions that
       have been reduced by machine learning techniques, such as Principle Component
-      Analysis"
+      Analysis
     image: "/uploads/tech-07-graph.png"
   - title: Diagnostic Check
     description: "￼The diagnostic disease signature enables a better lens into the
