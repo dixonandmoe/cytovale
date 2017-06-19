@@ -40,32 +40,32 @@ team:
   - name: Mara Macdonald
     image: "/uploads/mara-macdonald.jpg"
   - name: M. Cyrus Maher
-    image: "/uploads/m-cyrus-maher.jpg"
+    image: "/uploads/Cyrus%20Maher.jpg"
   - name: Henry Tat Kwong Tse
     image: "/uploads/henry-tat-kwong-tse.jpg"
   - name: Roya Sheybani
     image: "/uploads/roya-sheybani.jpg"
   - name: Kate Crawford
-    image: "/uploads/kate-crawford.jpg"
+    image: "/uploads/Kate%20Crawford.png"
   - name: Anne Jensen
-    image: "/uploads/anne-jensen.jpg"
-  - name: Braxton Dunstone
-    image: "/uploads/braxton-dunstone.jpg"
-  - name: Ajay Shah
-    image: "/uploads/ajay-shah.jpg"
-  - name: Mara Macdonald
-    image: "/uploads/mara-macdonald.jpg"
-  - name: M. Cyrus Maher
-    image: "/uploads/m-cyrus-maher.jpg"
-  - name: Henry Tat Kwong Tse
+    image: "/uploads/Annie%20Jensen.jpeg"
+  - name: Lionel Guillou
+    image: "/uploads/Lionel%20Guillou.jpg"
+  - name: Becky DiMarco
+    image: "/uploads/Becky%20DiMarco.png"
+  - name: Jessica Faruque
+    image: "/uploads/Jessica%20Faruque.jpg"
+  - name: Nick Martinez
+    image: "/uploads/Nick%20Martinez-27ddb2.png"
+  - name: "..."
     image: "/uploads/henry-tat-kwong-tse.jpg"
-  - name: Roya Sheybani
+  - name: "..."
     image: "/uploads/roya-sheybani.jpg"
-  - name: Kate Crawford
+  - name: "..."
     image: "/uploads/kate-crawford.jpg"
-  - name: Anne Jensen
+  - name: "..."
     image: "/uploads/anne-jensen.jpg"
-  - name: Braxton Dunstone
+  - name: "..."
     image: "/uploads/braxton-dunstone.jpg"
 layout: index
 ---
