@@ -29,13 +29,15 @@ management:
     image: "/uploads/mara-macdonald.jpg"
   - name: Henry Tse, PhD
     title: Co-Founder and VP Engineering
-    bio: Mara currently serves as the co-founder and chief operations officer at CytoVale
-      and manages aspects of company building, strategic marketing, and regulatory
-      and clinical operations. Prior to CytoVale, Mara worked with Third Rock Ventures,
-      a venture capital firm focused on launching and building life science companies.
-      While at Third Rock, Mara gained experience in venture creation and company
-      building strategy as a member of the diligence team for many companies including
-      Nurix and Decibel.
+    bio: "Henry is Co-Founder and Vice-President of Engineering for CytoVale, heading
+      the research and development efforts to commercialize the microfluidic deformability
+      cytometry technology. \nHenry's broad engineering and science background is
+      rooted in his graduate work with Professor Dino Di Carlo. His science and engineering
+      expertise spans microfluidics, cancer biology, image processing, and application
+      proof-of-concept clinical studies. Henry is the co-inventer of the deformability
+      cytometry platform, which has resulted in peer-reviewed publications of seminal
+      papers of the technology, followed on by application specific papers, as well
+      an accompanying suite of issued patents."
     image: "/uploads/henry-tse.jpg"
 board:
   title: Board of Directors
