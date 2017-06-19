@@ -57,8 +57,8 @@ team:
     image: "/uploads/Jessica%20Faruque.jpg"
   - name: Nick Martinez
     image: "/uploads/Nick%20Martinez-27ddb2.png"
-  - name: "..."
-    image: "/uploads/henry-tat-kwong-tse.jpg"
+  - name: Maddy Cook
+    image: "/uploads/Maddy%20Cook.jpg"
   - name: "..."
     image: "/uploads/roya-sheybani.jpg"
   - name: "..."
