@@ -32,7 +32,7 @@ technology:
     from the university lab to the hospital, patients, and their caregivers. '
   testimonials: 
 team:
-  subtitle: Life Scientists, Technologiest, Dreamers
+  subtitle: Life Scientists, Technologists, Dreamers
   title: The Cytovale Team
   people:
   - name: Ajay Shah
