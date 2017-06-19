@@ -27,10 +27,11 @@ states:
 techniques:
   title: Cell Measurement Comparison
   subtitle: The main issue to date has been <em>throughput</em>
-  description: Until deformability cytometry, most techniques could only measure tens
-    of cells per hour, limiting throughput and rendering the technique too cumbersome
-    for clinical diagnostic applications or high throughput research applications.
-    An overview of these techniques has been modified from this review
+  description: "The main issue to date has been throughput; \nGenerating meaningful
+    diagnostic information requires the analysis of thousands of cells. Until deformability
+    cytometry, most techniques could only measure tens of cells per hour, limiting
+    throughput and rendering the technique too cumbersome for clinical diagnostic
+    applications or high throughput research applications. "
   results_title: Comparison Results
   results_description: CytoVale can measure <strong>2,000 cells per second</strong>,
     unlocking the potential to utilize biomechanical markers as a relevant clinical
