@@ -23,9 +23,10 @@ quote: "“The failure to detect sepsis early in its course leads to preventable
 quote_author: "-Nationally recognized sepsis expert"
 disease:
   title: Sepsis — A Disease of Host Response
-  description: In sepsis, normally locally controlled host response to infection become
-    dysregulated, leading to collateral damage to blood vessels and host organs such
-    as the kidneys.
+  description: 'In sepsis, normally locally controlled host response to infection
+    become dysregulated, leading to collateral damage to blood vessels and host organs,
+    such as the kidneys. This dysregulation causes physical changes to white blood
+    cells, which we detect, allowing for early diagnosis and intervention. '
   normal:
     title: Normal Infection
     description: Controlled, effective immune response at the site of an infection
