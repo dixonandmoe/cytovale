@@ -42,7 +42,7 @@ team:
   - name: M. Cyrus Maher
     image: "/uploads/Cyrus%20Maher.jpg"
   - name: Henry Tat Kwong Tse
-    image: "/uploads/henry-tat-kwong-tse.jpg"
+    image: "/uploads/Henry.jpg"
   - name: Roya Sheybani
     image: "/uploads/roya-sheybani.jpg"
   - name: Kate Crawford
