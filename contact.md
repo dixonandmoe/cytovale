@@ -1,8 +1,7 @@
 ---
 title: Contact
 header_title: Contact Us
-header_subtitle: We're a Silicon Valley based company located in San Francisco. Get
-  in touch to learn more!
+header_subtitle: We're  located in San Francisco. Get in touch to learn more!
 header_image: "/uploads/index-office.jpg"
 class: contact
 address: 150 Executive Park Blvd, Suite 4100<br>San Francisco CA 94134<br>
