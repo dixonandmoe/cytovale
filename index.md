@@ -16,17 +16,20 @@ about:
     patients and their healthcare providers. '
 sepsis:
   title: Early<br>Sepsis<br>Detection
-  description: We are enrolling a multi-hundred patient clinical study in support
-    of our flagship product in early sepsis detection in the emergency department,
-    which has the potential to satisfy a $1B+ diagnostic market and significantly
-    reduce morbidity and mortality within the hospital, and we are demonstrating our
-    platform’s potential in several additional applications.
+  description: 'We’ve enrolled a multi-hundred patient clinical study in support of
+    our flagship product in early sepsis detection in the emergency department, which
+    has the potential to significantly reduce morbidity and mortality within the hospital,
+    reduce costs, and satisfy a $1B+ diagnostic market. We are also demonstrating
+    our platform’s potential in several additional applications. '
 technology:
   title: Technology
   subtitle: The Cytovale System
-  description: Three decades of work in labs spanning the globe tell us that the biomechanical
-    properties cells are intimately linked with cell state. Until deformability cytometry,
-    most techniques could only measure tens of cells per hour.
+  description: 'Three decades of work in labs spanning the globe tell us that the
+    biomechanical properties cells are intimately linked with cell state. Until deformability
+    cytometry, most techniques could only measure tens of cells per hour—not enough
+    to produce a diagnostically relevant dataset at reasonable time and cost. The
+    speed of Cytovale’s microfluidic platform brings these illuminating biomarkers
+    from the university lab to the hospital, patients, and their caregivers. '
   testimonials: 
 team:
   subtitle: Life Scientists, Technologiest, Dreamers
