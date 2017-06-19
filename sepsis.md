@@ -18,8 +18,9 @@ quick_facts:
   - title: Costly Burden
     description: Costs over $20B annually in healthcare costs in the U.S.
     image: "/uploads/sepsis-chart-3.svg"
-quote: 
-quote_author: 
+quote: "“The failure to detect sepsis early in its course leads to preventable morbidity
+  and mortality in the emergency room”\n"
+quote_author: "-Nationally recognized sepsis expert"
 disease:
   title: Sepsis — A Disease of Host Response
   description: In sepsis, normally locally controlled host response to infection become
