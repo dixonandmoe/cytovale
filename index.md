@@ -59,10 +59,10 @@ team:
     image: "/uploads/Nick%20Martinez-27ddb2.png"
   - name: Maddy Cook
     image: "/uploads/Maddy%20Cook.jpg"
-  - name: "..."
-    image: "/uploads/roya-sheybani.jpg"
-  - name: "..."
-    image: "/uploads/kate-crawford.jpg"
+  - name: Allison Walters
+    image: "/uploads/Allison%20Walters.png"
+  - name: Sakshi Shah
+    image: "/uploads/Sakshi.png"
   - name: "..."
     image: "/uploads/anne-jensen.jpg"
   - name: "..."
