@@ -43,7 +43,7 @@ techniques:
     through: 1 cell / 15 min
     image: "/uploads/tech-comparison-1.png"
   - title: Atomic Force Microscopy
-    subtitle: Adherent Cells
+    subtitle: Adherent Cells Only
     cost: "$$$"
     through: 1 cell / 5 min
     image: "/uploads/tech-comparison-2.png"
@@ -58,7 +58,7 @@ techniques:
     through: 1 cell / 1 min
     image: "/uploads/tech-comparison-4.png"
   - title: Cytovale Mechanomics Platform
-    subtitle: Adherent Cells
+    subtitle: Most Cell Types
     cost: "¢"
     through: 2000 cells / 1 sec
     image: "/uploads/cell%20junction.jpg"
