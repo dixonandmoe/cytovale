@@ -2,7 +2,7 @@
 title: Technology - Cytovale
 header_title: Technology
 header_subtitle: Three decades of work in labs spanning the globe tell us that the
-  biomechanical properties of cells are intimately linked with cell state
+  biomechanical properties of cells are intimately linked with their underlying state
 header_image: "/uploads/tech-header-image.png"
 states:
   title: Biomechanical properties of single cells
@@ -11,18 +11,20 @@ states:
     such as
   changes:
   - title: Proliferation
-    description: Cancer cells are more deformable than their non-cancerous counterparts
+    description: Highly replicative cancer cells are significantly more deformable
+      than their non-cancerous, benign, precursors
     image: "/uploads/tech-proliferation.jpg"
   - title: Activation
-    description: Host immune response deformability signatures differ depending on
-      whether inflammation is acute or chronic inflammation
+    description: Immune activation may be readily distinguished from baseline biomechanical
+      signatures, and chronic vs. acute inflammation states have notable differences
     image: "/uploads/tech-activation.jpg"
   - title: Differentiation
-    description: Stem cells become less deformable as they differentiate
+    description: Pluripotent stem cells become less deformable as they comit to a
+      lineage and differentiate
     image: "/uploads/tech-differentiation.jpg"
   - title: Migration
-    description: 'Metastatic cancer cells are more deformable than are those with
-      less metastatic potential '
+    description: 'Metastatic cancer cells are notably more deformable than are those
+      with reduced metastatic potential '
     image: "/uploads/tech-migration.jpg"
 techniques:
   title: Cell Measurement Comparison
@@ -37,16 +39,16 @@ techniques:
     unlocking the potential to utilize biomechanical markers as a relevant clinical
     diagnostic technique across broad diagnostic indications
   technis:
+  - title: Atomic Force Microscopy
+    subtitle: Adherent Cells Only
+    cost: "$$$"
+    through: 1 cell / 15 min
+    image: "/uploads/tech-comparison-2.png"
   - title: Magnetic Twisting Cytometry
     subtitle: Adherent Cells
     cost: "$"
     through: 1 cell / 15 min
     image: "/uploads/tech-comparison-1.png"
-  - title: Atomic Force Microscopy
-    subtitle: Adherent Cells Only
-    cost: "$$$"
-    through: 1 cell / 5 min
-    image: "/uploads/tech-comparison-2.png"
   - title: Cell Transit Analyzers
     subtitle: Adherent Cells
     cost: "$$"
