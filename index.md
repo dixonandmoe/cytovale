@@ -63,9 +63,9 @@ team:
     image: "/uploads/Allison%20Walters.png"
   - name: Sakshi Shah
     image: "/uploads/Sakshi.png"
-  - name: "..."
-    image: "/uploads/anne-jensen.jpg"
-  - name: "..."
+  - name: Chris Dahlberg
+    image: "/uploads/Chris%20Dalberg.jpg"
+  - name: Peter Landwehr
     image: "/uploads/braxton-dunstone.jpg"
 layout: index
 ---
