@@ -66,7 +66,7 @@ team:
   - name: Chris Dahlberg
     image: "/uploads/Chris%20Dalberg.jpg"
   - name: Peter Landwehr
-    image: "/uploads/braxton-dunstone.jpg"
+    image: "/uploads/Peter%20Landwehr.jpg"
 layout: index
 ---
 
