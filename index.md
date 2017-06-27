@@ -66,9 +66,9 @@ team:
   - name: Chris Dahlberg
     image: "/uploads/Chris%20Dalberg.jpg"
   - name: Peter Landwehr
-    image: "/uploads/Peter%20Landwehr.jpg"
+    image: "/uploads/Peter%20Landwehr-e4962d.jpg"
   - name: Lillian Peng
-    image: "/uploads/Lillian%20Peng.jpg"
+    image: "/uploads/Lillian%20Peng-dccccf.jpg"
 layout: index
 ---
 
