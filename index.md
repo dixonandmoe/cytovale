@@ -67,6 +67,8 @@ team:
     image: "/uploads/Chris%20Dalberg.jpg"
   - name: Peter Landwehr
     image: "/uploads/Peter%20Landwehr.jpg"
+  - name: Lillian Peng
+    image: "/uploads/Lillian%20Peng.jpg"
 layout: index
 ---
 
