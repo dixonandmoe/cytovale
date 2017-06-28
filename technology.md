@@ -5,9 +5,9 @@ header_subtitle: Three decades of work in labs spanning the globe tell us that t
   biomechanical properties of cells are intimately linked with their underlying state
 header_image: "/uploads/tech-header-image.png"
 states:
-  title: Biomechanical properties of single cells
+  title: 'Biomechanical Properties of Single Cells '
   subtitle: "(e.g., cellular deformability, or cellular viscosity)"
-  description: Indicate changes in the global state of cells, including phenomena
+  description: indicate changes in the global state of cells, including phenomena
     such as
   changes:
   - title: Proliferation
@@ -27,7 +27,7 @@ states:
       reduced metastatic potential.
     image: "/uploads/tech-migration.jpg"
 techniques:
-  title: Cell Measurement Comparison
+  title: Comparison of Leading Techniques to Assess Cell Mechanics
   subtitle: The main issue to date has been <em>throughput</em>
   description: "The main issue to date has been throughput; \ngenerating meaningful
     diagnostic information requires the analysis of thousands of cells. Until deformability
