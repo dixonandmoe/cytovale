@@ -12,19 +12,19 @@ states:
   changes:
   - title: Proliferation
     description: Highly replicative cancer cells are significantly more deformable
-      than their non-cancerous, benign, precursors
+      than their non-cancerous, benign, precursors.
     image: "/uploads/tech-proliferation.jpg"
   - title: Activation
     description: Immune activation may be readily distinguished from baseline biomechanical
-      signatures, and chronic vs. acute inflammation states have notable differences
+      signatures, and chronic vs. acute inflammation states have notable differences.
     image: "/uploads/tech-activation.jpg"
   - title: Differentiation
-    description: Pluripotent stem cells become less deformable as they comit to a
-      lineage and differentiate
+    description: Pluripotent stem cells become less deformable as they commit to a
+      lineage and differentiate.
     image: "/uploads/tech-differentiation.jpg"
   - title: Migration
-    description: 'Metastatic cancer cells are notably more deformable than are those
-      with reduced metastatic potential '
+    description: Metastatic cancer cells are notably more deformable than those with
+      reduced metastatic potential.
     image: "/uploads/tech-migration.jpg"
 techniques:
   title: Cell Measurement Comparison
@@ -32,7 +32,7 @@ techniques:
   description: "The main issue to date has been throughput; \ngenerating meaningful
     diagnostic information requires the analysis of thousands of cells. Until deformability
     cytometry, most techniques could only measure tens of cells per hour, rendering
-    the technique too cumbersome for clinical diagnostic applications or high throughput
+    the approach too cumbersome for clinical diagnostic applications or high throughput
     research applications. "
   results_title: Comparison Results
   results_description: CytoVale can measure <strong>2,000 cells per second</strong>,
@@ -40,29 +40,29 @@ techniques:
     diagnostic technique across broad diagnostic indications
   technis:
   - title: Atomic Force Microscopy
-    subtitle: Adherent Cells Only
+    subtitle: Complex Operation
     cost: "$$$"
     through: 1 cell / 15 min
     image: "/uploads/tech-comparison-2.png"
   - title: Magnetic Twisting Cytometry
-    subtitle: Adherent Cells
-    cost: "$"
-    through: 1 cell / 15 min
+    subtitle: Multi-Step
+    cost: "$$"
+    through: TBD - Dino?
     image: "/uploads/tech-comparison-1.png"
-  - title: Cell Transit Analyzers
-    subtitle: Adherent Cells
-    cost: "$$"
-    through: 1 cell / 15 min
-    image: "/uploads/tech-comparison-3.png"
   - title: Optical Stretching
-    subtitle: Adherent Cells
-    cost: "$$"
-    through: 1 cell / 1 min
+    subtitle: Low Reproducibility
+    cost: "$"
+    through: 1 cell / min
     image: "/uploads/tech-comparison-4.png"
+  - title: Cell Transit Analyzers
+    subtitle: TBD - Dino?
+    cost: "$"
+    through: 1 cell / sec
+    image: "/uploads/tech-comparison-3.png"
   - title: Cytovale Mechanomics Platform
-    subtitle: Most Cell Types
+    subtitle: Robust, Single-Step
     cost: "¢"
-    through: 2000 cells / 1 sec
+    through: 2000 cells /  sec
     image: "/uploads/cell%20junction.jpg"
   system:
   - title: Patient
