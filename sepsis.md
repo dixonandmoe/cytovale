@@ -21,10 +21,11 @@ quick_facts:
     image: "/uploads/sepsis-chart-3.svg"
 disease:
   title: Sepsis — A Disease of Host Response
-  description: 'In sepsis, normally local, controlled host response mechanisms become
-    dysregulated, leading to collateral damage to blood vessels and host organs, such
-    as the kidneys. This dysregulation causes physical changes to white blood cells,
-    which we detect, allowing for early diagnosis and intervention. '
+  description: 'In sepsis, controlled host immune response mechanisms become dysregulated,
+    leading to collateral damage to blood vessels and major organs, such as the kidneys.
+    This dysregulation manifests as structural shifts in white blood cells, which
+    we can detect at the single cell level before organ dysfunction sets in, allowing
+    for early diagnosis and intervention. '
   normal:
     title: Normal Infection
     description: Controlled, effective immune response at the site of an infection
