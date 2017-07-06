@@ -1,6 +1,9 @@
 .publications-header__image {
   position: absolute;
   box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  @media only screen and (max-width: 640px) {
+    display: none;
+  }
 }
 
 .publications-header__bars{

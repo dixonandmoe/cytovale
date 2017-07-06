@@ -29,6 +29,9 @@
 
 .sepsis-main {
   margin: 15em 0 0;
+  @media only screen and (max-width: 640px) {
+    margin: 0;
+  }
 }
 
 .sepsis-facts{
@@ -61,6 +64,9 @@
   height: 20px;
   width: 5%;
   margin: 4em auto;
+  @media only screen and (max-width: 640px) {
+    display: none;
+  }
 }
 
 .sepsis-quote{

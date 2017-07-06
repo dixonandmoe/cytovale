@@ -122,11 +122,19 @@ body {
       margin-top: 1em;
     }
   }
+  @media only screen and (max-width: 640px) {
+    height: auto;
+    padding: 60px 0 40px;
+  }
 }
 .layout-header__graphic {
   position: absolute;
   top: 500px;
   width: 100%;
+  @media only screen and (max-width: 640px) {
+    top: auto;
+    bottom: -29px;
+  }
 }
 
 
@@ -139,7 +147,7 @@ body {
   position: fixed;
   width: 100%;
   height: 64px;
-  z-index: 2;
+  z-index: 5;
   background: $dark;
   box-shadow: 0 0.5px 0 $light-purple;
   // border-bottom: 1px solid $light-purple;
@@ -169,6 +177,8 @@ body {
   padding-right: 15px;
   color: #fff;
   letter-spacing: 0.2em;
+  background: transparent;
+  border: none;
 }
 
 
@@ -262,6 +272,10 @@ body {
   background-image: url('/img/footer-lines.svg');
   background-position: center 40%;
   background-repeat: no-repeat;
+  @media only screen and (max-width: 640px) {
+    padding-top: 40px;
+    background: none;
+  }
   svg {
     width: 148px;
   }
@@ -271,6 +285,11 @@ body {
   h5 {
     color: rgba(255,255,255,1); 
     margin: 2px 0 12px;
+  }
+  .footer-links {
+    @media only screen and (max-width: 640px) {
+      margin-top: 2em;
+    }
   }
   .footer-link {
     display: block;
