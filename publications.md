@@ -17,24 +17,26 @@ news:
     link: http://pubs.rsc.org/-/content/articlelanding/2017/lc/c7lc00038c#!divAbstract
   - title: Annual Review of Biomedical Engineering - New Opportunities for Rapid Mechanical
       Measurement of Cells
-    link: 
+    link: http://www.annualreviews.org/doi/abs/10.1146/annurev-bioeng-071114-040545
   - title: Biomicrofluidics - Preparing and Analyzing Exosomes
-    link: 
+    link: http://aip.scitation.org/doi/abs/10.1063/1.4907807?journalCode=bmf
   - title: Current Opinion in Biotechnology - Single-cell Analysis from Molecules
       to Mechanics
-    link: 
+    link: 'https://www.ncbi.nlm.nih.gov/pubmed/24484889
+
+'
   - title: Analytical Chemistry - Continuous Flow Sample Preparation
-    link: 
+    link: http://pubs.acs.org/doi/abs/10.1021/ac402920m
   - title: Lab Chip - Continuous Flow Cell Staining and Cytology
-    link: 
+    link: http://pubs.rsc.org/en/Content/ArticleLanding/2014/LC/c3lc50870f#!divAbstract
   - title: Lab Chip - Squeezing Cells with Co-flows
-    link: 
+    link: http://pubs.rsc.org/en/content/articlelanding/2013/lc/c3lc50649e#!divAbstract
   - title: Small - Focusing Cells to Single Streams
-    link: 
+    link: http://onlinelibrary.wiley.com/doi/10.1002/smll.201202413/abstract
   - title: Small - Rapid Solution Exchange
-    link: 
+    link: http://onlinelibrary.wiley.com/doi/10.1002/smll.201200588/full
   - title: Analytical Chemistry - Focusing Cells at High Rates
-    link: 
+    link: http://pubs.acs.org/doi/abs/10.1021/ac901306y
 layout: publications
 ---
 
