@@ -8,13 +8,13 @@ header_image3: "/uploads/cell-03.jpg"
 news:
   title: Additional Publications
   posts:
-  - title: Cytovale at Breakout Labs
-    link: http://www.breakoutlabs.org/crb_portfolio/cytovale/
-  - title: When cells hit the wall - UCLA engineers put the squeeze on cells to diagnose
-      disease
-    link: http://newsroom.ucla.edu/releases/when-cells-hit-the-wall-ucla-engineers-232320
-  - title: Test Addl Pub
-    link: http://newsroom.ucla.edu/releases/when-cells-hit-the-wall-ucla-engineers-232320
+  - title: Scientific Reports - Introducing the Cell Mechanome
+    link: https://www.nature.com/articles/srep37863?WT.feed_name=subjects_medical
+  - title: Microengineering and Nanosystems - Biophysical Classification of Cell Differentiation
+      State
+    link: http://search.proquest.com/openview/50f4fbb2eda99d6be0f79e48b2e175a4/1?pq-origsite=gscholar&cbl=2041946
+  - title: Lab Chip - Measuring Mechanics of Circulating Tumor Cells
+    link: http://pubs.rsc.org/-/content/articlelanding/2017/lc/c7lc00038c#!divAbstract
 layout: publications
 ---
 
