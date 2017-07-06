@@ -107,7 +107,7 @@ body {
 /**
  * Site header (non-homepage)
  */
- .layout-header {
+.layout-header {
   position: relative;
   background: $dark;
   padding: 130px 0 0;
@@ -130,10 +130,79 @@ body {
 }
 
 
+
+/**
+ * Mobile Menu
+**/
+// @media only screen and (max-width: 640px) {
+.layout-nav__fixed {
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  z-index: 2;
+  background: $dark;
+  box-shadow: 0 0.5px 0 $light-purple;
+  // border-bottom: 1px solid $light-purple;
+}
+.layout-nav__fixed .nav-link__home {
+  display: inline-block;
+  height: 64px;
+  line-height: 64px;
+  margin-left: 15px;
+  color: $light-purple;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  svg {
+    position: relative;
+    top: 9px;
+  }
+  .logo-text {
+    position: relative;
+    top: 0;
+    left: 8px;
+  }
+}
+.layout-nav__fixed-button {
+  float: right;
+  height: 64px;
+  padding-right: 15px;
+  color: #fff;
+  letter-spacing: 0.2em;
+}
+
+
+.layout-nav__mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 96px 0 40px;
+  background: #fff;
+  z-index: 1;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+  transition: all 325ms ease-out;
+  transform: translateY(-90%);
+  &.active {
+    transform: translateY(0);
+  }
+}
+.layout-nav__mobile .nav-link {
+  display: block;
+  color: $light-purple;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2;
+}
+// } // media query
+
+
 /**
  * Site footer
  */
- .layout-footer {
+.layout-footer {
   background: $dark;
   color: #fff;
   p {
