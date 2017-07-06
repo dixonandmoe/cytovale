@@ -90,6 +90,9 @@
         .technology-states__text {
             height: 190px;
             padding: 1.5em 2em 1em;
+            @media only screen and (max-width: 640px) {
+                height: auto;
+           }
         }
     }
 }
@@ -109,7 +112,9 @@
         font-size: 18px;
     }
     @media only screen and (max-width: 900px) {
-        padding: 1rem;
+        padding: 4em 1em;
+        // padding-top: 3em;
+        // padding-bottom: 2em;
     }
 
     .technology-comp__table {
@@ -121,6 +126,9 @@
         background: rgba(255,255,255,.9);
         display: flex;
         align-items: center;
+        @media only screen and (max-width: 640px) {
+            display: block;
+        }
 
         h1 {
             font-size: 150%;
@@ -197,11 +205,19 @@
     .technology-system__diagrams {
         margin-top: 5%;
         margin-bottom: 15%;
+        figure {
+            overflow: hidden;
+        }
 
         figure > img {
             width: 600px;
             max-width: none;
             margin-left: -120px;
+            @media only screen and (max-width: 640px) {
+                width: 120%;
+                margin: 0;
+                margin-left: -36px;
+            }
         }
 
         .technology-system__div {

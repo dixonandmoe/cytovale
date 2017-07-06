@@ -34,6 +34,9 @@
 
 .team-main {
     margin: 15em 0 0;
+    @media only screen and (max-width: 640px) {
+        margin-top: 4em;
+    }
 }
 
 .team-list {
@@ -44,7 +47,7 @@
     position: relative;
     margin-top: 2em;
     margin-bottom: 2em;
-    min-height: 490px;
+    min-height: 500px;
     background: #fff;
     box-shadow: 0 2px 30px rgba(0,0,0,0.05);
     padding: 3em;
@@ -63,13 +66,24 @@
         letter-spacing: 3px;
         font-weight: 600;
         margin-top: -.5em;
+        @media only screen and (max-width: 640px) {
+            margin-bottom: 0;
+        }
     }
 
-    .team-members__description {
+     
+    p {
+        font-size: 100%;
+        padding-top: 1em;
+        color: $text-color;
+    }
+    
+
+    @media only screen and (max-width: 640px) {
+        padding: 3em 1.5em 2em;
+        margin-top: 1em;
         p {
-            font-size: 100%;
-            padding-top: 1em;
-            color: $text-color;
+            line-height: 1.6;
         }
     }
 }
@@ -131,6 +145,9 @@
         line-height: 1.8;
         font-weight: 600;
 
+    }
+    @media only screen and (max-width: 640px) {
+        padding: 1.5em 1em;
     }
 }
 
