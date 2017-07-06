@@ -15,6 +15,11 @@ news:
     link: http://search.proquest.com/openview/50f4fbb2eda99d6be0f79e48b2e175a4/1?pq-origsite=gscholar&cbl=2041946
   - title: Lab Chip - Measuring Mechanics of Circulating Tumor Cells
     link: http://pubs.rsc.org/-/content/articlelanding/2017/lc/c7lc00038c#!divAbstract
+  - title: Annual Review of Biomedical Engineering - New Opportunities for Rapid Mechanical
+      Measurement of Cells
+    link: 
+  - title: Biomicrofluidics - Preparing and Analyzing Exosomes
+    link: 
 layout: publications
 ---
 
