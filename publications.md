@@ -20,6 +20,21 @@ news:
     link: 
   - title: Biomicrofluidics - Preparing and Analyzing Exosomes
     link: 
+  - title: Current Opinion in Biotechnology - Single-cell Analysis from Molecules
+      to Mechanics
+    link: 
+  - title: Analytical Chemistry - Continuous Flow Sample Preparation
+    link: 
+  - title: Lab Chip - Continuous Flow Cell Staining and Cytology
+    link: 
+  - title: Lab Chip - Squeezing Cells with Co-flows
+    link: 
+  - title: Small - Focusing Cells to Single Streams
+    link: 
+  - title: Small - Rapid Solution Exchange
+    link: 
+  - title: Analytical Chemistry - Focusing Cells at High Rates
+    link: 
 layout: publications
 ---
 
