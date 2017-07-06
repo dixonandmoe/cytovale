@@ -47,15 +47,15 @@ techniques:
   - title: Magnetic Twisting Cytometry
     subtitle: Multi-Step
     cost: "$$"
-    through: TBD - Dino?
+    through: 1 cell / sec
     image: "/uploads/tech-comparison-1.png"
   - title: Optical Stretching
     subtitle: Low Reproducibility
-    cost: "$"
+    cost: "$$"
     through: 1 cell / min
     image: "/uploads/tech-comparison-4.png"
   - title: Cell Transit Analyzers
-    subtitle: TBD - Dino?
+    subtitle: Prone to Clogging
     cost: "$"
     through: 1 cell / sec
     image: "/uploads/tech-comparison-3.png"
