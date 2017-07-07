@@ -15,7 +15,7 @@ states:
       than their non-cancerous, benign, precursors.
     image: "/uploads/tech-proliferation.jpg"
   - title: Activation
-    description: Immune activation may be readily distinguished from baseline biomechanical
+    description: Immune activation can be readily distinguished from baseline biomechanical
       signatures, and chronic vs. acute inflammation states have notable differences.
     image: "/uploads/tech-activation.jpg"
   - title: Differentiation
