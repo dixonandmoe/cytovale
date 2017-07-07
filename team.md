@@ -40,35 +40,50 @@ management:
       an accompanying suite of issued patents."
     image: "/uploads/henry-tse.jpg"
 board:
-  title: Board of Directors
+  title: Board of Directors & Observers
   members:
-  - name: Ajah Shah
+  - name: Ajay M Shah, PhD
     title: Co-Founder and CEO
     image: "/uploads/ajay-shah.jpg"
   - name: Dino Di Carlo, PhD
     title: Co-Founder and Scientific Advisor
     image: "/uploads/dino-di-carlo.jpg"
   - name: Michael Atar
-    title: Member of the Board
+    title: Azure Capital
     image: "/uploads/michael-atar.jpg"
   - name: Jack Fuchs
-    title: Member of the Board
+    title: Life Sciences CFO & Serial Entrepreneur
     image: "/uploads/jack-fuchs.jpg"
+  - name: Pascal Levensohn
+    title: Managing Director, Dolby Family Ventures
+    image: 
+  - name: David Dolby
+    title: Dolby Family Ventures
+    image: 
+  - name: Lindy Fishburne
+    title: Executive Director, Breakout Labs
+    image: 
 advisors:
   title: Advisors
   members:
   - name: Evangelos Hytopolous, PhD
-    title: Biostatistics
+    title: Biostatistics Expert, Leading Public Dx Co.
     image: "/uploads/evangelos-hytopolous.jpg"
-  - name: Bill Gerber, MD
-    title: Business Strategy
+  - name: Rahul Dhanda
+    title: Sr. Vice President, T2 Biosystems
     image: "/uploads/bill-gerber.jpg"
   - name: Hollis O’Neal, MD
-    title: Principal Investigator
+    title: Clinical Investigator
     image: "/uploads/hollis-oneal.jpg"
-  - name: James Russell
-    title: Sepsis Critical Care Expert
+  - name: Steven Opal, MD
+    title: Leading Sepsis Pathophysiology & Clinical Trial Expert
     image: "/uploads/james-russell.jpg"
+  - name: Nathan Shapiro, MD
+    title: Leading Emergency Medicine Researcher Focused in Sepsis
+    image: 
+  - name: Laureen DeBuono
+    title: Seasoned Public/Private C-Level Executive & BOD Member
+    image: 
 investors:
   title: Investors and Partners
   members:
@@ -78,6 +93,12 @@ investors:
     image: "/uploads/dobly-family-ventures.jpg"
   - name: Breakout Labs
     image: "/uploads/breakout-labs.png"
+  - name: National Science Foundation
+    image: 
+  - name: National Institutes of Health
+    image: 
+  - name: 
+    image: 
 layout: team
 ---
 
