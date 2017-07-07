@@ -3,8 +3,8 @@ title: Publications
 header_title: Publications
 header_subtitle: CYTOVALE
 header_image1: "/uploads/PNAS.jpg"
-header_image2: "/uploads/Sci Trans Med.gif"
-header_image3: "/uploads/small.gif"
+header_image2: "/uploads/small.gif"
+header_image3: "/uploads/Sci Trans Med.gif"
 news:
   title: Additional Publications
   posts:
