@@ -58,11 +58,11 @@ techniques:
     cost: "$"
     through: 1 cell / sec
     image: "/uploads/tech-comparison-3.png"
-  - title: Cytovale Mechanomics Platform
+  - title: CytoVale Mechanomics Platform
     subtitle: Robust, Single-Step
     cost: "¢"
     through: 2000 cells /  sec
-    image: "/uploads/cell%20junction.jpg"
+    image: "/uploads/Picture1.png"
   system:
   - title: Patient
     description: Diagnostic uncertainty means optimal treatment course is unknown.
