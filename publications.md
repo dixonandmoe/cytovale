@@ -8,7 +8,7 @@ header_image3: "/uploads/Sci Trans Med.gif"
 news:
   title: Additional Publications
   posts:
-  - title: Scientific Reports - Introducing the Cell Mechanome
+  - title: "<i>Scientific Reports</i> - Introducing the Cell Mechanome"
     link: https://www.nature.com/articles/srep37863?WT.feed_name=subjects_medical
   - title: Microengineering and Nanosystems - Biophysical Classification of Cell Differentiation
       State

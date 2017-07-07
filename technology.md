@@ -15,7 +15,7 @@ states:
       than their non-cancerous, benign, precursors.
     image: "/uploads/tech-proliferation.jpg"
   - title: Activation
-    description: Immune activation may be readily distinguished from baseline biomechanical
+    description: Immune activation can be readily distinguished from baseline biomechanical
       signatures, and chronic vs. acute inflammation states have notable differences.
     image: "/uploads/tech-activation.jpg"
   - title: Differentiation
@@ -29,11 +29,10 @@ states:
 techniques:
   title: Comparison of Leading Techniques to Assess Cell Mechanics
   subtitle: The main issue to date has been <em>throughput</em>
-  description: "The main issue to date has been throughput; \ngenerating meaningful
-    diagnostic information requires the analysis of thousands of cells. Until deformability
-    cytometry, most techniques could only measure tens of cells per hour, rendering
-    the approach too cumbersome for clinical diagnostic applications or high throughput
-    research applications. "
+  description: 'Generating meaningful diagnostic information requires the analysis
+    of thousands of cells. Until deformability cytometry, most techniques could only
+    measure tens of cells per hour, rendering the approach too cumbersome for clinical
+    diagnostic applications or high throughput research applications. '
   results_title: Comparison Results
   results_description: CytoVale can measure <strong>2,000 cells per second</strong>,
     unlocking the potential to utilize biomechanical markers as a relevant clinical
@@ -59,11 +58,11 @@ techniques:
     cost: "$"
     through: 1 cell / sec
     image: "/uploads/tech-comparison-3.png"
-  - title: Cytovale Mechanomics Platform
+  - title: CytoVale Mechanomics Platform
     subtitle: Robust, Single-Step
     cost: "¢"
     through: 2000 cells /  sec
-    image: "/uploads/cell%20junction.jpg"
+    image: "/uploads/Picture1.png"
   system:
   - title: Patient
     description: Diagnostic uncertainty means optimal treatment course is unknown.
