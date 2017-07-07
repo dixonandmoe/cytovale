@@ -67,7 +67,7 @@ advisors:
   title: Advisors
   members:
   - name: Evangelos Hytopolous, PhD
-    title: Biostatistics Expert, Leading Public Diagnostics Co.
+    title: Biostatistics Expert, Leading Public Dx Co.
     image: "/uploads/evangelos-hytopolous.jpg"
   - name: Rahul Dhanda
     title: Sr. Vice President, T2 Biosystems
