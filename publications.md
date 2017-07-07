@@ -2,7 +2,7 @@
 title: Publications
 header_title: Publications
 header_subtitle: CYTOVALE
-header_image1: "/uploads/PNAS.gif"
+header_image1: "/uploads/PNAS.jpg"
 header_image2: "/uploads/Sci Trans Med.gif"
 header_image3: "/uploads/cell-03.jpg"
 news:
