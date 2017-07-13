@@ -1,10 +1,10 @@
 ---
 title: Quantitative Diagnosis of Malignant Pleural Effusions By Single-Cell Mechanophenotyping
-subtitle: Science Translational Medicine
 date: 2017-01-16 19:48:22 Z
 categories:
 - jekyll
 - update
+subtitle: Science Translational Medicine
 link: https://www.ncbi.nlm.nih.gov/pubmed/24259051
 layout: publication
 ---
