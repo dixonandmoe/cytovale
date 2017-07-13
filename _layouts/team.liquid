@@ -36,7 +36,7 @@ layout: default
 
     {% for member in page.management.members %}
       <div class="col-xs-24 col-md-12">
-        <div class="team-members__block">
+        <a {%if member.link %}href="{{ member.link }}" target="_blank"{% endif %} class="team-members__block {%if member.link %}link{% endif %}">
           <div class="row">
             <div class="col-md-6 col-xs-24">
               <div class="team-members__image" style="background-image: url('{{ member.image }}')"></div>
@@ -44,13 +44,13 @@ layout: default
           <div class="col-md-18 col-xs-24">
             <h1 class="team-members__name">{{ member.name }}</h1>
             <p class="team-members__subtitle">{{ member.title }}</p></div>
-        </div>
-        <div class="row">
-          <div class="team-members__description col-xs-24 col-md-24">
-            <p>{{ member.bio }}</p>
           </div>
-        </div>
-        </div>
+          <div class="row">
+            <div class="team-members__description col-xs-24 col-md-24">
+              <p>{{ member.bio }}</p>
+            </div>
+          </div>
+        </a>
       </div>
     {% endfor %}
 
@@ -70,7 +70,7 @@ layout: default
 
       {% for member in page.board.members %}
       <div class="col-xs-24 col-md-8">
-        <div class="board-members__block">
+        <a {%if member.link %}href="{{ member.link }}" target="_blank"{% endif %}class="board-members__block {%if member.link %}link{% endif %}">
           <div class="row">
             <div class="col-xs-8">
               <div class="team-members__image team-members__image--small" style="background-image: url('{{ member.image }}')"></div>
@@ -78,8 +78,8 @@ layout: default
           <div class="col-xs-16">
             <h1 class="board-members__name">{{ member.name }}</h1>
             <p class="board-members__subtitle">{{ member.title }}</p></div>
-        </div>
-        </div>
+          </div>
+        </a>
       </div>
       {% endfor %}
 
@@ -101,7 +101,7 @@ layout: default
 
       {% for member in page.advisors.members %}
       <div class="col-xs-24 col-md-8">
-        <div class="board-members__block">
+        <a {%if member.link %}href="{{ member.link }}" target="_blank"{% endif %} class="board-members__block {%if member.link %}link{% endif %}">
           <div class="row">
             <div class="col-xs-8">
               <div class="team-members__image team-members__image--small" style="background-image: url('{{ member.image }}')"></div>
@@ -109,8 +109,8 @@ layout: default
           <div class="col-xs-16">
             <h1 class="board-members__name">{{ member.name }}</h1>
             <p class="board-members__subtitle">{{ member.title }}</p></div>
-        </div>
-        </div>
+          </div>
+        </a>
       </div>
       {% endfor %}
 
@@ -132,14 +132,14 @@ layout: default
 
       {% for member in page.investors.members %}
       <div class="col-xs-24 col-md-8">
-        <div class="board-members__block investor__block">
+        <a {%if member.link %}href="{{ member.link }}" target="_blank"{% endif %} class="board-members__block investor__block {%if member.link %}link{% endif %}">
           <div class="investor__block-image">
             <img src="{{ member.image }}" alt="{{ member.name }}">
           </div>
           <div class="investor__block-title">
             <h1 class="board-members__name investor__block-name">{{ member.name }}</h1>
           </div>
-        </div>
+        </a>
       </div>
       {% endfor %}
 

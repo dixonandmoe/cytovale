@@ -44,6 +44,7 @@
 }
 
 .team-members__block {
+    display: block;
     position: relative;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -52,6 +53,8 @@
     box-shadow: 0 2px 30px rgba(0,0,0,0.05);
     padding: 3em;
     z-index: 2;
+    overflow: hidden;
+    transition: all 250ms ease-out;
 
     h1 {
         padding-top: 1.2em;
@@ -66,6 +69,7 @@
         letter-spacing: 3px;
         font-weight: 600;
         margin-top: -.5em;
+        padding-top: 0;
         @media only screen and (max-width: 640px) {
             margin-bottom: 0;
         }
@@ -77,7 +81,25 @@
         padding-top: 1em;
         color: $text-color;
     }
-    
+
+
+    &.link:hover {
+        cursor: pointer;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    }
+
+    &.link:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 120px;
+        height: 60px;
+        background: $green;
+        transform: rotate(45deg) translate(60px, 0px);
+        transform-origin: top right;
+    }
 
     @media only screen and (max-width: 640px) {
         padding: 3em 1.5em 2em;
@@ -118,15 +140,17 @@
 }
 
 .board-members__block{
+    display: block;
     height: 120px;
     margin-top: 1em;
     margin-bottom: 1em;
-
     position: relative;
     background: #fff;
     box-shadow: 0 2px 30px rgba(0,0,0,0.05);
     padding: 1.5em 2em;
     z-index: 2;
+    overflow: hidden;
+    transition: all 250ms ease-out;
     img{
       margin-top: .5em;
     }
@@ -146,6 +170,24 @@
         font-weight: 600;
 
     }
+    &.link:hover {
+        cursor: pointer;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    }
+
+    &.link:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80px;
+        height: 40px;
+        background: $green;
+        transform: rotate(45deg) translate(40px, 0px);
+        transform-origin: top right;
+    }
+
     @media only screen and (max-width: 640px) {
         padding: 1.5em 1em;
     }
