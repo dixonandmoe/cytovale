@@ -53,23 +53,23 @@ board:
   - name: Dino Di Carlo, PhD
     title: Co-Founder and Scientific Advisor
     image: "/uploads/dino-di-carlo.jpg"
-    link:
+    link: 
   - name: Michael Atar
     title: Azure Capital
     image: "/uploads/michael-atar.jpg"
-    link:
+    link: 
   - name: Jack Fuchs
     title: Life Sciences CFO & Serial Entrepreneur
     image: "/uploads/jack-fuchs.jpg"
-    link:
+    link: 
   - name: Pascal Levensohn
     title: Managing Director, Dolby Family Ventures
     image: 
-    link:
+    link: 
   - name: David Dolby
     title: Dolby Family Ventures
     image: 
-    link:
+    link: 
   - name: Lindy Fishburne
     title: Executive Director, Breakout Labs
     image: 
@@ -79,23 +79,23 @@ advisors:
   - name: Evangelos Hytopolous, PhD
     title: Biostatistics Expert, Leading Public Dx Co.
     image: "/uploads/evangelos-hytopolous.jpg"
-    link:
+    link: 
   - name: Rahul Dhanda
     title: Sr. Vice President, T2 Biosystems
     image: "/uploads/bill-gerber.jpg"
-    link:
+    link: 
   - name: Hollis O’Neal, MD
     title: Clinical Investigator
     image: "/uploads/hollis-oneal.jpg"
-    link:
+    link: 
   - name: Steven Opal, MD
     title: Leading Sepsis Pathophysiology & Clinical Trial Expert
     image: "/uploads/james-russell.jpg"
-    link:
+    link: 
   - name: Nathan Shapiro, MD
     title: Leading Emergency Medicine Researcher Focused in Sepsis
     image: 
-    link:
+    link: 
   - name: Laureen DeBuono
     title: Seasoned Public/Private C-Level Executive & BOD Member
     image: 
@@ -104,19 +104,19 @@ investors:
   members:
   - name: Azure Capital Investment
     image: "/uploads/azure-capital-investment.jpg"
-    link:
+    link: 
   - name: Dobly Family Ventures
     image: "/uploads/dobly-family-ventures.jpg"
-    link:
+    link: 
   - name: Breakout Labs
     image: "/uploads/breakout-labs.png"
-    link:
+    link: 
   - name: National Science Foundation
     image: 
-    link:
+    link: 
   - name: National Institutes of Health
     image: 
-    link:
+    link: 
   - name: 
     image: 
 layout: team
