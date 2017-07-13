@@ -3,6 +3,7 @@ title: Team - Cytovale
 header_title: Team
 header_subtitle: We’re inspired by the power of biology and driven to build tools
   that make it possible to access that power in new ways.
+header_image: "/uploads/cytovale-team.jpg"
 management:
   title: Management Team
   members:

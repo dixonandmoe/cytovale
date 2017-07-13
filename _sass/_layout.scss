@@ -287,7 +287,9 @@ body {
     margin: 2px 0 12px;
   }
   .footer-links {
+    text-align: right;
     @media only screen and (max-width: 640px) {
+      text-align: left;
       margin-top: 2em;
     }
   }
@@ -324,7 +326,7 @@ body {
     text-transform: uppercase;
   }
   .footer-logo {
-    margin-top: 80px
+    margin-top: 100px
   }
   @media only screen and (max-width: 640px) {
     h5 {

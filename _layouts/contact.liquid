@@ -32,13 +32,12 @@ layout: default
         <h5 class="contact-list__heading">Address</h5>
         <p>
           {{ page.address }}
-          <a href="{{ page.google_map }}">Google Map</a>
+          <a href="{{ page.google_map }}" target="_blank">Google Map</a>
         </p>
         <h5 class="contact-list__heading">Email</h5>
-        <p>{{ page.email }}
+        <p>
+          <a href="mailto:{{ page.email }}">{{ page.email }}</a>
         </p>
-        <h5 class="contact-list__heading">Phone</h5>
-        <p>{{ page.phone }}</p>
       </div>
     </div>
   </section>
@@ -50,7 +49,7 @@ layout: default
         <h2>Read How We Use the Technology</h2>
       </div>
       <div class="col-xs-24 col-sm-10 col-md-10 text-right">
-        <a class="cta-link" href="/technology">VIEW SEPSIS TECH</a>
+        <a class="cta-link" href="/technology">VIEW OUR TECH</a>
       </div>
     </div>
   </section>

@@ -65,7 +65,7 @@
   text-align: right;
   @media only screen and (min-width: 1300px) {
     top: 45%;
-    right: 20px;
+    right: 34px;
     position: absolute;
     &:hover{
       opacity: .7;
@@ -73,6 +73,13 @@
   }
 }
 .index__post-content{
+
+  h4 {
+    color: #403E50;
+    opacity: 0.8;
+    font-size: 21px;
+    font-style: italic;
+  }
 }
 
 .post-index__featured {
@@ -90,9 +97,18 @@
     padding: 1em 0;
     font-size: 36px;
     line-height: 1.2;
+    padding-bottom: 0px;
+    margin-bottom: 16px;
     &:hover{
       opacity: .8;
     }
+  }
+  h2 {
+    letter-spacing: 0;
+    color: #403E50;
+    opacity: 0.8;
+    font-size: 21px;
+    font-style: italic;
   }
   p{
     font-size: 100%;
