@@ -12,7 +12,9 @@ layout: default
       <p>{{ page.header_subtitle }}</p>
     </div>
     <div class="header-technology--office col-xs-12 col-md-offset-2 col-md-10">
-      <img src="{{ page.header_image }}"/>
+      <div class="header-technology__image-lg" style="background-image:url('{{ page.header_image }}')"></div>
+      <div class="header-technology__image-md" style="background-image:url('{{ page.header_image }}')"></div>
+      <div class="header-technology__image-sm" style="background-image:url('{{ page.header_image }}')"></div>
     </div>
   </div>
 
@@ -83,9 +85,9 @@ layout: default
 
     <div class="row">
       <div class="col-xs-24 col-md-offset-2 col-md-20">
-         <div class="technology-comp__table">
+         <div class="technology-comp__table {% if forloop.last == true %}mechanomics{% endif %}">
             <div class="technology-comp__table-image"><img src="{{ techni.image }}"></div>
-            <div class="technology-comp__table-title"><h1>{{ techni.title }}</h1><sub>{{ techni.subtitle }}</sub></div>
+            <div class="technology-comp__table-title"><h1 style="margin:0">{{ techni.title }}</h1><sub>{{ techni.subtitle }}</sub></div>
             <div class="technology-comp__table-cost"><h1>{{ techni.cost }}</h1></div>
             <div class="technology-comp__table-through"><h1>{{ techni.through }}</h1></div>
           </div>
@@ -123,6 +125,7 @@ layout: default
             </g>
         </svg>
           <h1>Cytovale System in Diagnostics</h1>
+          <h3><b>CytoVale System in Diagnostics’ to read ‘From Patient to Answer in Under 10 Minutes</b></h3>
       </div>
     </div>
   </section>
