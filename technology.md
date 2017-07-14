@@ -33,10 +33,7 @@ techniques:
     of thousands of cells. Until deformability cytometry, most techniques could only
     measure tens of cells per hour, rendering the approach too cumbersome for clinical
     diagnostic applications or high throughput research applications. '
-  results_title: Comparison Results
-  results_description: CytoVale can measure <strong>2,000 cells per second</strong>,
-    unlocking the potential to utilize biomechanical markers as a relevant clinical
-    diagnostic technique across broad diagnostic indications
+  results_title: Have an application for CytoVale's mechanomics platorm?
   technis:
   - title: Atomic Force Microscopy
     subtitle: Complex Operation

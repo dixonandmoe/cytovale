@@ -39,7 +39,7 @@ layout: default
       <div class="row">
 
         {% for state in page.states.changes %}
-        <div class="col-md-12">
+        <div class="col-md-6">
           <div class="technology-state__blocks">
             <div class="technology-states__image">
               <img src="{{ state.image }}">
@@ -73,21 +73,24 @@ layout: default
 
   <section class="technology-comp__techs">
     <div class="row technology-comp__titles">
-      <div class="col-md-4">&emsp;</div>
-      <div class="col-md-8"><b>Technique</b></div>
-      <div class="col-md-4"><b>Cost</b></div>
-      <div class="col-md-8"><b>Throughput</b></div>
+      <div class="col-md-5">&emsp;</div>
+      <div class="col-md-10"><b>Technique</b></div>
+      <div class="col-md-2"><b>Cost</b></div>
+      <div class="col-md-2"><b>Throughput</b></div>
     </div>
 
     {% for techni in page.techniques.technis %}
 
-    <div class="row technology-comp__table">
-      <div class="col-xs-24 col-md-4 image">
-        <img src="{{ techni.image }}">
+    <div class="row">
+      <div class="col-xs-24 col-md-offset-2 col-md-20">
+         <div class="technology-comp__table">
+            <div class="technology-comp__table-image"><img src="{{ techni.image }}"></div>
+            <div class="technology-comp__table-title"><h1>{{ techni.title }}</h1><sub>{{ techni.subtitle }}</sub></div>
+            <div class="technology-comp__table-cost"><h1>{{ techni.cost }}</h1></div>
+            <div class="technology-comp__table-through"><h1>{{ techni.through }}</h1></div>
+          </div>
+        </div>
       </div>
-      <div class="col-xs-24 col-md-8"><h1>{{ techni.title }}</h1><sub>{{ techni.subtitle }}</sub></div>
-      <div class="col-md-4"><h1>{{ techni.cost }}</h1></div>
-      <div class="col-md-8"><h1>{{ techni.through }}</h1></div>
     </div>
 
     {% endfor %}
@@ -97,7 +100,7 @@ layout: default
 <div class="row technology-comp__results">
 <div class="col-md-12 col-md-push-6">
   <h1>{{ page.techniques.results_title }}</h1>
-  <p>{{ page.techniques.results_description }}</p>
+  <a class="technology-comp__results-cta" href="/contact">Collaborate!</a>
 </div>
 </div>
 
@@ -119,7 +122,7 @@ layout: default
                 <path d="M12.732761,15.6 C12.1820234,15.6 11.9113338,16.0205731 12.1212856,16.5229306 L15.6963436,25.0770694 C15.9093727,25.5867899 16.2578383,25.5794269 16.4677902,25.0770694 L20.0428481,16.5229306 C20.2558772,16.0132101 19.9855326,15.6 19.4313727,15.6 L12.732761,15.6 Z" id="Path-2-Copy-8" fill="#6677CC"></path>
             </g>
         </svg>
-          <h1>Cytovale System</h1>
+          <h1>Cytovale System in Diagnostics</h1>
       </div>
     </div>
   </section>
