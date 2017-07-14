@@ -147,6 +147,7 @@ if (document.querySelector('.index') !== null) {
 
     captions[0].classList.add('active');
     setTimeout(function(){captions[1].classList.add('active')}, 300);
+    setTimeout(function(){captions[2].classList.add('active')}, 600);
   };
 
 

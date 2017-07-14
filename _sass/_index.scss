@@ -124,6 +124,8 @@ p {
   flex-flow: column;
   align-content: center;
   align-items: center;
+  position: relative;
+  right: -46px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -131,7 +133,7 @@ p {
 .header-index__caption-line {
   margin-top: -8px;
   margin-bottom: 10px;
-  height: 216px;
+  height: 260px;
   width: 1px;
   border-left: 1px solid rgba(255,255,255,0.2);
   transition: all 350ms ease-in-out;
@@ -144,6 +146,10 @@ p {
   opacity: 0;
   transform: translateY(10px);
   transition: all 350ms ease-in-out;
+  background: $dark;
+  position: relative;
+  z-index: 10;
+  padding: 2px;
   &.active {
     opacity: 1;
     transform: translateY(0);
