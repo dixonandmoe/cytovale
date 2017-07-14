@@ -18,6 +18,7 @@ management:
       of Health Sciences and Technology, where he developed a novel platform for circulating
       tumor cell isolation.
     image: "/uploads/ajay-shah.jpg"
+    link: https://www.linkedin.com/in/ajaymukeshshah/
   - name: Mara Macdonald, PhD
     title: Co-Founder and COO
     bio: Mara currently serves as the co-founder and chief operations officer at CytoVale
@@ -28,6 +29,7 @@ management:
       building strategy as a member of the diligence team for many companies including
       Nurix and Decibel.
     image: "/uploads/mara-macdonald.jpg"
+    link: https://www.linkedin.com/in/maramacdonald1/
   - name: Henry Tse, PhD
     title: Co-Founder and VP Engineering
     bio: "Henry is Co-Founder and Vice-President of Engineering for CytoVale, heading
@@ -40,27 +42,34 @@ management:
       papers of the technology, followed on by application specific papers, as well
       an accompanying suite of issued patents."
     image: "/uploads/henry-tse.jpg"
+    link: 
 board:
   title: Board of Directors & Observers
   members:
   - name: Ajay M Shah, PhD
     title: Co-Founder and CEO
     image: "/uploads/ajay-shah.jpg"
+    link: https://www.linkedin.com/in/ajaymukeshshah/
   - name: Dino Di Carlo, PhD
     title: Co-Founder and Scientific Advisor
     image: "/uploads/dino-di-carlo.jpg"
+    link: 
   - name: Michael Atar
     title: Azure Capital
     image: "/uploads/michael-atar.jpg"
+    link: 
   - name: Jack Fuchs
     title: Life Sciences CFO & Serial Entrepreneur
     image: "/uploads/jack-fuchs.jpg"
+    link: 
   - name: Pascal Levensohn
     title: Managing Director, Dolby Family Ventures
     image: 
+    link: 
   - name: David Dolby
     title: Dolby Family Ventures
     image: 
+    link: 
   - name: Lindy Fishburne
     title: Executive Director, Breakout Labs
     image: 
@@ -70,18 +79,23 @@ advisors:
   - name: Evangelos Hytopolous, PhD
     title: Biostatistics Expert, Leading Public Dx Co.
     image: "/uploads/evangelos-hytopolous.jpg"
+    link: 
   - name: Rahul Dhanda
     title: Sr. Vice President, T2 Biosystems
     image: "/uploads/bill-gerber.jpg"
+    link: 
   - name: Hollis O’Neal, MD
     title: Clinical Investigator
     image: "/uploads/hollis-oneal.jpg"
+    link: 
   - name: Steven Opal, MD
     title: Leading Sepsis Pathophysiology & Clinical Trial Expert
     image: "/uploads/james-russell.jpg"
+    link: 
   - name: Nathan Shapiro, MD
     title: Leading Emergency Medicine Researcher Focused in Sepsis
     image: 
+    link: 
   - name: Laureen DeBuono
     title: Seasoned Public/Private C-Level Executive & BOD Member
     image: 
@@ -90,14 +104,19 @@ investors:
   members:
   - name: Azure Capital Investment
     image: "/uploads/azure-capital-investment.jpg"
+    link: 
   - name: Dobly Family Ventures
     image: "/uploads/dobly-family-ventures.jpg"
+    link: 
   - name: Breakout Labs
     image: "/uploads/breakout-labs.png"
+    link: 
   - name: National Science Foundation
     image: 
+    link: 
   - name: National Institutes of Health
     image: 
+    link: 
   - name: 
     image: 
 layout: team

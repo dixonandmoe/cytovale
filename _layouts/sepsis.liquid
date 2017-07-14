@@ -13,7 +13,7 @@ layout: default
       <h1>{{ page.header_title }}</h1>
     </div>
     <div class="header-sepsis__subtitle col-xs-12 col-md-offset-2 col-md-10  col-xs-24">
-      <p>{{ page.header_subtitle }}</p>
+      <p>{{ page.header_subtitle }} <span>{{ page.header_author }}</span></p>
     </div>
   </div>
 
@@ -35,7 +35,7 @@ layout: default
     <div class="row">
 
     {% for fact in page.quick_facts.facts %}
-      <div class="col-md-8  col-xs-24">
+      <div class="col-md-8 col-xs-24">
         <figure class="sepsis-facts__chart">
           <img src='{{ fact.image }}' alt='Sepsis Chart 1' />
           <figcaption>
@@ -49,20 +49,10 @@ layout: default
     </div>
   </section>
 
-  <div class="sepsis-separator">
-  </div>
-
-  <section class="sepsis-quote">
-    <div class="row">
-      <div class="col-md-16 col-md-push-4 text-center col-xs-24">
-        <h2>{{ page.quote }}</h2>
-        <p>{{ page.quote_author }}</p>
-      </div>
-  </section>
 
 <section class="sepsis-disease">
   <div class="row">
-    <div class="col-md-24  col-xs-24 text-center">
+    <div class="col-md-24 col-xs-24 text-center">
       <h2>{{ page.disease.title }}</h2>
     </div>
   </div>
