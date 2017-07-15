@@ -560,14 +560,18 @@ p {
   }
 }
 .index-team__employees {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
+  position: relative;
+  // display: flex;
+  // justify-content: center;
+  // flex-flow: row wrap;
   width: 100%;
   height: 300px;
   margin-top: 48px;
 }
 .index-team__employee { 
+  position: absolute;
+  top: 0;
+  left: 0;
   background: $dark;
   color: white;
   margin: 10px 14px;

@@ -7,14 +7,22 @@
   var employees = [].slice.call(document.querySelectorAll('.index-team__employee'));
   employees.forEach(function(employee) {
     var dupe = employee.cloneNode(true);
+    var dupe2 = employee.cloneNode(true);
     employee.remove();
     dupes.push(dupe);
+    dupes.push(dupe2);
+    // dupes.push(dupe);
   });
 
   shuffle(dupes);
 
-  dupes.forEach(function(dupe){
-    dupe.style.transform = 'scale('+ randomRange(0.6, 1.2) +') translateX('+ randomRange(-15, 15) +'px)';
+  dupes.forEach(function(dupe, i){
+    if (i % 3){
+      dupe.style.transform = 'scale('+ randomRange(1.0, 1.0) +') translateX('+ i * 80 +'px) translateY('+ 260 +'px)'
+    } else if (i % 2) {
+      dupe.style.transform = 'scale('+ randomRange(1.0, 1.0) +') translateX('+ i * 80 +'px) translateY('+ 130 +'px)'
+    }
+    // dupe.style.transform = 'scale('+ randomRange(0.6, 1.2) +') translateX('+ randomRange(-15, 15) +'px)';
     team.appendChild(dupe);
   });
   

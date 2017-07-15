@@ -82,12 +82,12 @@ layout: default
 
     <div class="blog-index__news col-xs-24 col-sm-4 col-md-8">
       <div class="blog-index__border"></div>
-      <h3>Additional Publications</h3>
+      <h3>{{ page.news.title }}</h3>
       <ul>
-      {% for post in page.news.posts %}
-        <li><a href="{{ post.link }}">{{post.title}}</a></li>
-      {% endfor %}
-    </ul>
+        {% for post in page.news.posts %}
+          <li><a href="{{ post.link }}">{{post.title}}</a></li>
+        {% endfor %}
+      </ul>
     </div>
 
   </div>

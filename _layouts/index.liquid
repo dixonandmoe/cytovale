@@ -155,15 +155,11 @@ layout: default
       <a href="/team">Meet the Team</a>
     </div>
   </div>
-  <div class="row">
-    <div class="col-xs-24 col-md-offset-3 col-md-18 text-center">
-      <div class="index-team__employees js-team">
-        {% for person in page.team.people %}
-          <div title="{{ person.name }}" class="index-team__employee" style="background-image: url('{{ person.image }}')"></div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
+  <section class="index-team__employees js-team">
+    {% for person in page.team.people %}
+      <div title="{{ person.name }}" class="index-team__employee" style="background-image: url('{{ person.image }}')"></div>
+    {% endfor %}
+  </section>
 </section>
 
 <section class="cta">
