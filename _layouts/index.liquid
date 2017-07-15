@@ -155,7 +155,7 @@ layout: default
       <a href="/team">Meet the Team</a>
     </div>
   </div>
-  <section class="index-team__employees js-team">
+  <section class="index-team__employees js-team" style="transformX: 0px">
     {% for person in page.team.people %}
       <div title="{{ person.name }}" class="index-team__employee" style="background-image: url('{{ person.image }}')"></div>
     {% endfor %}
