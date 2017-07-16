@@ -37,36 +37,52 @@ team:
   people:
   - name: Ajay Shah
     image: "/uploads/ajay-shah.jpg"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Mara Macdonald
     image: "/uploads/mara-macdonald.jpg"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: M. Cyrus Maher
     image: "/uploads/Cyrus%20Maher.jpg"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Henry Tat Kwong Tse
     image: "/uploads/Henry-60cbff.jpg"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Roya Sheybani
     image: "/uploads/roya-sheybani.jpg"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Kate Crawford
     image: "/uploads/Kate%20Crawford.png"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Anne Jensen
     image: "/uploads/Annie%20Jensen.jpeg"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Lionel Guillou
     image: "/uploads/Lionel%20Guillou.jpg"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Becky DiMarco
     image: "/uploads/Becky%20DiMarco.png"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Jessica Faruque
     image: "/uploads/Jessica%20Faruque.jpg"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Nick Martinez
     image: "/uploads/Nick%20Martinez-27ddb2.png"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Maddy Cook
     image: "/uploads/Maddy%20Cook.jpg"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Allison Walters
     image: "/uploads/Allison%20Walters.png"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Sakshi Shah
     image: "/uploads/Sakshi.png"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Chris Dahlberg
     image: "/uploads/Chris%20Dalberg.jpg"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Peter Landwehr
     image: "/uploads/Peter%20Landwehr-e4962d.jpg"
+    bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Lillian Peng
     image: "/uploads/Lillian%20Peng-dccccf.jpg"
 layout: index

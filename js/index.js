@@ -13,27 +13,47 @@
   var employees = [].slice.call(document.querySelectorAll('.index-team__employee'));
   employees.forEach(function(employee) {
     var dupe = employee.cloneNode(true);
-    var dupe2 = employee.cloneNode(true);
     employee.remove();
     dupes.push(dupe);
-    dupes.push(dupe2);
-    // dupes.push(dupe);
   });
-
   shuffle(dupes);
+  dupes.forEach(function(dupe){
+    var dupeCopy = dupe.cloneNode(true);
+    dupes.push(dupeCopy);
+  })
+
+
+  var len = dupes.length;
+  var xSpacing = 180;
 
   dupes.forEach(function(dupe, i){
-    if (i % 3 === 0) {
-      dupe.style.transform = 'scale('+ randomRange(1.0, 1.0) +') translateX('+ (i) * 60 +'px) translateY('+ 130 +'px)';
-    } else if (i % 3 === 1){
-      dupe.style.transform = 'scale('+ randomRange(1.0, 1.0) +') translateX('+ (i) * 60 +'px) translateY('+ 260 +'px)';
+    var yTrans;
+    var xTrans;
+
+    if (i > (len / 3) * 2) {
+      xTrans = 'translateX(' + (i - ((2 * len) / 3)) * xSpacing +'px) ';
+      yTrans = 'translateY(' + 260 +'px)';
+    } else if (i > len / 3 ) {
+      xTrans = 'translateX(' + (i - (len / 3) ) * xSpacing +'px) ';
+      yTrans = 'translateY(' + 130 +'px)';
     } else {
-      dupe.style.transform = 'scale('+ randomRange(1.0, 1.0) +') translateX('+ (i) * 60 +'px) translateY('+ 0 +'px)'
+      xTrans = 'translateX(' + (i * xSpacing) + 'px) ';
+      yTrans = '';
     }
 
-    if (i === dupes.length - 1) {
+    dupe.style.transform = 'scale('+ randomRange(1.0, 1.0) +')' + xTrans + yTrans;  
+
+    // if (i % 3 === 0) {
+    //   dupe.style.transform = 'scale('+ randomRange(1.0, 1.0) +') translateX('+ (i) * 60 +'px) translateY('+ 130 +'px)';
+    // } else if (i % 3 === 1){
+    //   dupe.style.transform = 'scale('+ randomRange(1.0, 1.0) +') translateX('+ (i) * 60 +'px) translateY('+ 260 +'px)';
+    // } else {
+    //   dupe.style.transform = 'scale('+ randomRange(1.0, 1.0) +') translateX('+ (i) * 60 +'px) translateY('+ 0 +'px)'
+    // }
+
+    if (i === len - 1) {
       width = i * 60 + 180 - window.innerWidth;
-      duration =  width * 15;
+      duration =  width * 35;
       console.log('Duration: ' + duration);
     }
 
@@ -62,8 +82,6 @@
         tempDuration = (percent) * duration;
       }
   
-
-
       animate({
         el: teamContainer,
         translateX: [xPos, dir],
