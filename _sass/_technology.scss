@@ -203,6 +203,7 @@
         position: relative;
         z-index: 2;
         transform: scale(1.02, 1.02);
+        background: #fff;
         box-shadow: 0 4px 40px rgba(0,0,0,0.8)
     }
 
@@ -260,6 +261,10 @@
 
         h1 {
             font-size: 36px;
+        }
+        h3 {
+            font-size: 24px;
+            color: $green;
         }
         text-align: center;
         color: white;

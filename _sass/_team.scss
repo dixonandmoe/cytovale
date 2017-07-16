@@ -85,8 +85,8 @@
 
     &.link:hover {
         cursor: pointer;
-        transform: translateY(-1px);
-        box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+        transform: translateY(-3px);
+        box-shadow: 0 4px 30px rgba(0,0,0,0.2);
     }
 
     &.link:after {
@@ -172,8 +172,8 @@
     }
     &.link:hover {
         cursor: pointer;
-        transform: translateY(-1px);
-        box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+        transform: translateY(-3px);
+        box-shadow: 0 4px 30px rgba(0,0,0,0.2);
     }
 
     &.link:after {
