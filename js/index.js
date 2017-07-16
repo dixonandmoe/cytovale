@@ -33,7 +33,7 @@
 
     if (i === dupes.length - 1) {
       width = i * 60 + 180 - window.innerWidth;
-      duration =  width * 15;
+      duration =  width * 35;
       console.log('Duration: ' + duration);
     }
 
