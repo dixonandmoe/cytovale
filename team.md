@@ -64,15 +64,15 @@ board:
     link: 
   - name: Pascal Levensohn
     title: Managing Director, Dolby Family Ventures
-    image: 
+    image: "/uploads/pascal-9c8848.jpg"
     link: 
   - name: David Dolby
     title: Dolby Family Ventures
-    image: 
+    image: "/uploads/DaveDolby.jpg"
     link: 
   - name: Lindy Fishburne
     title: Executive Director, Breakout Labs
-    image: 
+    image: "/uploads/lindy_lg.png"
 advisors:
   title: Advisors
   members:
@@ -82,7 +82,7 @@ advisors:
     link: 
   - name: Rahul Dhanda
     title: Sr. Vice President, T2 Biosystems
-    image: 
+    image: "/uploads/team-Rahul-Dhanda.jpg"
     link: 
   - name: Hollis O’Neal, MD
     title: Clinical Investigator
@@ -90,15 +90,15 @@ advisors:
     link: 
   - name: Steven Opal, MD
     title: Leading Sepsis Pathophysiology & Clinical Trial Expert
-    image: 
+    image: "/uploads/Opal1-172efe.jpg"
     link: 
   - name: Nathan Shapiro, MD
     title: Leading Emergency Medicine Researcher Focused in Sepsis
-    image: 
+    image: "/uploads/shapiro2%201%20%20ashx.jpg"
     link: 
   - name: Laureen DeBuono
     title: Seasoned Public/Private C-Level Executive & BOD Member
-    image: 
+    image: "/uploads/Laureen_DeBuono.jpg"
 investors:
   title: Investors and Partners
   members:
@@ -112,10 +112,10 @@ investors:
     image: "/uploads/breakout-labs.png"
     link: 
   - name: National Science Foundation
-    image: 
+    image: "/uploads/NSF.jpg"
     link: 
   - name: National Institutes of Health
-    image: 
+    image: "/uploads/NIH.png"
     link: 
   - name: 
     image: 
