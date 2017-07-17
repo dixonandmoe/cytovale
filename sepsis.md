@@ -1,5 +1,5 @@
 ---
-title: Early Sepsis Detection
+title: Early Sepsis Detection - Cytovale
 header_title: Early<br>Sepsis<br>Detection
 header_subtitle: "“The failure to detect sepsis early in its course leads to preventable
   morbidity and mortality in the emergency room”"
