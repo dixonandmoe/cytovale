@@ -4,7 +4,7 @@ header_title: Technology
 header_subtitle: Three decades of work in labs spanning the globe tell us that the
   biomechanical properties of cells are intimately linked with their underlying state
 header_image: "/uploads/cell.png"
-header_image2: "/uploads/tech-header-image.png"
+header_image2: "/uploads/cartridge.png"
 header_image3: "/uploads/tech-header-image.png"
 states:
   title: 'Biomechanical Properties of Single Cells '
