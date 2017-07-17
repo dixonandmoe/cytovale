@@ -5,6 +5,15 @@ header_subtitle: CYTOVALE
 header_image1: "/uploads/PNAS.jpg"
 header_image2: "/uploads/small.gif"
 header_image3: "/uploads/Sci Trans Med.gif"
+featured_publications:
+  - title: A Mechanical Biomarker of Cell State in Medicine
+    subtitle: Science Translational Medicine
+    abstract: Biophysical characteristics of cells are attractive as potential diagnostic markers for cancer. Transformation of cell state or phenotype and the accompanying epigenetic, nuclear, and cytoplasmic modifications lead to measureable changes in cellular architecture. We recently introduced a technique called deformability cytometry (DC) that enables rapid mechanophenotyping of single cells in suspension at rates of 1000 cells/s-a throughput that is comparable to traditional flow cytometry. We applied this technique to diagnose malignant pleural effusions, in which disseminated tumor cells can be difficult to accurately identify by traditional cytology.
+    link: https://www.ncbi.nlm.nih.gov/pubmed/24259051
+  - title: Hydrodynamic stretching of single cells for large population mechanical phenotyping
+    subtitle: Science Translational Medicine
+    abstract: Biophysical characteristics of cells are attractive as potential diagnostic markers for cancer. Transformation of cell state or phenotype and the accompanying epigenetic, nuclear, and cytoplasmic modifications lead to measureable changes in cellular architecture. We recently introduced a technique called deformability cytometry (DC) that enables rapid mechanophenotyping of single cells in suspension at rates of 1000 cells/s-a throughput that is comparable to traditional flow cytometry. We applied this technique to diagnose malignant pleural effusions, in which disseminated tumor cells can be difficult to accurately identify by traditional cytology.
+    link: https://www.ncbi.nlm.nih.gov/pubmed/24259051
 news:
   title: Additional Publications
   posts:
