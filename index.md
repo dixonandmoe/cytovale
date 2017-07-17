@@ -132,6 +132,9 @@ team:
       balcony in the afternoon, and cleaning, analyzing, and modeling data all the
       live-long day. He came to CytoVale hoping to help produce metrics that will
       save lives and increase our understanding of disease.
+  - name: Moe Amaya
+    image: 
+    bio: Testing
 layout: index
 ---
 
