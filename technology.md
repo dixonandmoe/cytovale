@@ -3,9 +3,9 @@ title: Technology - Cytovale
 header_title: Technology
 header_subtitle: Three decades of work in labs spanning the globe tell us that the
   biomechanical properties of cells are intimately linked with their underlying state
-header_image: "/uploads/tech-header-image.png"
+header_image: "/uploads/cell2.png"
 header_image2: "/uploads/tech-header-image.png"
-header_image3: "/uploads/tech-header-image.png"
+header_image3: "/uploads/cartridge.png"
 states:
   title: 'Biomechanical Properties of Single Cells '
   subtitle: "(e.g., cellular deformability, or cellular viscosity)"
