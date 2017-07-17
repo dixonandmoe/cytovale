@@ -128,6 +128,10 @@ team:
       save lives and increase our understanding of disease.
   - name: Lillian Peng
     image: "/uploads/Lillian%20Peng-dccccf.jpg"
+    bio: Peter enjoys hot coffee and cheesecake in the evening, a cool drink on the
+      balcony in the afternoon, and cleaning, analyzing, and modeling data all the
+      live-long day. He came to CytoVale hoping to help produce metrics that will
+      save lives and increase our understanding of disease.
 layout: index
 ---
 
