@@ -132,13 +132,13 @@ team:
       She is a recent UCLA graduate with a degree in bioengineering and a passion
       for squishing cells to advance medicine. 
   - name: Dino Di Carlo, Ph.D
-    image: "/uploads/Professor%20Dino%20Di%20Carlo.jpg"
+    image: "/uploads/dino-di-carlo.jpg"
     bio: 
   - name: Jack Fuchs
-    image: 
+    image: "/uploads/jack-fuchs.jpg"
     bio: 
   - name: Michael Atar
-    image: 
+    image: "/uploads/michael-atar.jpg"
     bio: 
   - name: Lindy Fishburne
     image: 
@@ -156,10 +156,10 @@ team:
     image: 
     bio: 
   - name: Hollis O'Neal, MD
-    image: 
+    image: "/uploads/hollis-oneal.jpg"
     bio: 
   - name: Evangelos Hytopolous
-    image: 
+    image: "/uploads/evangelos-hytopolous.jpg"
     bio: 
   - name: Chris Thomas
     image: 
