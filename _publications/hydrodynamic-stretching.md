@@ -1,7 +1,7 @@
 ---
 title: Hydrodynamic stretching of single cells for large population mechanical phenotyping
 date: 2017-01-18 19:48:00 Z
-subtitle: Science Translational Medicine
+subtitle: PNAS
 link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3356639/
 layout: publication
 ---

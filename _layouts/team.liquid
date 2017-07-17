@@ -11,12 +11,12 @@ layout: default
     </div>
     <div class="col-md-1 col-xs-0" style="padding-top:1em;">
     </div>
-    <div class="header-team col-xs-12 col-md-offset-0 col-md-10 col-xs-24">
+    <div class="header-team col-xs-24 col-sm-16 col-md-offset-0 col-md-10">
       <h1>{{ page.header_title }}</h1>
       <p>{{ page.header_subtitle }}</p>
     </div>
-    <div class="header-team--office col-xs-hidden col-md-offset-2 col-md-10 col-xs-24">
-      <div class="contact-header__image" style="background-image:url('{{ page.header_image }}'); background-position: 36% 50%"></div>
+    <div class="header-team--office col-xs-hidden col-sm-24 col-md-offset-2 col-md-10 text-center">
+      <div class="team-header__image" style="background-image:url('{{ page.header_image }}'); background-position: 36% 50%"></div>
     </div>
   </div>
 </header>
@@ -69,7 +69,7 @@ layout: default
     <div class="row">
 
       {% for member in page.board.members %}
-      <div class="col-xs-24 col-md-8">
+      <div class="col-xs-24 col-sm-12 col-md-8">
         <a {%if member.link %}href="{{ member.link }}" target="_blank"{% endif %}class="board-members__block {%if member.link %}link{% endif %}">
           <div class="row">
             <div class="col-xs-8">
@@ -100,7 +100,7 @@ layout: default
     <div class="row">
 
       {% for member in page.advisors.members %}
-      <div class="col-xs-24 col-md-8">
+      <div class="col-xs-24 col-sm-12 col-md-8">
         <a {%if member.link %}href="{{ member.link }}" target="_blank"{% endif %} class="board-members__block {%if member.link %}link{% endif %}">
           <div class="row">
             <div class="col-xs-8">
@@ -131,7 +131,7 @@ layout: default
     <div class="row">
 
       {% for member in page.investors.members %}
-      <div class="col-xs-24 col-md-8">
+      <div class="col-xs-24 col-sm-12 col-md-8">
         <a {%if member.link %}href="{{ member.link }}" target="_blank"{% endif %} class="board-members__block investor__block {%if member.link %}link{% endif %}">
           <div class="investor__block-image">
             <img src="{{ member.image }}" alt="{{ member.name }}">
