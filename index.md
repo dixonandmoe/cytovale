@@ -40,49 +40,92 @@ team:
     bio: Ajay is the CEO of Cytovale and heads up product and parties
   - name: Mara Macdonald
     image: "/uploads/mara-macdonald.jpg"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: With a background in consulting and venture capital, and a PhD in Medical
+      and Chemical engineering, Mara leads commercial strategy and clinical operations
+      at CytoVale. When she's not working to bring Cytovale's technology to patients,
+      you can find Mara skiing, enjoying acroyoga and salsa, backpack camping, or
+      traveling--with over 30 countries visited!
   - name: M. Cyrus Maher
     image: "/uploads/Cyrus%20Maher.jpg"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: Cyrus specializes in building production-quality software that applies novel
+      statistical methods to meaningful biological problems. When he's not talking
+      to computers, Cyrus enjoys paragliding, meditation, dog walking, and cooing
+      about how the Golden State Warriors are a historically great basketball team
+      (statistically speaking, of course)
   - name: Henry Tat Kwong Tse
     image: "/uploads/Henry-60cbff.jpg"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: Henry enjoys challenges, and especially solving them with the CytoVale team. Henry's
+      perspective is rooted in a science and engineering background with specific
+      experiences and interests at intersection of biology and engineering. 
   - name: Roya Sheybani
     image: "/uploads/roya-sheybani.jpg"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: Roya earned her PhD developing implantable microsystems. Following a brief
+      foray into biomaterials and infection detection sensors, she joyfully returned
+      to the mild winters of California, and joined the CytoVale team to pursue her
+      passion of developing innovative and practical solutions to healthcare needs.
   - name: Kate Crawford
     image: "/uploads/Kate%20Crawford.png"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: Kate is passionate about translating microfluidics into a clinically useful
+      product. Outside of work, her interests are rock climbing, music, vegetables,
+      and cats.
   - name: Anne Jensen
     image: "/uploads/Annie%20Jensen.jpeg"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: As an early Cytovale team member, Annie enjoys working on the interdisciplinary
+      engineering process of developing diagnostics with clear clinical utility. When
+      she's not squishing cells, Annie likes to ski, hike, play lawn sports and watch
+      good movies. 
   - name: Lionel Guillou
     image: "/uploads/Lionel%20Guillou.jpg"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: 'Lionel is a ping-pong enthusiast who enjoys working at the intersection
+      of physics and biology to contribute in shaping tomorrow''s medicine. After
+      squishing cells for 3 years in France for his PhD, Lionel joined the CytoVale
+      team with the goal of translating research into a product that directly helps
+      patients.
+
+'
   - name: Becky DiMarco
     image: "/uploads/Becky%20DiMarco.png"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
-  - name: Jessica Faruque
-    image: "/uploads/Jessica%20Faruque.jpg"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: Becky's passion for medical devices began in early elementary school; 22
+      years of schooling later, she specializes in biomaterials, cell-matrix interactions,
+      and the medical device product lifecycle under cGMP's.  She loves traveling,
+      eating delicious foods, hiking with her golden retriever, and spending as much
+      time as possible with her family.
   - name: Nick Martinez
     image: "/uploads/Nick%20Martinez-27ddb2.png"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: Nick’s a Bay Area native who loves riding bikes almost as much as the meal
+      that follows. He’s passionate about products that combine new technology and
+      empathic design
   - name: Maddy Cook
     image: "/uploads/Maddy%20Cook.jpg"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: Maddy is a nature lover who, ironically, found her niche in a laboratory
+      setting. When she isn't doing yoga or playing with her cats, she is working
+      in our lab in Baton Rouge, LA running patient samples for clinical trials and
+      working on exploratory projects. Maddy joined CytoVale with the motivation to
+      learn more about clinical research while contributing to work that will make
+      a difference in the lives of patients. 
   - name: Allison Walters
     image: "/uploads/Allison%20Walters.png"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: 'Allison is a UCLA graduate with a passion for medical technology that saves
+      lives and reduces suffering. When Allison is not working on revolutionary medical
+      diagnostics, she can be found at the beach, drawing or painting, training for
+      a marathon, or eating a lot of chocolate. '
   - name: Sakshi Shah
     image: "/uploads/Sakshi.png"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: Sakshi is sometimes from India, sometimes from Singapore, and perpetually
+      cold. She recently graduated from Harvey Mudd College with a degree in physics
+      and enjoys cooking, the ocean, and working at the interface of physics and biology
+      to revolutionize medical diagnostics.
   - name: Chris Dahlberg
     image: "/uploads/Chris%20Dalberg.jpg"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: Chris Dahlberg is a world-class biologist who inexplicably electrocutes himself
+      on a regular basis. When he's not tending to his extensive collection of carnivorous
+      plants , he blogs about the threat of domestic cats to native bird populations
   - name: Peter Landwehr
     image: "/uploads/Peter%20Landwehr-e4962d.jpg"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: Peter enjoys hot coffee and cheesecake in the evening, a cool drink on the
+      balcony in the afternoon, and cleaning, analyzing, and modeling data all the
+      live-long day. He came to CytoVale hoping to help produce metrics that will
+      save lives and increase our understanding of disease.
   - name: Lillian Peng
     image: "/uploads/Lillian%20Peng-dccccf.jpg"
 layout: index
