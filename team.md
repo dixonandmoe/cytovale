@@ -82,7 +82,7 @@ advisors:
     link: 
   - name: Rahul Dhanda
     title: Sr. Vice President, T2 Biosystems
-    image: "/uploads/bill-gerber.jpg"
+    image: 
     link: 
   - name: Hollis O’Neal, MD
     title: Clinical Investigator
@@ -90,7 +90,7 @@ advisors:
     link: 
   - name: Steven Opal, MD
     title: Leading Sepsis Pathophysiology & Clinical Trial Expert
-    image: "/uploads/james-russell.jpg"
+    image: 
     link: 
   - name: Nathan Shapiro, MD
     title: Leading Emergency Medicine Researcher Focused in Sepsis
