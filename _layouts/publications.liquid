@@ -31,7 +31,6 @@ layout: default
       <h2 class="col-xs-hidden">Publications</h2>
 
       {% for post in site.publications %}
-        {% if forloop.first == true %}
 
           <div class="post-index__featured">
             <h5 class="post-index__subtitle">Featured Publication</h5>
@@ -51,31 +50,6 @@ layout: default
             </a>
           </div>
 
-        {% else %}
-
-          <div class="blog-index__post">
-            <div class="row">
-              <div class="col-md-21 col-xs-24 index__post-content">
-                <a href="{{ post.link }}">
-                  <h3 class="blog-secondary__title">{{ post.title }}</h3>
-                  <h4>{{ post.subtitle }}</h4>
-                </a>
-                {% assign truncatedContent = '' %}
-                {% assign paragraphs = post.content | split:'</p>' %}
-                {% for paragraph in paragraphs limit:1 %}
-                  {{ truncatedContent | append: paragraph }}
-                  {{ truncatedContent | append: '</p>' }}
-                {% endfor %}
-              </div>
-              <div class="col-md-3 col-xs-24 index__post-arrow">
-                <a href="{{ post.link }}">
-                  <img src="../img/post-arrow.svg"/>
-                </a>
-              </div>
-            </div>
-          </div>
-
-        {% endif %}
       {% endfor %}
     </div>
 

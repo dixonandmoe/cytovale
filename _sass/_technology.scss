@@ -137,7 +137,7 @@
     h2 {
         width: 100%;
         text-align: center;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
 
     p {
@@ -155,8 +155,8 @@
             margin: 1rem 0;
         }
         margin-top: 0.25em;
-        color: $grey-color-dark;
-        background: #e8e8eb;
+        color: $grey-color;
+        background: rgba(255,255,255,0.8);
         display: flex;
         align-items: center;
         @media only screen and (max-width: 640px) {
@@ -202,16 +202,19 @@
     .mechanomics {
         position: relative;
         z-index: 2;
-        transform: scale(1.02, 1.02);
         background: #fff;
-        box-shadow: 0 4px 40px rgba(0,0,0,0.8)
+        color: $grey-color-dark;
+        box-shadow: 0 4px 40px rgba(0,0,0,0.8);
+        .technology-comp__table-image {
+            border-right: 1px solid #ddd;
+        }
     }
 
 
 
 
     .technology-comp__techs {
-        padding-top: 3em;
+        padding-top: 1.5em;
     }
 
     .technology-comp__titles {

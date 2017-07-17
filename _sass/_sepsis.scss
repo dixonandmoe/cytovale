@@ -18,14 +18,15 @@
 
 .header-sepsis__subtitle {
   p {
-    font-size: 24px;
+    padding-top: 16%;
+    font-size: 36px;
+    line-height: 1.1;
     color: white;
-    padding-top: 20%;
     span {
       display: block;
       font-size: 14px;
       text-transform: uppercase;
-      margin-top: 14px;
+      margin-top: 24px;
       color: rgba(255, 255, 255, 0.8);
       letter-spacing: 0.1em;
     }
@@ -89,6 +90,10 @@
   padding: 8em 0;
   background: $dark;
   color: white;
+  h2 {
+    margin: 0;
+  }
+
   .sepsis-disease__cells{
     background: url('../img/sepsis-cells.svg') no-repeat center;
     height: 462px;
