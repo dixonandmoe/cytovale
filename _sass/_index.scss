@@ -138,6 +138,9 @@ p {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  @media only screen and (max-width: 640px) {
+    top: 34px;
+  }
 }
 .header-index__caption-line {
   margin-top: -8px;
@@ -162,6 +165,9 @@ p {
   &.active {
     opacity: 1;
     transform: translateY(0);
+  }
+  @media only screen and (max-width: 640px) {
+    padding: 5px 14px;
   }
 }
 
