@@ -141,19 +141,19 @@ team:
     image: "/uploads/michael-atar.jpg"
     bio: 
   - name: Lindy Fishburne
-    image: 
+    image: "/uploads/lindy_lg.png"
     bio: 
   - name: Pascal Levensohn
-    image: 
+    image: "/uploads/pascal-9c8848.jpg"
     bio: 
   - name: Dave Dolby
-    image: 
+    image: "/uploads/DaveDolby.jpg"
     bio: 
   - name: Steven Opal
-    image: 
+    image: "/uploads/Opal1-172efe.jpg"
     bio: 
   - name: Nate Shapiro
-    image: 
+    image: "/uploads/shapiro2%201%20%20ashx.jpg"
     bio: 
   - name: Hollis O'Neal, MD
     image: "/uploads/hollis-oneal.jpg"
@@ -165,10 +165,10 @@ team:
     image: 
     bio: 
   - name: Rahul Dhanda
-    image: 
+    image: "/uploads/team-Rahul-Dhanda.jpg"
     bio: 
   - name: Laureen DeBuono
-    image: 
+    image: "/uploads/Laureen_DeBuono.jpg"
     bio: 
 layout: index
 ---
