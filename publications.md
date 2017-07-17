@@ -10,7 +10,7 @@ featured_publications:
   subtitle: 'Science Translational Medicine '
   abstract: |-
     In this paper, we conducted the first large scale clinical study evaluating label-free and low-cost cellular mechanical biomarkers from thousands of single-cells as a diagnostic.  The report provides evidence that the approach could reduce the need for diagnostic procedures associated with body fluid cytological analysis and the associated costs while improving accuracy over currently used methods. In a highlight article, Guck et al. describe the impact of our work “…this study marks a quantum leap in the clinical application of mechanical phenotyping… Tse and colleagues have opened a door to merging mechanics with medicine; now, it is well worth stepping through to explore what lies behind.”
-    <br>
+    <br><br>
     The clinical study focused on pleural fluid samples from more than 100 patients in which we aimed to identify patients with malignant cells using our high-throughput mechanical phenotyping approach. Current screening of pleural fluid for cancer is costly, time-consuming, and often inconclusive. The detailed biophysical metrics we obtained from profiles of many single cells, along with machine learning approaches, allowed improved sensitivity over traditional cytology: Some patient samples that were not identified as cancerous via traditional methods were found to be so through deformability cytometry. These results were verified six months later. Because our approach does not require a trained pathologist, its potential benefits are even greater in areas where there is a lack of such specialists, such as rural areas or developing nations.
   link: https://www.ncbi.nlm.nih.gov/pubmed/24259051
 - title: Hydrodynamic stretching of single cells for large population mechanical phenotyping
@@ -27,7 +27,7 @@ featured_publications:
     measure of the viscoelastic properties of cells. Viscous and elastic properties
     of cells are related to the membrane surrounding the cell, internal cytoskeletal
     structural elements, and the packed DNA arrangement in the nucleus.  Variations
-    in these properties can be indicative of disease such as sepsis or cancer. \n<br>\nUsing
+    in these properties can be indicative of disease such as sepsis or cancer. \n<br><br>\nUsing
     this platform data indicating the ability to identify inflammation, malignant
     cell populations and other cell states without costly chemical tags is reported,
     supporting diagnostic application areas where rapid analysis of the mechanical
