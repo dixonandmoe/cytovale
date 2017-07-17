@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contact - Cytovale
 header_title: Contact Us
 header_subtitle: We're  located in San Francisco. Get in touch to learn more!
 header_image: "/uploads/index-office.jpg"
