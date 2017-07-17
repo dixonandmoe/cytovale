@@ -128,13 +128,48 @@ team:
       save lives and increase our understanding of disease.
   - name: Lillian Peng
     image: "/uploads/Lillian%20Peng-dccccf.jpg"
-    bio: Peter enjoys hot coffee and cheesecake in the evening, a cool drink on the
-      balcony in the afternoon, and cleaning, analyzing, and modeling data all the
-      live-long day. He came to CytoVale hoping to help produce metrics that will
-      save lives and increase our understanding of disease.
-  - name: Moe Amaya
+    bio: Lillian is from Los Angeles and enjoys playing soccer and hand-lettering.
+      She is a recent UCLA graduate with a degree in bioengineering and a passion
+      for squishing cells to advance medicine. 
+  - name: Dino Di Carlo, Ph.D
+    image: "/uploads/Professor%20Dino%20Di%20Carlo.jpg"
+    bio: 
+  - name: Jack Fuchs
     image: 
-    bio: Testing
+    bio: 
+  - name: Michael Atar
+    image: 
+    bio: 
+  - name: Lindy Fishburne
+    image: 
+    bio: 
+  - name: Pascal Levensohn
+    image: 
+    bio: 
+  - name: Dave Dolby
+    image: 
+    bio: 
+  - name: Steven Opal
+    image: 
+    bio: 
+  - name: Nate Shapiro
+    image: 
+    bio: 
+  - name: Hollis O'Neal, MD
+    image: 
+    bio: 
+  - name: Evangelos Hytopolous
+    image: 
+    bio: 
+  - name: Chris Thomas
+    image: 
+    bio: 
+  - name: Rahul Dhanda
+    image: 
+    bio: 
+  - name: Laureen DeBuono
+    image: 
+    bio: 
 layout: index
 ---
 
