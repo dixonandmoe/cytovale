@@ -7,7 +7,7 @@ body {
 .logo-text {
   display: inline-block;
   position: absolute;
-  top: -9px;
+  // top: -9px;
   left: 64px;
   font-weight: bold;
 }
@@ -24,67 +24,78 @@ body {
   position: relative;
 }
 
-  .site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
+.site-title {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
 
-    &,
-    &:visited {
-      color: $grey-color-dark;
-    }
+  &,
+  &:visited {
+    color: $grey-color-dark;
   }
+}
 
-  .layout-nav {
-    position: relative;
+.layout-nav {
+  position: relative;
+  height: 84px;
+  line-height: 84px;
+  background: $dark;
+  padding: 0 24px;
+  .menu-icon {
+    display: none;
+  }
+  .nav-link__home {
+    display: block;
     height: 84px;
-    line-height: 84px;
-    background: $dark;
-    padding: 0 24px;
-    .menu-icon {
-      display: none;
+    img {
+      position: absolute;
+      top: -4px;
+      bottom: 0;
+      margin: auto;
     }
-    .nav-link__home {
-      display: block;
-      height: 84px;
-      img {
-        position: absolute;
-        top: -4px;
-        bottom: 0;
-        margin: auto;
-      }
-    }
+  }
 
+  .nav-link {
+    color: $purple;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    animation: nav-fade 2s;
+    &:not(:last-child) {
+      margin-right: 36px;
+    }
+    svg {
+      position: relative;
+      top: 8px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) and (min-width: 641px) {
     .nav-link {
-      color: $purple;
-      font-size: 12px;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      animation: nav-fade 2s;
       &:not(:last-child) {
-        margin-right: 36px;
-      }
-    }
-
-    @media only screen and (max-width: 640px) {
-      height: 64px;
-      line-height: 64px;
-
-      .nav-link__home img {
-        position: relative;
-        top: 4px;
-        width: 100%;
+        margin-right: 8px;
       }
     }
   }
 
+  @media only screen and (max-width: 640px) {
+    height: 64px;
+    line-height: 64px;
+
+    .nav-link__home img {
+      position: relative;
+      top: 4px;
+      width: 100%;
+    }
+  }
+}
 
 
-  .nav-button {
-  // background: $green;
+
+.nav-button {
   color: #fff;
   font-size: 12px;
   letter-spacing: 0.2em;
@@ -102,6 +113,7 @@ body {
     padding: 8px 10px;
   }
 }
+
 
 
 /**
