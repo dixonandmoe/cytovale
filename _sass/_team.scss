@@ -1,18 +1,32 @@
 
 
-.team-header__bars{
-  position: absolute;
-  top: -4em;
-  margin-left: 4em;
-}
 
 
 .header-team {
+    h1 {
+        @media only screen and (max-width: 768px) and (min-width: 641px) {
+            margin-top: -1em;
+        }
+    }
     p {
         color: white;
         font-size: 150%;
         line-height: 150%;
     }
+}
+
+.team-header__image {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border-radius: 250px;
+  border: 6px solid #fff;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+  z-index: 2;
 }
 
 .header-team--office {
@@ -26,14 +40,17 @@
         box-shadow: 0 8px 40px rgba(0,0,0,0.2);
         z-index: 1;
 
-          @media only screen and (max-width: 900px) {
-              display: none;
-          }
+        @media only screen and (max-width: 900px) {
+            display: none;
+        }
     }
 }
 
 .team-main {
     margin: 15em 0 0;
+    @media only screen and (max-width: 768px) and (min-width: 641px) {
+        margin-top: 22em;
+    }
     @media only screen and (max-width: 640px) {
         margin-top: 4em;
     }
