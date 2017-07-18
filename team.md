@@ -58,14 +58,14 @@ board:
     title: Life Sciences CFO & Serial Entrepreneur
     image: "/uploads/jack-fuchs.jpg"
     link: https://www.linkedin.com/in/jack-fuchs-3b9110/
-  - name: Pascal Levensohn
-    title: Managing Director, Dolby Family Ventures
-    image: "/uploads/pascal-9c8848.jpg"
-    link: https://www.linkedin.com/in/pascal-levensohn-a10331/
   - name: David Dolby
     title: Executive Director, Breakout Labs
     image: "/uploads/lindy_lg.png"
     link: https://www.linkedin.com/in/lindy-morris-fishburne-076157/
+  - name: Pascal Levensohn
+    title: Managing Director, Dolby Family Ventures
+    image: "/uploads/pascal-9c8848.jpg"
+    link: https://www.linkedin.com/in/pascal-levensohn-a10331/
   - name: David Dolby
     title: Dolby Family Ventures
     image: "/uploads/DaveDolby.jpg"
@@ -80,10 +80,13 @@ advisors:
     title: Sr. Vice President, T2 Biosystems
     image: "/uploads/team-Rahul-Dhanda.jpg"
     link: https://www.linkedin.com/in/dhanda/
+  - name: Laureen DeBuono
+    title: Seasoned Public/Private C-Level Executive & BOD Member
+    image: "/uploads/Laureen_DeBuono.jpg"
+    link: 
   - name: Hollis O’Neal, MD
     title: Clinical Investigator
     image: "/uploads/hollis-oneal.jpg"
-    link: 
   - name: Steven Opal, MD
     title: Leading Sepsis Pathophysiology & Clinical Trial Expert
     image: "/uploads/Opal1-172efe.jpg"
@@ -92,9 +95,6 @@ advisors:
     title: Leading Emergency Medicine Researcher Focused in Sepsis
     image: "/uploads/shapiro2%201%20%20ashx.jpg"
     link: http://www.bidmc.org/Centers-and-Departments/Departments/Emergency-Medicine/Meet-Our-Team/Nathan-Shapiro.aspx
-  - name: Laureen DeBuono
-    title: Seasoned Public/Private C-Level Executive & BOD Member
-    image: "/uploads/Laureen_DeBuono.jpg"
 investors:
   title: Investors and Partners
   members:
