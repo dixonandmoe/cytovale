@@ -63,12 +63,12 @@ board:
     image: "/uploads/pascal-9c8848.jpg"
     link: https://www.linkedin.com/in/pascal-levensohn-a10331/
   - name: David Dolby
-    title: Dolby Family Ventures
-    image: "/uploads/DaveDolby.jpg"
-    link: 
-  - name: Lindy Fishburne
     title: Executive Director, Breakout Labs
     image: "/uploads/lindy_lg.png"
+    link: https://www.linkedin.com/in/lindy-morris-fishburne-076157/
+  - name: David Dolby
+    title: Dolby Family Ventures
+    image: "/uploads/DaveDolby.jpg"
 advisors:
   title: Advisors
   members:
