@@ -50,15 +50,11 @@ board:
     title: Co-Founder and Scientific Advisor
     image: "/uploads/dino-di-carlo.jpg"
     link: http://www.biomicrofluidics.com/
-  - name: Michael Atar
-    title: Azure Capital
-    image: "/uploads/michael-atar.jpg"
-    link: 
   - name: Jack Fuchs
     title: Life Sciences CFO & Serial Entrepreneur
     image: "/uploads/jack-fuchs.jpg"
     link: https://www.linkedin.com/in/jack-fuchs-3b9110/
-  - name: David Dolby
+  - name: Lindy Fishburne
     title: Executive Director, Breakout Labs
     image: "/uploads/lindy_lg.png"
     link: https://www.linkedin.com/in/lindy-morris-fishburne-076157/
@@ -69,6 +65,10 @@ board:
   - name: David Dolby
     title: Dolby Family Ventures
     image: "/uploads/DaveDolby.jpg"
+  - name: Michael Atar
+    title: Azure Capital
+    image: "/uploads/michael-atar.jpg"
+    link: 
 advisors:
   title: Advisors
   members:
@@ -81,9 +81,9 @@ advisors:
     image: "/uploads/team-Rahul-Dhanda.jpg"
     link: https://www.linkedin.com/in/dhanda/
   - name: Laureen DeBuono
-    title: Seasoned Public/Private C-Level Executive & BOD Member
+    title: Seasoned Public/Private C-Level Executive
     image: "/uploads/Laureen_DeBuono.jpg"
-    link: 
+    link: https://www.linkedin.com/in/laureendebuono
   - name: Hollis O’Neal, MD
     title: Clinical Investigator
     image: "/uploads/hollis-oneal.jpg"
