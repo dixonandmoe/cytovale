@@ -9,42 +9,41 @@ management:
   members:
   - name: Ajay Shah, PhD
     title: Co-Founder and CEO
-    bio: Ajay is an expert in cell-based diagnostic technologies, as well as an experienced
-      entrepreneur. He has previously co-founded two life science companies - Momelan
-      Technologies, a surgical therapeutic company based on microfabrication technologies
-      that was acquired by a strategic investor in 2012, and Insight Surgical Instruments,
-      a neurosurgical instrumentation company that is currently in discussions with
-      a potential acquirer. Ajay received his Ph.D. from the Harvard-MIT Division
-      of Health Sciences and Technology, where he developed a novel platform for circulating
-      tumor cell isolation.
+    bio: 'Ajay is an expert in cell-based diagnostic technologies, as well as an experienced
+      entrepreneur, having previously co-founded two life science companies (one acquired
+      in 2012).  Ajay received his Ph.D. from the Harvard-MIT Division of Health Sciences
+      and Technology, where he developed a novel platform for circulating tumor cell
+      isolation under the supervision of Mehmet Toner and Daniel Haber at Mass. General
+      Hospital.   '
     image: "/uploads/ajay-shah.jpg"
     link: https://www.linkedin.com/in/ajaymukeshshah/
   - name: Mara Macdonald, PhD
     title: Co-Founder and COO
-    bio: Mara currently serves as the co-founder and chief operations officer at CytoVale
+    bio: Mara currently serves as the co-founder and Chief Operations Officer at CytoVale
       and manages aspects of company building, strategic marketing, and regulatory
       and clinical operations. Prior to CytoVale, Mara worked with Third Rock Ventures,
       a venture capital firm focused on launching and building life science companies.
       While at Third Rock, Mara gained experience in venture creation and company
       building strategy as a member of the diligence team for many companies including
-      Nurix and Decibel.
+      Nurix and Decibel.  Mara earned her PhD from the Harvard-MIT Division of Health
+      Sciences & Technology.
     image: "/uploads/mara-macdonald.jpg"
     link: https://www.linkedin.com/in/maramacdonald1/
   - name: Henry Tse, PhD
     title: Co-Founder and VP Engineering
-    bio: "Henry is Co-Founder and Vice-President of Engineering for CytoVale, heading
+    bio: "Henry is Co-Founder and Vice-President of Engineering for CytoVale, leading
       the research and development efforts to commercialize the microfluidic deformability
       cytometry technology. \nHenry's broad engineering and science background is
       rooted in his graduate work with Professor Dino Di Carlo. His science and engineering
       expertise spans microfluidics, cancer biology, image processing, and application
-      proof-of-concept clinical studies. Henry is the co-inventer of the deformability
+      proof-of-concept clinical studies. Henry is the co-inventor of the deformability
       cytometry platform, which has resulted in peer-reviewed publications of seminal
       papers of the technology, followed on by application specific papers, as well
       an accompanying suite of issued patents."
     image: "/uploads/henry-tse.jpg"
     link: 
 board:
-  title: Board of Directors & Observers
+  title: Board of Directors, Observers & Key Investors
   members:
   - name: Ajay M Shah, PhD
     title: Co-Founder and CEO
@@ -117,8 +116,6 @@ investors:
   - name: National Institutes of Health
     image: "/uploads/NIH.png"
     link: 
-  - name: 
-    image: 
 layout: team
 ---
 
