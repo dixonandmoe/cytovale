@@ -7,13 +7,12 @@ about:
   title: About Us
   description: 'We’re a team of biologists, data scientists, and engineers developing
     mechanical biomarkers to improve human health. Our novel microfluidic platform
-    allows us to probe individual cells to quantify the mechanicals signatures of
-    disease. We are applying this first to sepsis, a condition whose early detection
-    dramatically improves patient outcomes and reduces treatment cost.<br><br>Reflecting
-    our technology/biology hybrid company, at our San Francisco office the data team
-    sits across from a wet lab, and our biologists handle python as well as pipettes.
-    We believe close collaboration helps us move fast to bring health insights to
-    patients and their healthcare providers. '
+    allows us to probe individual cells to quantify the mechanical signatures of disease.
+    We are applying this first to sepsis, a condition whose early detection dramatically
+    improves patient outcomes and reduces treatment cost.<br><br>Reflecting our technology/biology
+    hybrid company, at our San Francisco office the data team sits across from a wet
+    lab, and our biologists handle python as well as pipettes. We believe close collaboration
+    helps us move fast to bring health insights to patients and their healthcare providers. '
 sepsis:
   title: Early<br>Sepsis<br>Detection
   description: 'We’ve enrolled a multi-hundred patient clinical study in support of
@@ -56,7 +55,8 @@ team:
     image: "/uploads/Henry-60cbff.jpg"
     bio: Henry enjoys challenges, and especially solving them with the CytoVale team. Henry's
       perspective is rooted in a science and engineering background with specific
-      experiences and interests at intersection of biology and engineering. 
+      experiences and interests at intersection of biology and engineering. He leads
+      CytoVale's overall technical efforts.
   - name: Roya Sheybani
     image: "/uploads/roya-sheybani.jpg"
     bio: Roya earned her PhD developing implantable microsystems. Following a brief
@@ -133,19 +133,25 @@ team:
       for squishing cells to advance medicine. 
   - name: Dino Di Carlo, Ph.D
     image: "/uploads/dino-di-carlo.jpg"
-    bio: 
+    bio: Dino is a Professor and Vice Chair of Bioengineering at UCLA, and CytoVale's
+      academic co-founder.  He actively advises CytoVale's technical team and is a
+      member of the Company's Board of Directors.
   - name: Jack Fuchs
     image: "/uploads/jack-fuchs.jpg"
-    bio: 
+    bio: Jack is a seasoned CFO, investor, and entrepreneur.  He serves as a CytoVale
+      Board Member and is a Lecturer in Entrepreneurship at Stanford.
   - name: Michael Atar
     image: "/uploads/michael-atar.jpg"
-    bio: 
+    bio: Prof. Atar is a highly acclaimed pediatric dentist by training, and heads
+      up the Atar Family Office.
   - name: Lindy Fishburne
     image: "/uploads/lindy_lg.png"
-    bio: 
+    bio: Lindy Fishburne is the Executive Director at Breakout Labs and the Managing
+      Director at Breakout Ventures.   She serves as a Board Observer at CytoVale.
   - name: Pascal Levensohn
     image: "/uploads/pascal-9c8848.jpg"
-    bio: 
+    bio: Pascal Levensohn is a Managing Director at Dolby Family Ventures, and closely
+      advises the CytoVale team in this capacity.
   - name: Dave Dolby
     image: "/uploads/DaveDolby.jpg"
     bio: 
