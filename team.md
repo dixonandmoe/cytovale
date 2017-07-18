@@ -22,11 +22,8 @@ management:
     bio: Mara currently serves as the co-founder and Chief Operations Officer at CytoVale
       and manages aspects of company building, strategic marketing, and regulatory
       and clinical operations. Prior to CytoVale, Mara worked with Third Rock Ventures,
-      a venture capital firm focused on launching and building life science companies.
-      While at Third Rock, Mara gained experience in venture creation and company
-      building strategy as a member of the diligence team for many companies including
-      Nurix and Decibel.  Mara earned her PhD from the Harvard-MIT Division of Health
-      Sciences & Technology.
+      a venture capital firm focused on launching and building life science companies.  Mara
+      earned her PhD from the Harvard-MIT Division of Health Sciences & Technology.
     image: "/uploads/mara-macdonald.jpg"
     link: https://www.linkedin.com/in/maramacdonald1/
   - name: Henry Tse, PhD
@@ -41,7 +38,7 @@ management:
       papers of the technology, followed on by application specific papers, as well
       an accompanying suite of issued patents."
     image: "/uploads/henry-tse.jpg"
-    link: 
+    link: https://www.linkedin.com/in/henry-tat-kwong-tse-a72ab06a/
 board:
   title: Board of Directors, Observers & Key Investors
   members:
@@ -52,7 +49,7 @@ board:
   - name: Dino Di Carlo, PhD
     title: Co-Founder and Scientific Advisor
     image: "/uploads/dino-di-carlo.jpg"
-    link: 
+    link: http://www.biomicrofluidics.com/
   - name: Michael Atar
     title: Azure Capital
     image: "/uploads/michael-atar.jpg"
@@ -60,11 +57,11 @@ board:
   - name: Jack Fuchs
     title: Life Sciences CFO & Serial Entrepreneur
     image: "/uploads/jack-fuchs.jpg"
-    link: 
+    link: https://www.linkedin.com/in/jack-fuchs-3b9110/
   - name: Pascal Levensohn
     title: Managing Director, Dolby Family Ventures
     image: "/uploads/pascal-9c8848.jpg"
-    link: 
+    link: https://www.linkedin.com/in/pascal-levensohn-a10331/
   - name: David Dolby
     title: Dolby Family Ventures
     image: "/uploads/DaveDolby.jpg"
@@ -78,11 +75,11 @@ advisors:
   - name: Evangelos Hytopolous, PhD
     title: Biostatistics Expert, Leading Public Dx Co.
     image: "/uploads/evangelos-hytopolous.jpg"
-    link: 
+    link: https://www.linkedin.com/in/evangelos-hytopoulos-9711004/
   - name: Rahul Dhanda
     title: Sr. Vice President, T2 Biosystems
     image: "/uploads/team-Rahul-Dhanda.jpg"
-    link: 
+    link: https://www.linkedin.com/in/dhanda/
   - name: Hollis O’Neal, MD
     title: Clinical Investigator
     image: "/uploads/hollis-oneal.jpg"
@@ -90,11 +87,11 @@ advisors:
   - name: Steven Opal, MD
     title: Leading Sepsis Pathophysiology & Clinical Trial Expert
     image: "/uploads/Opal1-172efe.jpg"
-    link: 
+    link: https://vivo.brown.edu/display/sopalmd
   - name: Nathan Shapiro, MD
     title: Leading Emergency Medicine Researcher Focused in Sepsis
     image: "/uploads/shapiro2%201%20%20ashx.jpg"
-    link: 
+    link: http://www.bidmc.org/Centers-and-Departments/Departments/Emergency-Medicine/Meet-Our-Team/Nathan-Shapiro.aspx
   - name: Laureen DeBuono
     title: Seasoned Public/Private C-Level Executive & BOD Member
     image: "/uploads/Laureen_DeBuono.jpg"
@@ -106,16 +103,16 @@ investors:
     link: 
   - name: Dobly Family Ventures
     image: "/uploads/dobly-family-ventures.jpg"
-    link: 
+    link: http://www.dolbyventures.com/
   - name: Breakout Labs
     image: "/uploads/breakout-labs.png"
-    link: 
+    link: http://www.breakoutlabs.org/
   - name: National Science Foundation
     image: "/uploads/NSF.jpg"
-    link: 
+    link: https://www.nsf.gov/
   - name: National Institutes of Health
     image: "/uploads/NIH.png"
-    link: 
+    link: https://www.nih.gov/
 layout: team
 ---
 
