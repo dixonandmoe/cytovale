@@ -36,7 +36,9 @@ team:
   people:
   - name: Ajay Shah
     image: "/uploads/ajay-shah.jpg"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: Ajay is CytoVale's CEO and is excited to be building the company with this
+      awesome team!  Outside of work, he's passionate about traveling and is a self-confessed
+      foodie.
   - name: Mara Macdonald
     image: "/uploads/mara-macdonald.jpg"
     bio: With a background in consulting and venture capital, and a PhD in Medical
@@ -152,30 +154,47 @@ team:
     image: "/uploads/pascal-9c8848.jpg"
     bio: Pascal Levensohn is a Managing Director at Dolby Family Ventures, and closely
       advises the CytoVale team in this capacity.
-  - name: Dave Dolby
+  - name: David Dolby
     image: "/uploads/DaveDolby.jpg"
-    bio: 
+    bio: David Dolby is an active technology investor and philanthropist, and supports
+      the CytoVale team through Dolby Family Ventures' investment.
   - name: Steven Opal
     image: "/uploads/Opal1-172efe.jpg"
-    bio: 
-  - name: Nate Shapiro
+    bio: Dr. Steven Opal is a Professor of Medicine at Brown University and Chief
+      of the Division of Infectious Diseases at Memorial Hospital of Rhode Island.  He
+      is an internationally recognized key opinion leader in the sepsis field and
+      has led numerous worldwide multi-center clinical studies in this space.
+  - name: Dr. Nathan Shapiro
     image: "/uploads/shapiro2%201%20%20ashx.jpg"
-    bio: 
+    bio: Dr. Nathan Shapiro is an Associate Professor of Emergency Medicine at Harvard
+      Medical School, and the Vice Chairman of Research in the Department of Medicine
+      at Beth Israel Deaconess Medical Center in Boston.  He is a recognized leader
+      in clinical and translational research in sepsis diagnosis and treatment.
   - name: Hollis O'Neal, MD
     image: "/uploads/hollis-oneal.jpg"
-    bio: 
-  - name: Evangelos Hytopolous
+    bio: Dr. Hollis O'Neal is a Pulmonary and Critical Care physician and an Assistant
+      Professor at the LSU Health Sciences Center in Baton Rouge.  He is the Medical
+      Director of Research at Our Lady of the Lake Hosptial, and closely collaborates
+      with the CytoVale team.
+  - name: Evangelos Hytopolous, PhD
     image: "/uploads/evangelos-hytopolous.jpg"
-    bio: 
-  - name: Chris Thomas
+    bio: 'Evangelos is a recognized biostatistics expert, the Senior Director of Biostatistics
+      at a leading public diagnostics company, and a former C-level executive at multiple
+      startups.  He advises the CytoVale team on data science and technology development
+      matters.  '
+  - name: Chris Thomas, MD
     image: 
-    bio: 
+    bio: Dr. Thomas is a Pulmonary and Critical Care Physician at LSU Health Sciences
+      Center in Baton Rouge, and closely collaborates with the CytoVale team.
   - name: Rahul Dhanda
     image: "/uploads/team-Rahul-Dhanda.jpg"
-    bio: 
+    bio: Rahul is the Senior Vice President, Corporate Development and Marketing,
+      at T2 Biosystems, and a key commercial advisor to CytoVale.
   - name: Laureen DeBuono
     image: "/uploads/Laureen_DeBuono.jpg"
-    bio: 
+    bio: Laureen is a seasoned executive, having held CEO, COO and CFO roles in public
+      and private companies in healthcare and other spaces.   She advises CytoVale's
+      management team.
 layout: index
 ---
 
