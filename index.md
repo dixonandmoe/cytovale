@@ -183,7 +183,7 @@ team:
       startups.  He advises the CytoVale team on data science and technology development
       matters.  '
   - name: Chris Thomas, MD
-    image: 
+    image: "/uploads/Chris%20Thomas.JPG"
     bio: Dr. Thomas is a Pulmonary and Critical Care Physician at LSU Health Sciences
       Center in Baton Rouge, and closely collaborates with the CytoVale team.
   - name: Rahul Dhanda
