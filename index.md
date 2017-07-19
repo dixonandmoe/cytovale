@@ -7,13 +7,12 @@ about:
   title: About Us
   description: 'We’re a team of biologists, data scientists, and engineers developing
     mechanical biomarkers to improve human health. Our novel microfluidic platform
-    allows us to probe individual cells to quantify the mechanicals signatures of
-    disease. We are applying this first to sepsis, a condition whose early detection
-    dramatically improves patient outcomes and reduces treatment cost.<br><br>Reflecting
-    our technology/biology hybrid company, at our San Francisco office the data team
-    sits across from a wet lab, and our biologists handle python as well as pipettes.
-    We believe close collaboration helps us move fast to bring health insights to
-    patients and their healthcare providers. '
+    allows us to probe individual cells to quantify the mechanical signatures of disease.
+    We are applying this first to sepsis, a condition whose early detection dramatically
+    improves patient outcomes and reduces treatment cost.<br><br>Reflecting our technology/biology
+    hybrid company, at our San Francisco office the data team sits across from a wet
+    lab, and our biologists handle python as well as pipettes. We believe close collaboration
+    helps us move fast to bring health insights to patients and their healthcare providers. '
 sepsis:
   title: Early<br>Sepsis<br>Detection
   description: 'We’ve enrolled a multi-hundred patient clinical study in support of
@@ -37,7 +36,9 @@ team:
   people:
   - name: Ajay Shah
     image: "/uploads/ajay-shah.jpg"
-    bio: Ajay is the CEO of Cytovale and heads up product and parties
+    bio: Ajay is CytoVale's CEO and is excited to be building the company with this
+      awesome team!  Outside of work, he's passionate about traveling and is a self-confessed
+      foodie.
   - name: Mara Macdonald
     image: "/uploads/mara-macdonald.jpg"
     bio: With a background in consulting and venture capital, and a PhD in Medical
@@ -56,7 +57,8 @@ team:
     image: "/uploads/Henry-60cbff.jpg"
     bio: Henry enjoys challenges, and especially solving them with the CytoVale team. Henry's
       perspective is rooted in a science and engineering background with specific
-      experiences and interests at intersection of biology and engineering. 
+      experiences and interests at intersection of biology and engineering. He leads
+      CytoVale's overall technical efforts.
   - name: Roya Sheybani
     image: "/uploads/roya-sheybani.jpg"
     bio: Roya earned her PhD developing implantable microsystems. Following a brief
@@ -133,43 +135,66 @@ team:
       for squishing cells to advance medicine. 
   - name: Dino Di Carlo, Ph.D
     image: "/uploads/dino-di-carlo.jpg"
-    bio: 
+    bio: Dino is a Professor and Vice Chair of Bioengineering at UCLA, and CytoVale's
+      academic co-founder.  He actively advises CytoVale's technical team and is a
+      member of the Company's Board of Directors.
   - name: Jack Fuchs
     image: "/uploads/jack-fuchs.jpg"
-    bio: 
+    bio: Jack is a seasoned CFO, investor, and entrepreneur.  He serves as a CytoVale
+      Board Member and is a Lecturer in Entrepreneurship at Stanford.
   - name: Michael Atar
     image: "/uploads/michael-atar.jpg"
-    bio: 
+    bio: Prof. Atar is a highly acclaimed pediatric dentist by training, and heads
+      up the Atar Family Office.
   - name: Lindy Fishburne
     image: "/uploads/lindy_lg.png"
-    bio: 
+    bio: Lindy Fishburne is the Executive Director at Breakout Labs and the Managing
+      Director at Breakout Ventures.   She serves as a Board Observer at CytoVale.
   - name: Pascal Levensohn
     image: "/uploads/pascal-9c8848.jpg"
-    bio: 
-  - name: Dave Dolby
+    bio: Pascal Levensohn is a Managing Director at Dolby Family Ventures, and closely
+      advises the CytoVale team in this capacity.
+  - name: David Dolby
     image: "/uploads/DaveDolby.jpg"
-    bio: 
+    bio: David Dolby is an active technology investor and philanthropist, and supports
+      the CytoVale team through Dolby Family Ventures' investment.
   - name: Steven Opal
     image: "/uploads/Opal1-172efe.jpg"
-    bio: 
-  - name: Nate Shapiro
+    bio: Dr. Steven Opal is a Professor of Medicine at Brown University and Chief
+      of the Division of Infectious Diseases at Memorial Hospital of Rhode Island.  He
+      is an internationally recognized key opinion leader in the sepsis field and
+      has led numerous worldwide multi-center clinical studies in this space.
+  - name: Dr. Nathan Shapiro
     image: "/uploads/shapiro2%201%20%20ashx.jpg"
-    bio: 
+    bio: Dr. Nathan Shapiro is an Associate Professor of Emergency Medicine at Harvard
+      Medical School, and the Vice Chairman of Research in the Department of Medicine
+      at Beth Israel Deaconess Medical Center in Boston.  He is a recognized leader
+      in clinical and translational research in sepsis diagnosis and treatment.
   - name: Hollis O'Neal, MD
     image: "/uploads/hollis-oneal.jpg"
-    bio: 
-  - name: Evangelos Hytopolous
+    bio: Dr. Hollis O'Neal is a Pulmonary and Critical Care physician and an Assistant
+      Professor at the LSU Health Sciences Center in Baton Rouge.  He is the Medical
+      Director of Research at Our Lady of the Lake Hosptial, and closely collaborates
+      with the CytoVale team.
+  - name: Evangelos Hytopolous, PhD
     image: "/uploads/evangelos-hytopolous.jpg"
-    bio: 
-  - name: Chris Thomas
+    bio: 'Evangelos is a recognized biostatistics expert, the Senior Director of Biostatistics
+      at a leading public diagnostics company, and a former C-level executive at multiple
+      startups.  He advises the CytoVale team on data science and technology development
+      matters.  '
+  - name: Chris Thomas, MD
     image: 
-    bio: 
+    bio: Dr. Thomas is a Pulmonary and Critical Care Physician at LSU Health Sciences
+      Center in Baton Rouge, and closely collaborates with the CytoVale team.
   - name: Rahul Dhanda
     image: "/uploads/team-Rahul-Dhanda.jpg"
-    bio: 
+    bio: Rahul is the Senior Vice President, Corporate Development and Marketing,
+      at T2 Biosystems, and a key commercial advisor to CytoVale.
   - name: Laureen DeBuono
     image: "/uploads/Laureen_DeBuono.jpg"
-    bio: 
+    bio: Laureen is a seasoned executive, having held CEO, COO and CFO roles in public
+      and private companies in healthcare and other spaces.   She advises CytoVale's
+      management team.
 layout: index
 ---
 
