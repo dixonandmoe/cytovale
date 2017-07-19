@@ -20,13 +20,13 @@ defaults:
     type: pages
   values:
     layout: page
-email: your-email@domain.com
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+email: info@cytovale.com
+description: 'CytoVale is pioneering a new class of biomarkers and applying this first
+  to sepsis, a condition whose early detection dramatically improves patient outcomes
+  and reduces treatment cost.
 
 '
 baseurl: 
-url: http://yourdomain.com
+url: http://cytovale.com
 markdown: kramdown
 permalink: pretty
