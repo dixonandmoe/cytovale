@@ -134,7 +134,7 @@ team:
       She is a recent UCLA graduate with a degree in bioengineering and a passion
       for squishing cells to advance medicine. 
   - name: Dino Di Carlo, Ph.D
-    image: "/uploads/dino-di-carlo.jpg"
+    image: "/uploads/Dino.jpg"
     bio: Dino is a Professor and Vice Chair of Bioengineering at UCLA, and CytoVale's
       academic co-founder.  He actively advises CytoVale's technical team and is a
       member of the Company's Board of Directors.
