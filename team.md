@@ -66,7 +66,7 @@ board:
     title: Dolby Family Ventures
     image: "/uploads/DaveDolby.jpg"
   - name: Michael Atar
-    title: Azure Capital
+    title: Atar Family Offices
     image: "/uploads/michael-atar.jpg"
     link: 
 advisors:
