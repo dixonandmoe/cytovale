@@ -66,7 +66,7 @@ board:
     title: Dolby Family Ventures
     image: "/uploads/DaveDolby.jpg"
   - name: Michael Atar
-    title: Azure Capital
+    title: Atar Family Offices
     image: "/uploads/michael-atar.jpg"
     link: 
 advisors:
@@ -101,7 +101,7 @@ investors:
   - name: Azure Capital Investment
     image: "/uploads/azure-capital-investment.jpg"
     link: 
-  - name: Dobly Family Ventures
+  - name: Dolby Family Ventures
     image: "/uploads/dobly-family-ventures.jpg"
     link: http://www.dolbyventures.com/
   - name: Breakout Labs
