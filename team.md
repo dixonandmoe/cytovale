@@ -101,7 +101,7 @@ investors:
   - name: Azure Capital Investment
     image: "/uploads/azure-capital-investment.jpg"
     link: 
-  - name: Dobly Family Ventures
+  - name: Dolby Family Ventures
     image: "/uploads/dobly-family-ventures.jpg"
     link: http://www.dolbyventures.com/
   - name: Breakout Labs
