@@ -21,7 +21,9 @@ defaults:
   values:
     layout: page
 email: info@cytovale.com
-description: 'CytoVale is pioneering a new class of biomarkers and applying this first to sepsis, a condition whose early detection dramatically improves patient outcomes and reduces treatment cost.
+description: 'CytoVale is pioneering a new class of biomarkers and applying this first
+  to sepsis, a condition whose early detection dramatically improves patient outcomes
+  and reduces treatment cost.
 
 '
 baseurl: 
