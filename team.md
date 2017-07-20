@@ -85,7 +85,7 @@ advisors:
     image: "/uploads/Laureen_DeBuono.jpg"
     link: https://www.linkedin.com/in/laureendebuono
   - name: Hollis O’Neal, MD
-    title: Clinical Investigator
+    title: Critical Care Physician & Clinical Investigator
     image: "/uploads/hollis-oneal.jpg"
   - name: Steven Opal, MD
     title: Leading Sepsis Pathophysiology & Clinical Trial Expert
