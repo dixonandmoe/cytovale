@@ -24,11 +24,11 @@ technology:
   title: Technology
   subtitle: The Cytovale System
   description: 'Three decades of work in labs spanning the globe tell us that the
-    biomechanical properties cells are intimately linked with cell state. Until deformability
-    cytometry, most techniques could only measure tens of cells per hour—not enough
-    to produce a clinically relevant dataset at reasonable time and cost. The speed
-    of Cytovale’s microfluidic platform brings these illuminating biomarkers from
-    the university lab to the hospital, patients, and their caregivers. '
+    biomechanical properties of cells are intimately linked with cell state. Until
+    deformability cytometry, most techniques could only measure tens of cells per
+    hour—not enough to produce a clinically relevant dataset at reasonable time and
+    cost. The speed of Cytovale’s microfluidic platform brings these illuminating
+    biomarkers from the university lab to the hospital, patients, and their caregivers. '
   testimonials: 
 team:
   subtitle: Life Scientists, Technologists, Dreamers
