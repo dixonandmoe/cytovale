@@ -72,7 +72,7 @@ board:
 advisors:
   title: Advisors
   members:
-  - name: Evangelos Hytopolous, PhD
+  - name: 'Evangelos Hytopoulos, PhD '
     title: Biostatistics Expert, Leading Public Dx Co.
     image: "/uploads/evangelos-hytopolous.jpg"
     link: https://www.linkedin.com/in/evangelos-hytopoulos-9711004/
