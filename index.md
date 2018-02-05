@@ -195,6 +195,21 @@ team:
     bio: Laureen is a seasoned executive, having held CEO, COO and CFO roles in public
       and private companies in healthcare and other spaces.   She advises CytoVale's
       management team.
+  - name: Inje Lee
+    image: "/uploads/Inje_Headshot.jpg"
+    bio: Inje is a SoCal native who has loved biology from a young age and is passionate
+      about engineering medical devices that save lives.  In his free time he enjoys
+      watching sports with friends, exploring the outdoors, and eating spicy foods.
+  - name: Alex Malkin
+    image: "/uploads/Malkin%20Headshot.jpg"
+    bio: Alex’s background combines experience in product development and a PhD in
+      Bioengineering. When he’s not working on innovate technologies, Alex spends
+      his time climbing, hiking, and eating.
+  - name: Audun Johnson
+    image: "/uploads/Audun.png"
+    bio: Audun recently graduated from Northwestern and is passionate about building
+      the tools that improve patient outcome. When he's not in a biohazard zone, he
+      can be found playing piano or rolling on the Brazilian Jiu Jitsu mats
 layout: index
 ---
 
