@@ -46,13 +46,6 @@ team:
       at CytoVale. When she's not working to bring Cytovale's technology to patients,
       you can find Mara skiing, enjoying acroyoga and salsa, backpack camping, or
       traveling--with over 30 countries visited!
-  - name: M. Cyrus Maher
-    image: "/uploads/Cyrus%20Maher.jpg"
-    bio: Cyrus specializes in building production-quality software that applies novel
-      statistical methods to meaningful biological problems. When he's not talking
-      to computers, Cyrus enjoys paragliding, meditation, dog walking, and cooing
-      about how the Golden State Warriors are a historically great basketball team
-      (statistically speaking, of course)
   - name: Henry Tat Kwong Tse
     image: "/uploads/Henry-60cbff.jpg"
     bio: Henry enjoys challenges, and especially solving them with the CytoVale team. Henry's
@@ -65,11 +58,6 @@ team:
       foray into biomaterials and infection detection sensors, she joyfully returned
       to the mild winters of California, and joined the CytoVale team to pursue her
       passion of developing innovative and practical solutions to healthcare needs.
-  - name: Kate Crawford
-    image: "/uploads/Kate%20Crawford.png"
-    bio: Kate is passionate about translating microfluidics into a clinically useful
-      product. Outside of work, her interests are rock climbing, music, vegetables,
-      and cats.
   - name: Anne Jensen
     image: "/uploads/Annie%20Jensen.jpeg"
     bio: As an early Cytovale team member, Annie enjoys working on the interdisciplinary
@@ -85,13 +73,6 @@ team:
       patients.
 
 '
-  - name: Becky DiMarco
-    image: "/uploads/Becky%20DiMarco.png"
-    bio: Becky's passion for medical devices began in early elementary school; 22
-      years of schooling later, she specializes in biomaterials, cell-matrix interactions,
-      and the medical device product lifecycle under cGMP's.  She loves traveling,
-      eating delicious foods, hiking with her golden retriever, and spending as much
-      time as possible with her family.
   - name: Nick Martinez
     image: "/uploads/Nick%20Martinez-27ddb2.png"
     bio: Nick’s a Bay Area native who loves riding bikes almost as much as the meal
