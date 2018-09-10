@@ -1,5 +1,5 @@
 ---
-title: Publications - Cytovale
+title: News - Cytovale
 header_title: Publications
 header_subtitle: CYTOVALE
 header_image1: "/uploads/PNAS.jpg"
