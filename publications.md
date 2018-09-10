@@ -1,11 +1,19 @@
 ---
-title: News - Cytovale
+title: Publications - Cytovale
 header_title: News
 header_subtitle: CYTOVALE
 header_image1: "/uploads/PNAS.jpg"
 header_image2: "/uploads/small.gif"
 header_image3: "/uploads/Sci Trans Med.gif"
 featured_publications:
+- title: Rapid Biophysical Analysis of Host Immune Cell Variations Associated with
+    Sepsis
+  subtitle: American Journal of Respiratory and Critical Care Medicine
+  abstract: This correspondence provides an overview of how our automated deformability
+    cytometry instrument and microﬂuidic cartridge is used to measured shifts in the
+    biomechanical  properties of immune cells, speciﬁcally activated neutrophils,
+    in patients with sepsis.
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29630392
 - title: Quantitative Diagnosis of Malignant Pleural Effusions by Single-Cell Mechanophenotyping
   subtitle: 'Science Translational Medicine '
   abstract: |-
