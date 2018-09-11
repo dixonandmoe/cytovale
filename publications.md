@@ -1,6 +1,6 @@
 ---
 title: Publications - Cytovale
-header_title: News
+header_title: Publications
 header_subtitle: CYTOVALE
 header_image1: "/uploads/PNAS.jpg"
 header_image2: "/uploads/small.gif"
