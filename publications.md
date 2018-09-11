@@ -92,6 +92,10 @@ Additional Resources:
     link: http://onlinelibrary.wiley.com/doi/10.1002/smll.201200588/full
   - title: "<i>Analytical Chemistry</i> - Focusing Cells at High Rates"
     link: http://pubs.acs.org/doi/abs/10.1021/ac901306y
+  - link: test link
+    title: testing title
+  Competition:
+  - here
 layout: publications
 ---
 
