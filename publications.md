@@ -5,7 +5,6 @@ header_subtitle: CYTOVALE
 header_image1: "/uploads/PNAS.jpg"
 header_image2: "/uploads/small.gif"
 header_image3: "/uploads/Sci Trans Med.gif"
-News: 
 featured_publications:
 - title: Rapid Biophysical Analysis of Host Immune Cell Variations Associated with
     Sepsis
