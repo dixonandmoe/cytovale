@@ -5,6 +5,7 @@ header_subtitle: CYTOVALE
 header_image1: "/uploads/PNAS.jpg"
 header_image2: "/uploads/small.gif"
 header_image3: "/uploads/Sci Trans Med.gif"
+News: 
 featured_publications:
 - title: Rapid Biophysical Analysis of Host Immune Cell Variations Associated with
     Sepsis
@@ -60,7 +61,7 @@ featured_publications:
     value. Finally, the technological advances needed to achieve rapid and robust
     measurements are reviewed.
   link: http://www.biomicrofluidics.com/hosted_papers/Di_Carlo_JALA_2012.pdf
-news:
+Additional Resources:
   title: Additional Resources
   posts:
   - title: "<i>Scientific Reports</i> - Introducing the Cell Mechanome"
