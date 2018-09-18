@@ -60,7 +60,7 @@ featured_publications:
     value. Finally, the technological advances needed to achieve rapid and robust
     measurements are reviewed.
   link: http://www.biomicrofluidics.com/hosted_papers/Di_Carlo_JALA_2012.pdf
-Additional Resources:
+resources:
 - title: Scientific Reports - Introducing the Cell Mechanome
   link: https://www.nature.com/articles/srep37863?WT.feed_name=subjects_medical
 - title: Microengineering and Nanosystems - Biophysical Classification of Cell Differentiation
