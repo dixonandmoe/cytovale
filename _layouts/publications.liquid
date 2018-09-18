@@ -50,9 +50,9 @@ layout: default
 
     <div class="blog-index__news col-xs-24 col-md-8">
       <div class="blog-index__border"></div>
-      <h3>{{ page.news.title }}</h3>
+      <h3>Additional Resources</h3>
       <ul>
-        {% for post in page.news.posts %}
+        {% for post in page.resources.posts %}
           <li><a href="{{ post.link }}">{{post.title}}</a></li>
         {% endfor %}
       </ul>

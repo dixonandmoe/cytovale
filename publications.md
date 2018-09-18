@@ -6,6 +6,14 @@ header_image1: "/uploads/PNAS.jpg"
 header_image2: "/uploads/small.gif"
 header_image3: "/uploads/Sci Trans Med.gif"
 featured_publications:
+- title: Rapid Biophysical Analysis of Host Immune Cell Variations Associated with
+    Sepsis
+  subtitle: American Journal of Respiratory and Critical Care Medicine
+  abstract: This correspondence provides an overview of how our automated deformability
+    cytometry instrument and microﬂuidic cartridge is used to measured shifts in the
+    biomechanical  properties of immune cells, speciﬁcally activated neutrophils,
+    in patients with sepsis.
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29630392
 - title: Quantitative Diagnosis of Malignant Pleural Effusions by Single-Cell Mechanophenotyping
   subtitle: 'Science Translational Medicine '
   abstract: |-
@@ -52,38 +60,34 @@ featured_publications:
     value. Finally, the technological advances needed to achieve rapid and robust
     measurements are reviewed.
   link: http://www.biomicrofluidics.com/hosted_papers/Di_Carlo_JALA_2012.pdf
-news:
-  title: Additional Publications
-  posts:
-  - title: "<i>Scientific Reports</i> - Introducing the Cell Mechanome"
-    link: https://www.nature.com/articles/srep37863?WT.feed_name=subjects_medical
-  - title: "<i>Microengineering and Nanosystems</i> - Biophysical Classification of
-      Cell Differentiation State"
-    link: http://search.proquest.com/openview/50f4fbb2eda99d6be0f79e48b2e175a4/1?pq-origsite=gscholar&cbl=2041946
-  - title: "<i>Lab Chip</i> - Measuring Mechanics of Circulating Tumor Cells"
-    link: http://pubs.rsc.org/-/content/articlelanding/2017/lc/c7lc00038c#!divAbstract
-  - title: "<i>Annual Review of Biomedical Engineering</i> - New Opportunities for
-      Rapid Mechanical Measurement of Cells"
-    link: http://www.annualreviews.org/doi/abs/10.1146/annurev-bioeng-071114-040545
-  - title: "<i>Biomicrofluidics</i> - Preparing and Analyzing Exosomes"
-    link: http://aip.scitation.org/doi/abs/10.1063/1.4907807?journalCode=bmf
-  - title: "<i>Current Opinion in Biotechnology</i> - Single-cell Analysis from Molecules
-      to Mechanics"
-    link: 'https://www.ncbi.nlm.nih.gov/pubmed/24484889
-
-'
-  - title: "<i>Analytical Chemistry</i> - Continuous Flow Sample Preparation"
-    link: http://pubs.acs.org/doi/abs/10.1021/ac402920m
-  - title: "<i>Lab Chip</i> - Continuous Flow Cell Staining and Cytology"
-    link: http://pubs.rsc.org/en/Content/ArticleLanding/2014/LC/c3lc50870f#!divAbstract
-  - title: "<i>Lab Chip</i> - Squeezing Cells with Co-flows"
-    link: http://pubs.rsc.org/en/content/articlelanding/2013/lc/c3lc50649e#!divAbstract
-  - title: "<i>Small</i> - Focusing Cells to Single Streams"
-    link: http://onlinelibrary.wiley.com/doi/10.1002/smll.201202413/abstract
-  - title: "<i>Small</i> - Rapid Solution Exchange"
-    link: http://onlinelibrary.wiley.com/doi/10.1002/smll.201200588/full
-  - title: "<i>Analytical Chemistry</i> - Focusing Cells at High Rates"
-    link: http://pubs.acs.org/doi/abs/10.1021/ac901306y
+resources:
+- title: Scientific Reports - Introducing the Cell Mechanome
+  link: https://www.nature.com/articles/srep37863?WT.feed_name=subjects_medical
+- title: Microengineering and Nanosystems - Biophysical Classification of Cell Differentiation
+    State
+  link: https://search.proquest.com/openview/50f4fbb2eda99d6be0f79e48b2e175a4/1?pq-origsite=gscholar&cbl=2041946
+- title: Lab Chip - Measuring Mechanics of Circulating Tumor Cells
+  link: http://pubs.rsc.org/-/content/articlelanding/2017/lc/c7lc00038c#!divAbstract
+- title: Annual Review of Biomedical Engineering - New Opportunities for Rapid Mechanical
+    Measurement of Cells
+  link: https://www.annualreviews.org/doi/abs/10.1146/annurev-bioeng-071114-040545
+- title: Biomicrofluidics - Preparing and Analyzing Exosomes
+  link: https://aip.scitation.org/doi/abs/10.1063/1.4907807?journalCode=bmf
+- title: Current Opinion in Biotechnology - Single-cell Analysis from Molecules to
+    Mechanics
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24484889
+- title: Analytical Chemistry - Continuous Flow Sample Preparation
+  link: https://pubs.acs.org/doi/abs/10.1021/ac402920m
+- title: Lab Chip - Continuous Flow Cell Staining and Cytology
+  link: http://pubs.rsc.org/en/Content/ArticleLanding/2014/LC/c3lc50870f#!divAbstract
+- title: Lab Chip - Squeezing Cells with Co-flows
+  link: http://pubs.rsc.org/en/content/articlelanding/2013/lc/c3lc50649e#!divAbstract
+- title: Small - Focusing Cells to Single Streams
+  link: https://onlinelibrary.wiley.com/doi/abs/10.1002/smll.201202413
+- title: Small - Rapid Solution Exchange
+  link: https://onlinelibrary.wiley.com/doi/full/10.1002/smll.201200588
+- title: Analytical Chemistry - Focusing Cells at High Rates
+  link: https://pubs.acs.org/doi/abs/10.1021/ac901306y
 layout: publications
 ---
 
