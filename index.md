@@ -191,6 +191,37 @@ team:
     bio: Audun recently graduated from Northwestern and is passionate about building
       the tools that improve patient outcome. When he's not in a biohazard zone, he
       can be found playing piano or rolling on the Brazilian Jiu Jitsu mats
+  - name: Laurence Ruiz-Taylor
+    image: "/uploads/P7310230%202.JPG"
+    bio: Laurence’s expertise combines IVD product development, quality implementation,
+      and program management.  She is excited to lead the IVD program at CytoVale
+      to deliver unique solutions for patient management.  Outside Cytovale, Laurence
+      enjoys a good laugh, family outdoor activities, watching soccer, cooking, and
+      photography.
+  - name: Tiffany Vo
+    image: "/uploads/image-3.png"
+    bio: Tiffany joins Cytovale with a background in management consulting and business
+      strategy, focused on the health and life sciences industry. She holds a Bachelor’s
+      degree in Biology from Brown University and an MBA from Boston University. Tiffany
+      considers herself extremely fortunate to be working on a product that can help
+      make an impact on patients’ lives.  When not working on strategic initiatives
+      for Cytovale, Tiffany can be found competing in triathlons, skiing, exploring
+      new destinations, or cooking new recipes.
+  - name: Dharmesh Rupareliya
+    image: "/uploads/dharmesh.jpg"
+    bio: 'Dharmesh has cultivated a portfolio of diverse educational and professional
+      experience in the medical device industry and leads our overall aspects of Quality
+      Assurance. He always enjoys a good shot of espresso and aspires to roast his
+      own coffee beans someday. Dharmesh belongs to the "live-to-eat" camp and will
+      often drive an hour or more to enjoy a good meal! You can challenge him to a
+      game of chess or difficult logic puzzle anytime. '
+  - name: Hend Omran
+    image: "/uploads/IMG_5968_2.jpg"
+    bio: With a background in clinical research, and a MS in Medical Product Development
+      & Management, Hend leads clinical operations & strategy at CytoVale. When she's
+      not working to bring Cytovale's technology to patients, you can find Hend doing
+      yoga, hiking, camping, backpacking, or traveling for pleasure domestically and
+      internationally!
 layout: index
 ---
 
