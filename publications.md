@@ -61,7 +61,7 @@ featured_publications:
     measurements are reviewed.
   link: http://www.biomicrofluidics.com/hosted_papers/Di_Carlo_JALA_2012.pdf
 resources:
-- title: Scientific Reports - Introducing the Cell Mechanome
+- title: HHS - Scientific Reports - Introducing the Cell Mechanome
   link: https://www.nature.com/articles/srep37863?WT.feed_name=subjects_medical
 - title: Microengineering and Nanosystems - Biophysical Classification of Cell Differentiation
     State

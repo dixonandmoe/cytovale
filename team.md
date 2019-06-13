@@ -11,25 +11,28 @@ management:
     title: Co-Founder and CEO
     bio: 'Ajay is an expert in cell-based diagnostic technologies, as well as an experienced
       entrepreneur, having previously co-founded two life science companies (one acquired
-      in 2012).  Ajay received his Ph.D. from the Harvard-MIT Division of Health Sciences
+      in 2012).  Ajay received his PhD from the Harvard-MIT Division of Health Sciences
       and Technology, where he developed a novel platform for circulating tumor cell
-      isolation under the supervision of Mehmet Toner and Daniel Haber at Mass. General
-      Hospital.   '
+      isolation under the supervision of Mehmet Toner and Daniel Haber at Massachusetts
+      General Hospital.   '
     image: "/uploads/ajay-shah.jpg"
     link: https://www.linkedin.com/in/ajaymukeshshah/
-  - name: Mara Macdonald, PhD
-    title: Co-Founder and COO
-    bio: Mara currently serves as the co-founder and Chief Operations Officer at CytoVale
-      and manages aspects of company building, strategic marketing, and regulatory
-      and clinical operations. Prior to CytoVale, Mara worked with Third Rock Ventures,
-      a venture capital firm focused on launching and building life science companies.  Mara
-      earned her PhD from the Harvard-MIT Division of Health Sciences & Technology.
-    image: "/uploads/mara-macdonald.jpg"
-    link: https://www.linkedin.com/in/maramacdonald1/
+  - name: Jennifer Beedon
+    title: Chief Operating Officer
+    bio: Jennifer serves as Chief Operating Officer at Cytovale and oversees business
+      operations. Bringing over 20 years of operational, general management and consulting
+      experience, Jennifer’s roles have spanned domestic and global leadership in
+      manufacturing, marketing, corporate strategy and business development. As co-founder
+      of MedTechWomen, she helped launch the first conference for women leaders focused
+      on major healthcare trends impacting the medical technology sector. Jennifer
+      holds an MBA from Harvard Business School and a BS in chemical engineering from
+      the University of Michigan.
+    image: "/uploads/JTB%20headshot.jpeg"
+    link: https://www.linkedin.com/in/jenniferbeedon/
   - name: Henry Tse, PhD
-    title: Co-Founder and VP Engineering
-    bio: "Henry is Co-Founder and Vice-President of Engineering for CytoVale, leading
-      the research and development efforts to commercialize the microfluidic deformability
+    title: Co-Founder and CTO
+    bio: "Henry is Co-Founder and Chief Technology Officer for Cytovale, leading the
+      research and development efforts to commercialize the microfluidic deformability
       cytometry technology. \nHenry's broad engineering and science background is
       rooted in his graduate work with Professor Dino Di Carlo. His science and engineering
       expertise spans microfluidics, cancer biology, image processing, and application
@@ -77,7 +80,7 @@ advisors:
     image: "/uploads/evangelos-hytopolous.jpg"
     link: https://www.linkedin.com/in/evangelos-hytopoulos-9711004/
   - name: Rahul Dhanda
-    title: Sr. Vice President, T2 Biosystems
+    title: 
     image: "/uploads/team-Rahul-Dhanda.jpg"
     link: https://www.linkedin.com/in/dhanda/
   - name: Laureen DeBuono
