@@ -14,7 +14,7 @@ states:
   changes:
   - title: Proliferation
     description: Highly replicative cancer cells are significantly more deformable
-      than their non-cancerous, benign, precursors.
+      than their non-cancerous, benign precursors.
     image: "/uploads/tech-proliferation.jpg"
   - title: Activation
     description: Immune activation can be readily distinguished from baseline biomechanical
@@ -35,7 +35,7 @@ techniques:
     of thousands of cells. Until deformability cytometry, most techniques could only
     measure tens of cells per hour, rendering the approach too cumbersome for clinical
     diagnostic applications or high throughput research applications. '
-  results_title: Have an application for CytoVale's mechanomics platorm?
+  results_title: Have an application for Cytovale's mechanomics platform?
   technis:
   - title: Atomic Force Microscopy
     subtitle: Complex Operation
@@ -57,7 +57,7 @@ techniques:
     cost: "$"
     through: 1 cell / sec
     image: "/uploads/tech-comparison-3.png"
-  - title: CytoVale Mechanomics Platform
+  - title: Cytovale Mechanomics Platform
     subtitle: Robust, Single-Step
     cost: "¢"
     through: 2000 cells /  sec
@@ -98,7 +98,7 @@ techniques:
   - title: Diagnostic Result
     description: "￼The diagnostic score is reported to the clinician and provides
       a better lens into the disease state of the patient, enabling appropriate and
-      timely care and reducing morbidity, mortality, and cost."
+      timely care and reducing morbidity, mortality and cost."
     image: "/uploads/tech-08-check.png"
 layout: technology
 ---

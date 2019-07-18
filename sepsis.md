@@ -2,7 +2,7 @@
 title: Early Sepsis Detection - Cytovale
 header_title: Early<br>Sepsis<br>Detection
 header_subtitle: "“The failure to detect sepsis early in its course leads to preventable
-  morbidity and mortality in the emergency room”"
+  morbidity and mortality in the emergency room.”"
 header_author: "— Nationally recognized sepsis expert"
 class: sepsis
 quick_facts:
@@ -33,7 +33,8 @@ disease:
     image: "/uploads/sepsis-chart-4.png"
   sepsis:
     title: With Sepsis
-    description: Uncontrolled amplification of the  immune response throught the body
+    description: Uncontrolled amplification of the immune response throughout the
+      body
     image: "/uploads/sepsis-chart-5.png"
 layout: sepsis
 ---
