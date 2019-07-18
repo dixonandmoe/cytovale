@@ -27,7 +27,7 @@ management:
       on major healthcare trends impacting the medical technology sector. Jennifer
       holds an MBA from Harvard Business School and a BS in chemical engineering from
       the University of Michigan.
-    image: "/uploads/JTB%20headshot%20cropped.jpeg"
+    image: "/uploads/JTB%20headshot%20CV.jpeg"
     link: https://www.linkedin.com/in/jenniferbeedon/
   - name: Henry Tse, PhD
     title: Co-Founder and CTO
