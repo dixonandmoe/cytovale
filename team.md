@@ -27,7 +27,7 @@ management:
       on major healthcare trends impacting the medical technology sector. Jennifer
       holds an MBA from Harvard Business School and a BS in chemical engineering from
       the University of Michigan.
-    image: "/uploads/JTB%20headshot.jpeg"
+    image: "/uploads/JTB%20headshot%20cropped.jpeg"
     link: https://www.linkedin.com/in/jenniferbeedon/
   - name: Henry Tse, PhD
     title: Co-Founder and CTO
@@ -45,7 +45,7 @@ management:
   - name: Michael Samoszuk, MD
     title: Chief Medical Officer
     bio: Michael is a seasoned physician executive with a track record of success
-      in all phases of the in vitro diagnostics industry.  A graduate of Harvard College
+      in all phases of the in vitro diagnostics industry. A graduate of Harvard College
       and the Harvard-MIT Program in Health Sciences Technology, Mike trained in anatomic
       and clinical pathology at Brigham and Women’s Hospital in Boston and the University
       of California-San Francisco. He then completed fellowship training in hematology
