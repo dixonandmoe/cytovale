@@ -108,11 +108,6 @@ team:
       balcony in the afternoon, and cleaning, analyzing, and modeling data all the
       live-long day. He came to Cytovale hoping to help produce metrics that will
       save lives and increase our understanding of disease.
-  - name: Lillian Peng
-    image: "/uploads/Lillian%20Peng-dccccf.jpg"
-    bio: Lillian is from Los Angeles and enjoys playing soccer and hand-lettering.
-      She is a recent UCLA graduate with a degree in bioengineering and a passion
-      for squishing cells to advance medicine. 
   - name: Dino Di Carlo, Ph.D
     image: "/uploads/Dino.jpg"
     bio: Dino is a Professor and Vice Chair of Bioengineering at UCLA, and Cytovale's
@@ -175,11 +170,6 @@ team:
     bio: Laureen is a seasoned executive, having held CEO, COO and CFO roles in public
       and private companies in healthcare and other spaces.   She advises Cytovale's
       management team.
-  - name: Inje Lee
-    image: "/uploads/Inje_Headshot.jpg"
-    bio: Inje is a SoCal native who has loved biology from a young age and is passionate
-      about engineering medical devices that save lives.  In his free time he enjoys
-      watching sports with friends, exploring the outdoors, and eating spicy foods.
   - name: Alex Malkin
     image: "/uploads/Malkin%20Headshot.jpg"
     bio: Alex’s background combines experience in product development and a PhD in
@@ -206,14 +196,6 @@ team:
       make an impact on patients’ lives.  When not working on strategic initiatives
       for Cytovale, Tiffany can be found competing in triathlons, skiing, exploring
       new destinations, or cooking new recipes.
-  - name: Dharmesh Rupareliya
-    image: "/uploads/dharmesh.jpg"
-    bio: 'Dharmesh has cultivated a portfolio of diverse educational and professional
-      experience in the medical device industry and leads our overall aspects of Quality
-      Assurance. He always enjoys a good shot of espresso and aspires to roast his
-      own coffee beans someday. Dharmesh belongs to the "live-to-eat" camp and will
-      often drive an hour or more to enjoy a good meal! You can challenge him to a
-      game of chess or difficult logic puzzle anytime. '
   - name: Hend Omran
     image: "/uploads/IMG_5968_2.jpg"
     bio: With a background in clinical research, and a MS in Medical Product Development
