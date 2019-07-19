@@ -54,7 +54,7 @@ management:
       College of Medicine, Medical and Scientific Director of hematology/oncology
       at Quest Diagnostics, and Chief Medical Officer at Roche Diagnostics Corporation,
       Ortho Clinical Diagnostics and Beckman Coulter.
-    image: 
+    image: "/uploads/Mike%20S%20headshot%20cropped.jpeg"
     link: https://www.linkedin.com/in/michael-samoszuk-41333316/
 board:
   title: Board of Directors, Observers & Key Investors
