@@ -100,10 +100,6 @@ advisors:
     title: Leading Sepsis Pathophysiology & Clinical Trial Expert
     image: "/uploads/Opal1-172efe.jpg"
     link: https://vivo.brown.edu/display/sopalmd
-  - name: Nathan Shapiro, MD
-    title: Leading Emergency Medicine Researcher Focused in Sepsis
-    image: "/uploads/shapiro2%201%20%20ashx.jpg"
-    link: http://www.bidmc.org/Centers-and-Departments/Departments/Emergency-Medicine/Meet-Our-Team/Nathan-Shapiro.aspx
 investors:
   title: Investors and Partners
   members:
