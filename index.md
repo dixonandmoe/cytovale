@@ -196,13 +196,6 @@ team:
       make an impact on patients’ lives.  When not working on strategic initiatives
       for Cytovale, Tiffany can be found competing in triathlons, skiing, exploring
       new destinations, or cooking new recipes.
-  - name: Hend Omran
-    image: "/uploads/IMG_5968_2.jpg"
-    bio: With a background in clinical research, and a MS in Medical Product Development
-      & Management, Hend leads clinical operations & strategy at Cytovale. When she's
-      not working to bring Cytovale's technology to patients, you can find Hend doing
-      yoga, hiking, camping, backpacking, or traveling for pleasure domestically and
-      internationally!
 layout: index
 ---
 

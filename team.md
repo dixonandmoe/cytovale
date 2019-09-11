@@ -93,14 +93,6 @@ advisors:
     title: Biostatistics Expert, Leading Public Dx Co.
     image: "/uploads/evangelos-hytopolous.jpg"
     link: https://www.linkedin.com/in/evangelos-hytopoulos-9711004/
-  - name: Rahul Dhanda
-    title: 
-    image: "/uploads/team-Rahul-Dhanda.jpg"
-    link: https://www.linkedin.com/in/dhanda/
-  - name: Laureen DeBuono
-    title: Seasoned Public & Private C-Level Executive
-    image: "/uploads/Laureen_DeBuono.jpg"
-    link: https://www.linkedin.com/in/laureendebuono
   - name: Hollis O’Neal, MD
     title: Critical Care Physician & Clinical Investigator
     image: "/uploads/bud v2.png"
@@ -108,10 +100,6 @@ advisors:
     title: Leading Sepsis Pathophysiology & Clinical Trial Expert
     image: "/uploads/Opal1-172efe.jpg"
     link: https://vivo.brown.edu/display/sopalmd
-  - name: Nathan Shapiro, MD
-    title: Leading Emergency Medicine Researcher Focused in Sepsis
-    image: "/uploads/shapiro2%201%20%20ashx.jpg"
-    link: http://www.bidmc.org/Centers-and-Departments/Departments/Emergency-Medicine/Meet-Our-Team/Nathan-Shapiro.aspx
 investors:
   title: Investors and Partners
   members:
