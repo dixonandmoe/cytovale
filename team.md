@@ -93,14 +93,6 @@ advisors:
     title: Biostatistics Expert, Leading Public Dx Co.
     image: "/uploads/evangelos-hytopolous.jpg"
     link: https://www.linkedin.com/in/evangelos-hytopoulos-9711004/
-  - name: Rahul Dhanda
-    title: 
-    image: "/uploads/team-Rahul-Dhanda.jpg"
-    link: https://www.linkedin.com/in/dhanda/
-  - name: Laureen DeBuono
-    title: Seasoned Public & Private C-Level Executive
-    image: "/uploads/Laureen_DeBuono.jpg"
-    link: https://www.linkedin.com/in/laureendebuono
   - name: Hollis O’Neal, MD
     title: Critical Care Physician & Clinical Investigator
     image: "/uploads/bud v2.png"
