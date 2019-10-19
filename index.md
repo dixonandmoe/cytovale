@@ -40,7 +40,7 @@ team:
       awesome team!  Outside of work, he's passionate about traveling and is a self-confessed
       foodie.
   - name: Jennifer Beedon
-    image: "/uploads/JTB%20headshot-e647d1.jpeg"
+    image: "/uploads/JTB%20headshot%20cropped.jpeg"
     bio: Jennifer enjoys building teams that bring a collaborative, creative and analytical
       approach. As COO, she oversees business operations at Cytovale. She's a transplant
       from the Midwest, loves spending time outdoors with friends and is a proud soccer
