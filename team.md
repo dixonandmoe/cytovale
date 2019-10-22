@@ -64,10 +64,6 @@ board:
 advisors:
   title: Advisors
   members:
-  - name: 'Evangelos Hytopoulos, PhD '
-    title: Biostatistics Expert, Leading Public Dx Co.
-    image: "/uploads/evangelos-hytopolous.jpg"
-    link: https://www.linkedin.com/in/evangelos-hytopoulos-9711004/
   - name: Hollis O’Neal, MD
     title: Critical Care Physician & Clinical Investigator
     image: "/uploads/bud v2.png"
@@ -76,9 +72,13 @@ advisors:
     image: "/uploads/Opal1-172efe.jpg"
     link: https://vivo.brown.edu/display/sopalmd
   - name: Michael Samoszuk, MD
-    title: Medical Affairs Advisor
+    title: Medical Affairs Expert
     image: "/uploads/Mike%20S%20headshot%20cropped.jpeg"
     link: https://www.linkedin.com/in/michael-samoszuk-41333316/
+  - name: 'Evangelos Hytopoulos, PhD '
+    title: Biostatistics Expert, Leading Public Dx Co.
+    image: "/uploads/evangelos-hytopolous.jpg"
+    link: https://www.linkedin.com/in/evangelos-hytopoulos-9711004/
 investors:
   title: Investors and Partners
   members:
