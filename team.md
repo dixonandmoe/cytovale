@@ -49,10 +49,6 @@ board:
     title: Co-Founder and CEO
     image: "/uploads/ajay-shah.jpg"
     link: https://www.linkedin.com/in/ajaymukeshshah/
-  - name: Dino Di Carlo, PhD
-    title: Co-Founder and Scientific Advisor
-    image: "/uploads/dino-di-carlo.jpg"
-    link: http://www.biomicrofluidics.com/
   - name: Lindy Fishburne
     title: Managing Partner, Breakout Ventures
     image: "/uploads/lindy_lg.png"
@@ -61,18 +57,22 @@ board:
     title: Operating Partner, Blackhorn Ventures
     image: "/uploads/Jordana%20headshot.JPG"
     link: https://blackhornvc.com/team/jordanna-schutz/
+  - name: Dino Di Carlo, PhD
+    title: Co-Founder and Scientific Advisor
+    image: "/uploads/dino-di-carlo.jpg"
+    link: http://www.biomicrofluidics.com/
   - name: Jack Fuchs
-    title: Life Sciences CFO & Serial Entrepreneur
+    title: Life Sciences CFO and Serial Entrepreneur
     image: "/uploads/jack-fuchs.jpg"
     link: https://www.linkedin.com/in/jack-fuchs-3b9110/
 advisors:
   title: Advisors
   members:
   - name: Hollis O’Neal, MD
-    title: Critical Care Physician & Clinical Investigator
+    title: Critical Care Physician and Clinical Investigator
     image: "/uploads/bud v2.png"
   - name: Steven Opal, MD
-    title: Leading Sepsis Pathophysiology & Clinical Trial Expert
+    title: Leading Sepsis Pathophysiology and Clinical Trial Expert
     image: "/uploads/Opal1-172efe.jpg"
     link: https://vivo.brown.edu/display/sopalmd
   - name: Michael Samoszuk, MD
@@ -95,6 +95,9 @@ investors:
   - name: Dolby Family Ventures
     image: "/uploads/dobly-family-ventures.jpg"
     link: http://www.dolbyventures.com/
+  - name: BARDA | Division of Research, Innovation and Ventures
+    image: "/uploads/DRIVe%20logo.png"
+    link: https://drive.hhs.gov/
   - name: National Science Foundation
     image: "/uploads/NSF.jpg"
     link: https://www.nsf.gov/
