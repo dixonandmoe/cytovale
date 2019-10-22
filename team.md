@@ -42,20 +42,6 @@ management:
       an accompanying suite of issued patents."
     image: "/uploads/henry-tse.jpg"
     link: https://www.linkedin.com/in/henry-tat-kwong-tse-a72ab06a/
-  - name: Michael Samoszuk, MD
-    title: Chief Medical Officer
-    bio: Michael is a seasoned physician executive with a track record of success
-      in all phases of the in vitro diagnostics industry. A graduate of Harvard College
-      and the Harvard-MIT Program in Health Sciences Technology, Mike trained in anatomic
-      and clinical pathology at Brigham and Women’s Hospital in Boston and the University
-      of California-San Francisco. He then completed fellowship training in hematology
-      at Los Angeles County USC Medical Center. Prior to joining Cytovale, Mike served
-      as Associate Professor in the pathology and radiology departments at UC Irvine
-      College of Medicine, Medical and Scientific Director of hematology/oncology
-      at Quest Diagnostics, and Chief Medical Officer at Roche Diagnostics Corporation,
-      Ortho Clinical Diagnostics and Beckman Coulter.
-    image: "/uploads/Mike%20S%20headshot%20cropped.jpeg"
-    link: https://www.linkedin.com/in/michael-samoszuk-41333316/
 board:
   title: Board of Directors, Observers & Key Investors
   members:
@@ -67,25 +53,14 @@ board:
     title: Co-Founder and Scientific Advisor
     image: "/uploads/dino-di-carlo.jpg"
     link: http://www.biomicrofluidics.com/
+  - name: Lindy Fishburne
+    title: Managing Partner, Breakout Ventures
+    image: "/uploads/lindy_lg.png"
+    link: https://www.linkedin.com/in/lindy-morris-fishburne-076157/
   - name: Jack Fuchs
     title: Life Sciences CFO & Serial Entrepreneur
     image: "/uploads/jack-fuchs.jpg"
     link: https://www.linkedin.com/in/jack-fuchs-3b9110/
-  - name: Lindy Fishburne
-    title: Executive Director, Breakout Labs
-    image: "/uploads/lindy_lg.png"
-    link: https://www.linkedin.com/in/lindy-morris-fishburne-076157/
-  - name: Pascal Levensohn
-    title: Managing Director, Dolby Family Ventures
-    image: "/uploads/pascal-9c8848.jpg"
-    link: https://www.linkedin.com/in/pascal-levensohn-a10331/
-  - name: David Dolby
-    title: Dolby Family Ventures
-    image: "/uploads/DaveDolby.jpg"
-  - name: Michael Atar
-    title: Atar Family Offices
-    image: "/uploads/michael-atar.jpg"
-    link: 
 advisors:
   title: Advisors
   members:
@@ -100,18 +75,22 @@ advisors:
     title: Leading Sepsis Pathophysiology & Clinical Trial Expert
     image: "/uploads/Opal1-172efe.jpg"
     link: https://vivo.brown.edu/display/sopalmd
+  - name: Michael Samoszuk, MD
+    title: Medical Affairs Advisor
+    image: "/uploads/Mike%20S%20headshot%20cropped.jpeg"
+    link: https://www.linkedin.com/in/michael-samoszuk-41333316/
 investors:
   title: Investors and Partners
   members:
-  - name: Azure Capital Investment
-    image: "/uploads/azure-capital-investment.jpg"
-    link: 
+  - name: Breakout Ventures
+    image: "/uploads/Breakout%20Ventures%20logo.png"
+    link: https://breakout.vc/
+  - name: Blackhorn Ventures
+    image: "/uploads/Blackhorn%20Ventures.png"
+    link: https://blackhornvc.com/
   - name: Dolby Family Ventures
     image: "/uploads/dobly-family-ventures.jpg"
     link: http://www.dolbyventures.com/
-  - name: Breakout Labs
-    image: "/uploads/breakout-labs.png"
-    link: http://www.breakoutlabs.org/
   - name: National Science Foundation
     image: "/uploads/NSF.jpg"
     link: https://www.nsf.gov/
