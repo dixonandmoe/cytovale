@@ -95,7 +95,7 @@ investors:
   - name: Dolby Family Ventures
     image: "/uploads/dobly-family-ventures.jpg"
     link: http://www.dolbyventures.com/
-  - name: BARDA | Division of Research, Innovation and Ventures
+  - name: BARDA, Division of Research, Innovation and Ventures
     image: "/uploads/DRIVe%20logo.png"
     link: https://drive.hhs.gov/
   - name: National Science Foundation
@@ -104,6 +104,9 @@ investors:
   - name: National Institutes of Health
     image: "/uploads/NIH.png"
     link: https://www.nih.gov/
+  - name: Western Technology Investment
+    image: "/uploads/WTI%20logo.png"
+    link: https://westerntech.com/
 layout: team
 ---
 
