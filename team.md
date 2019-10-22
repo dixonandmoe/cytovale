@@ -53,14 +53,14 @@ board:
     title: Co-Founder and Scientific Advisor
     image: "/uploads/dino-di-carlo.jpg"
     link: http://www.biomicrofluidics.com/
+  - name: Lindy Fishburne
+    title: Managing Partner, Breakout Ventures
+    image: "/uploads/lindy_lg.png"
+    link: https://www.linkedin.com/in/lindy-morris-fishburne-076157/
   - name: Jack Fuchs
     title: Life Sciences CFO & Serial Entrepreneur
     image: "/uploads/jack-fuchs.jpg"
     link: https://www.linkedin.com/in/jack-fuchs-3b9110/
-  - name: Lindy Fishburne
-    title: Managing Partner, Breakout Ventures; Executive Director, Breakout Labs
-    image: "/uploads/lindy_lg.png"
-    link: https://www.linkedin.com/in/lindy-morris-fishburne-076157/
 advisors:
   title: Advisors
   members:
