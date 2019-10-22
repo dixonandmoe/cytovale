@@ -57,6 +57,10 @@ board:
     title: Managing Partner, Breakout Ventures
     image: "/uploads/lindy_lg.png"
     link: https://www.linkedin.com/in/lindy-morris-fishburne-076157/
+  - name: Jordanna Schutz
+    title: Operating Partner, Blackhorn Ventures
+    image: "/uploads/Jordana%20headshot.JPG"
+    link: https://blackhornvc.com/team/jordanna-schutz/
   - name: Jack Fuchs
     title: Life Sciences CFO & Serial Entrepreneur
     image: "/uploads/jack-fuchs.jpg"
