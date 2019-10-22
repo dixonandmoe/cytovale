@@ -40,7 +40,7 @@ team:
       awesome team!  Outside of work, he's passionate about traveling and is a self-confessed
       foodie.
   - name: Jennifer Beedon
-    image: "/uploads/JTB%20headshot%20cropped.jpeg"
+    image: "/uploads/JTB%20headshot.jpeg"
     bio: Jennifer enjoys building teams that bring a collaborative, creative and analytical
       approach. As COO, she oversees business operations at Cytovale. She's a transplant
       from the Midwest, loves spending time outdoors with friends and is a proud soccer
@@ -123,8 +123,8 @@ team:
       up the Atar Family Office.
   - name: Lindy Fishburne
     image: "/uploads/lindy_lg.png"
-    bio: Lindy Fishburne is the Executive Director at Breakout Labs and the Managing
-      Director at Breakout Ventures.  She serves as a Board Observer at Cytovale.
+    bio: Lindy Fishburne is the Managing Director at Breakout Ventures and the Executive
+      Director at Breakout Labs.  She serves as a Board Observer at Cytovale.
   - name: Pascal Levensohn
     image: "/uploads/pascal-9c8848.jpg"
     bio: Pascal Levensohn is a Managing Director at Dolby Family Ventures, and closely
@@ -139,12 +139,6 @@ team:
       of the Division of Infectious Diseases at Memorial Hospital of Rhode Island.  He
       is an internationally recognized key opinion leader in the sepsis field and
       has led numerous worldwide multi-center clinical studies in this space.
-  - name: Dr. Nathan Shapiro
-    image: "/uploads/shapiro2%201%20%20ashx.jpg"
-    bio: Dr. Nathan Shapiro is an Associate Professor of Emergency Medicine at Harvard
-      Medical School, and the Vice Chairman of Research in the Department of Medicine
-      at Beth Israel Deaconess Medical Center in Boston.  He is a recognized leader
-      in clinical and translational research in sepsis diagnosis and treatment.
   - name: Hollis O'Neal, MD
     image: "/uploads/hollis-oneal.jpg"
     bio: Dr. Hollis O'Neal is a Pulmonary and Critical Care physician and an Assistant
@@ -161,15 +155,6 @@ team:
     image: "/uploads/Chris%20Thomas.JPG"
     bio: Dr. Thomas is a Pulmonary and Critical Care Physician at LSU Health Sciences
       Center in Baton Rouge, and closely collaborates with the Cytovale team.
-  - name: Rahul Dhanda
-    image: "/uploads/team-Rahul-Dhanda.jpg"
-    bio: Rahul is the Senior Vice President, Corporate Development and Marketing,
-      at T2 Biosystems, and a key commercial advisor to Cytovale.
-  - name: Laureen DeBuono
-    image: "/uploads/Laureen_DeBuono.jpg"
-    bio: Laureen is a seasoned executive, having held CEO, COO and CFO roles in public
-      and private companies in healthcare and other spaces.   She advises Cytovale's
-      management team.
   - name: Alex Malkin
     image: "/uploads/Malkin%20Headshot.jpg"
     bio: Alex’s background combines experience in product development and a PhD in
